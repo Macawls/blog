@@ -1,34 +1,38 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
-date: '2019-02-28'
-aliases:
-  - about-us
-  - about-hugo
-  - contact
+description: Salutations fellow web-surfer
+date: '2021-12-21'
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
-menu:
-    main: 
-        weight: -90
-        params:
-            icon: user
+toc: False
+
 ---
+### Greetings
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+It seem's you've stumbled upon my little corner of the web.
+This is my haven.
+All are welcome and no one is watching.
 
-Hugo makes use of a variety of open source projects including:
+![Take my hand and come with me ~](https://media.giphy.com/media/K0yXL4cDnFrq0/giphy.gif)
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+### Who am I?
+Nobody important in the grand scheme of things. I am someone who tries to care for people closest to them. I am someone who seeks knowledge, understanding, peace and balance. That is all. 
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+### Why a blog?
+The internet is just an absolute sea of content. I wanted my own lil place in the world wide web that's completely uncensored and most importantly, all to **myself**.
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+I feel as a I get older, I've realised that its important to archive things of the past. Y'know like an old family album. You could look back and realize how much you've changed and that kinda thing. In my life, I like looking back maybe months or even years and have a reference to see my personal growth. For most people, think of like an Instagram account, kinda. Except, I **own** this place. 
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+
+### Progress and learning
+When I see good progress, it feels fulfilling. If I don't, it pushes me to keep working on myself. It stops me from having regrets altogether, because I understand that growth is a slow process. This blog is sort of a shallow lens into my personal growth and the evolution of my thoughts.
+
+Learning is pretty much my main goal. At one point, I realised its common for people to come and go as you follow your own path. **Hedonism** does not work. When the happiness fades, all I have left is my sense of fulfilment. 
+
+
+### Ending off
+My thoughts come and go, sometimes it's silly, sometimes it's pretty deep and sometimes in that moment, I feel excited and my creative juices are flowing. I don't want those to be lodged somewhere in my inaccurate memory bank.
+
+I could disappear at any moment, physically or mentally, unwillingly. You never truly know. I'd like to leave some things before I eventually go. This is simply a place without the noise. 
+
+![](pain.jpg)

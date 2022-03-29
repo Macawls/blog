@@ -1,23 +1,14 @@
-baseurl: https://example.com
+baseurl: https://macawls.dev/blog/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Macawls' Blog
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Macawls' Blog
         weight: 1
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -34,7 +25,7 @@ DefaultContentLanguage: en
 hasCJKLanguage: false
 
 permalinks:
-    post: /p/:slug/
+    post: /post/:slug/
     page: /:slug/
 
 params:
@@ -42,23 +33,23 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: https://raw.githubusercontent.com/Macawls/dump/main/favicon.ico
 
     footer:
-        since: 2020
-        customText:
+        since: 2021
+        customText: ʕ•ᴥ•ʔ
 
     dateFormat:
         published: Jan 02, 2006
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🌸
+        subtitle: A safe haven to document, express and share my thoughts. 
         avatar:
             enabled: true
-            local: true
-            src: img/avatar.png
+            local: false
+            src: https://avatars.githubusercontent.com/u/80009513?v=4
 
     article:
         math: false
@@ -69,15 +60,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
-
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
 
         utterances:
             repo:
@@ -180,7 +164,7 @@ params:
         toggle: true
 
         # Available values: auto, light, dark
-        default: auto
+        default: dark
 
     imageProcessing:
         cover:
@@ -192,20 +176,46 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main: 
+        - identifier: about
+          name: About 
+          url: about/
+          weight: 2
+          params:
+            newTab: false
+            icon: user
+
+        - identifier: home
+          name: Home
+          weight: 1
+          params:
+              ### For demonstration purpose, the home link will be open in a new tab
+              newTab: false
+              icon: home
+        
+        - identifier: 
+          name: Search
+          url: search/
+          weight: 3
+          params:
+               newTab: false
+               icon: search
+    
 
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/Macawls
           params:
               icon: brand-github
-
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+       
+        - identifier: youtube
+          name: Youtube
+          url: https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA 
           params:
-              icon: brand-twitter
+            icon: brand-youtube
+        
+
 
 related:
     includeNewer: true
