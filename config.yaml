@@ -136,9 +136,6 @@ params:
             - type: archives
               params:
                   limit: 5
-            - type: categories
-              params:
-                  limit: 10
             - type: tag-cloud
               params:
                   limit: 10
@@ -193,27 +190,43 @@ menu:
               newTab: false
               icon: home
         
-        - identifier: 
-          name: Search
-          url: search/
-          weight: 3
+        - identifier: categories
+          name: Categories
+          url: categories/
+          weight: 4
           params:
                newTab: false
-               icon: search
+               icon: categories
     
 
     social:
         - identifier: github
           name: GitHub
           url: https://github.com/Macawls
+          weight: 1
           params:
               icon: brand-github
        
         - identifier: youtube
           name: Youtube
-          url: https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA 
+          url: https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA
+          weight: 2
           params:
             icon: brand-youtube
+
+        - identifier: instagram
+          name: Instagram
+          url: https://www.instagram.com/jmacawls/
+          weight: 3
+          params:
+            icon: brand-instagram
+
+        - identifier: soundcloud
+          name: Soundcloud
+          url: https://soundcloud.com/user-226762181
+          weight: 4
+          params:
+            icon: brand-soundcloud
         
 
 
