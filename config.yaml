@@ -1,4 +1,4 @@
-baseurl: https://macawls.dev/blog/
+baseurl: https://macawls.dev/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
@@ -173,7 +173,7 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: 
+    main:
         - identifier: about
           name: About 
           url: about/
@@ -181,22 +181,14 @@ menu:
           params:
             newTab: false
             icon: user
-
-        - identifier: home
-          name: Home
-          weight: 1
-          params:
-              ### For demonstration purpose, the home link will be open in a new tab
-              newTab: false
-              icon: home
         
         - identifier: categories
           name: Categories
           url: categories/
-          weight: 4
+          weight: 3
           params:
-               newTab: false
-               icon: categories
+            newTab: false
+            icon: categories
     
 
     social:
@@ -210,14 +202,14 @@ menu:
         - identifier: youtube
           name: Youtube
           url: https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA
-          weight: 2
+          weight: 3
           params:
             icon: brand-youtube
 
         - identifier: instagram
           name: Instagram
           url: https://www.instagram.com/jmacawls/
-          weight: 3
+          weight: 2
           params:
             icon: brand-instagram
 

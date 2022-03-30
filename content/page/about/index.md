@@ -3,16 +3,17 @@ title: About
 description: Salutations fellow web-surfer
 date: '2021-12-21'
 license: CC BY-NC-ND
-toc: False
+toc: True
 
 ---
 ### Greetings
 
 It seem's you've stumbled upon my little corner of the web.
 This is my haven.
-All are welcome and no one is watching.
 
 ![Take my hand and come with me ~](https://media.giphy.com/media/K0yXL4cDnFrq0/giphy.gif)
+
+All are welcome and no one is watching.
 
 ### Who am I?
 Nobody important in the grand scheme of things. I am someone who tries to care for people closest to them. I am someone who seeks knowledge, understanding, peace and balance. That is all. 
@@ -25,9 +26,10 @@ I feel as a I get older, I've realised that its important to archive things of t
 
 
 ### Progress and learning
-When I see good progress, it feels fulfilling. If I don't, it pushes me to keep working on myself. It stops me from having regrets altogether, because I understand that growth is a slow process. This blog is sort of a shallow lens into my personal growth and the evolution of my thoughts.
+When I see progress, it feels fulfilling. If I don't, it pushes me to keep working on myself. It stops me from having regrets altogether, because I understand that growth is a slow process. This blog is sort of a shallow lens into my personal growth and the evolution of my thoughts.
 
-Learning is pretty much my main goal. At one point, I realised its common for people to come and go as you follow your own path. **Hedonism** does not work. When the happiness fades, all I have left is my sense of fulfilment. 
+Learning is pretty much my main goal. 
+At one point, I realised its common for people to come and go as you follow your own path.
 
 
 ### Ending off

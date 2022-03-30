@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>development on Macawls&#39; Blog</title>
+        <link>https://macawls.dev/tags/development/</link>
+        <description>Recent content in development on Macawls&#39; Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/tags/development/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>WSL is crazy good!!!!! OMG!!!</title>
+        <link>https://macawls.dev/post/wsl-is-crazy-good-omg/</link>
+        <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/post/wsl-is-crazy-good-omg/</guid>
+        <description>&lt;img src="https://macawls.dev/post/wsl-is-crazy-good-omg/banner.jpg" alt="Featured image of post WSL is crazy good!!!!! OMG!!!" /&gt;&lt;p&gt;I tried it the first time today. Honestly, it&amp;rsquo;s extremely impressive and I haven&amp;rsquo;t even tried WSL2 yet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/smug.png&#34;
+	width=&#34;250&#34;
+	height=&#34;202&#34;
+	srcset=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_480x0_resize_box_2.png 480w, https://macawls.dev/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_1024x0_resize_box_2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;297px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/capture.PNG&#34;
+	width=&#34;1642&#34;
+	height=&#34;934&#34;
+	srcset=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_480x0_resize_box_2.PNG 480w, https://macawls.dev/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_1024x0_resize_box_2.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;421px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;WSL is the Windows Subsystem for Linux. Basically its just lets you have a GNU/Linux environment in tandem with Windows without any headaches like a virtual machine.&lt;/p&gt;
+&lt;p&gt;Currently I dual-boot and its been okay-ish. It&amp;rsquo;s not that I &lt;strong&gt;want&lt;/strong&gt; to dual-boot, in fact if my course had the given me the choice, I would simply just stay on linux.&lt;/p&gt;
+&lt;h2 id=&#34;going-back-to-windows&#34;&gt;Going back to Windows?&lt;/h2&gt;
+&lt;p&gt;The development environment is pretty nice. Only issue is I have with Windows is that it&amp;rsquo;s too complex and convoluted.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not nearly as snappy and efficient as on linux and there&amp;rsquo;s so much overhead and restrictions I just &lt;strong&gt;do not&lt;/strong&gt; want in my system at all. I have a 144hz monitor, GTX 1060, 16GB of ram and an i7 5960X (all of these are running stock, stopped overlocking a while ago).&lt;/p&gt;
+&lt;p&gt;Even with debloat scripts and all fancy animations disabled on Windows, it&amp;rsquo;s still relatively slow.
+For my laptop, its definitely still going to be Linux only on there because of hardware.&lt;/p&gt;
+&lt;p&gt;However, I &lt;strong&gt;was&lt;/strong&gt; surprised at some of the new tools that had been released recently. I&amp;rsquo;ve only scratched the surface of these so take whatever I say with a grain of salt.&lt;/p&gt;
+&lt;p&gt;These include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/PowerToys&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft PowerToys (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/winget-cli&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Winget (Windows Package Manager) (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/windows/terminal/install&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Windows Terminal (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Okay firstly, why in the flying f*** did it take such a long time for Windows to have a standard package manager?
+Chocolately has always been the OG but I guess Microsoft finally woke up.
+The whole ecosystem is such a nightmare.&lt;/p&gt;
+&lt;p&gt;I could use Winget straight from the get go. The experience reminded me of the fish shell. I actually really enjoy using it and thought it was pretty intuitive.&lt;/p&gt;
+&lt;p&gt;Powershell is insanely good. Ironically, I have it on my arch install and enjoy messing with it. It&amp;rsquo;s much more modern than bash and zsh. It&amp;rsquo;s got alot of stuff I don&amp;rsquo;t really need right now though.&lt;/p&gt;
+&lt;p&gt;The new Windows Terminal is pretty damn good. No complaints really. Works really well with WSL. Multiple tabs with different environments is siick.&lt;/p&gt;
+&lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/anime.jpg&#34;
+	width=&#34;400&#34;
+	height=&#34;438&#34;
+	srcset=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_480x0_resize_q75_box.jpg 480w, https://macawls.dev/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;91&#34;
+		data-flex-basis=&#34;219px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I give it a solid 8/10 if privacy isn&amp;rsquo;t your concern. It eliminates any and all OS restrictions when it comes to development. Drivers for everything. Very easy to use on the surface. Its just the best of both worlds.
+Never gonna daily Windows though.&lt;/p&gt;
+&lt;h3 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h3&gt;
+&lt;p&gt;This has been my go to IDE for the longest time. Really good integration with Git and Github, love its integration with the shell, works and is configured the same on any machine. Extension ecosystem is amazing.&lt;/p&gt;
+&lt;p&gt;Yeah I know Electron blah, blah, blah. Don&amp;rsquo;t care 😴. Everything is web-based nowadays anyway.&lt;/p&gt;
+&lt;p&gt;WSL within VScode works like a charm.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/wsl.png&#34;
+	width=&#34;1389&#34;
+	height=&#34;908&#34;
+	srcset=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_480x0_resize_box_2.png 480w, https://macawls.dev/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_1024x0_resize_box_2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;152&#34;
+		data-flex-basis=&#34;367px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;virtual-machines&#34;&gt;Virtual Machines&lt;/h3&gt;
+&lt;p&gt;This was just absolutely mindblowing. You can have mulitple environments installed with very little overhead.
+No need for docker or virtual machines or anything like that. WSL is fucking crazy.&lt;/p&gt;
+&lt;h3 id=&#34;managing-windows-and-customization&#34;&gt;Managing Windows and Customization.&lt;/h3&gt;
+&lt;p&gt;Yeah I mean, nothing to say here. To say the window manager in PowerToys is rough around the edges is an understatement. It&amp;rsquo;s getting there and right now its pretty impressive, so I am very hopeful.&lt;/p&gt;
+&lt;p&gt;The problem doesn&amp;rsquo;t lie with the Powertoys devs. They&amp;rsquo;re doing amazing work.&lt;/p&gt;
+&lt;p&gt;Windows has always been an absolute dumpster-fire and a complete mess after the glorious Windows 7.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/why.jpg&#34;
+	width=&#34;1366&#34;
+	height=&#34;1344&#34;
+	srcset=&#34;https://macawls.dev/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_480x0_resize_q75_box.jpg 480w, https://macawls.dev/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;whyyyyyyyyyyyyyyyyyyyyyy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;243px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-future&#34;&gt;The Future&lt;/h2&gt;
+&lt;p&gt;The best thing about these tools are that its open source and there&amp;rsquo;s actually &lt;strong&gt;money&lt;/strong&gt; behind it, contrary to the plethora of options you have on Unix systems where devs work on open source projects almost solely because of passion.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/FrJUm5yCwf0&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>My Journey and how you can get started with using Linux</title>
+        <link>https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/</link>
+        <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/</guid>
+        <description>&lt;img src="https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/screenshot.png" alt="Featured image of post My Journey and how you can get started with using Linux" /&gt;&lt;p&gt;If you watched any Linus Tech Tips videos about Linux, &lt;strong&gt;ignore&lt;/strong&gt; all of it &lt;em&gt;unless&lt;/em&gt; &lt;strong&gt;Anthony&lt;/strong&gt; or &lt;strong&gt;Luke&lt;/strong&gt; said something.
+They actually know what they&amp;rsquo;re talking about.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/linus.jpg&#34;
+	width=&#34;350&#34;
+	height=&#34;350&#34;
+	srcset=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_480x0_resize_q75_box.jpg 480w, https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Linus the &amp;lsquo;Content Creator&amp;rsquo;&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution.png&#34;
+	width=&#34;700&#34;
+	height=&#34;394&#34;
+	srcset=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_480x0_resize_box_2.png 480w, https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_1024x0_resize_box_2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Tech Literacy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;During my first year of Uni, I stumbled across a random video explaining virtual machines. I thought it was the coolest thing ever. Soon after, I downloaded &lt;a class=&#34;link&#34; href=&#34;https://www.virtualbox.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VirtualBox&lt;/a&gt; and tried random Linux distributions  (&lt;em&gt;distros&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re new to all of this, think of distros as &amp;ldquo;&lt;em&gt;flavours&lt;/em&gt;&amp;rdquo; of Linux. Linux is actually just the kernel.
+I&amp;rsquo;m not really gonna get into that in this post but basically when people say Linux, they are usually referring to GNU/Linux. GNU is basically a collection of core software and utilities. If you&amp;rsquo;re interested in learning more, peep the video below.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/ShcR4Zfc6Dw&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I just could not believe how empowering it felt. For context, I&amp;rsquo;ve been installing and using Windows my entire life, using some shady techniques to change it, debloat it and bypass the license. Always complaining about the shitty File Explorer, Microsoft Edge, garbage Media Player, yadayada.
+I was dumbfounded.&lt;/p&gt;
+&lt;p&gt;I always pirated software that wasn&amp;rsquo;t free because well, I didn&amp;rsquo;t earn any money and there&amp;rsquo;s no way I could even &lt;em&gt;afford&lt;/em&gt; paying for any Microsoft or Adobe software.
+In general, I don&amp;rsquo;t like being &lt;strong&gt;forced&lt;/strong&gt; to do something in a certain way.
+I also want the &lt;strong&gt;freedom&lt;/strong&gt; to do whatever I want with the software I use.&lt;/p&gt;
+&lt;p&gt;I was lost at first, like any normal person would be.
+I was just really confused about many things.
+Why was there so many different ways to do the same thing?
+What the heck is a package manager?
+What is the difference between a Desktop Environment and a Window Manager?
+Oh my god a terminal!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker.jpg&#34;
+	width=&#34;400&#34;
+	height=&#34;400&#34;
+	srcset=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_480x0_resize_q75_box.jpg 480w, https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/kE-wfLuJ-ds&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The more I used it on a daily basis, the more I grew to absolutely love the development ecosystem to bits.
+Everything I normally did became that much more efficient. I had the freedom to do essentially, anything I could possibly imagine.
+The best part? No limitations and no one pulling any strings. It was &lt;strong&gt;my&lt;/strong&gt; system.&lt;/p&gt;
+&lt;p&gt;I started automating tasks through scripts and it was just mindblowing to me.
+Of course you can write scripts in other operating systems but I personally I feel like Linux makes it much easier. Bash is one of the simplest shells, python is pre-installed on most distros.
+Vim was something I didn&amp;rsquo;t even know existed.
+The whole journey made me take a step back and really think about many, many aspects of software I hadn&amp;rsquo;t thought about before.
+Source code, webapps, compatibility, modularity, backend, efficiency, UX, underlying frameworks and languages, all that good stuff.&lt;/p&gt;
+&lt;p&gt;You don&amp;rsquo;t like the way a program does a certain thing? Sure bro, here&amp;rsquo;s the source code, do whatever you want.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/sad.png&#34;
+	width=&#34;331&#34;
+	height=&#34;311&#34;
+	srcset=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_480x0_resize_box_2.png 480w, https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_1024x0_resize_box_2.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;106&#34;
+		data-flex-basis=&#34;255px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Waaaaaah Windows Update again!!&amp;rdquo; 😭&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Omg!!! I cant use this feature unless I upgrade my program!!&amp;rdquo; 😭&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Just let me uninstall damn Edge!!&amp;rdquo; 😡💢&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Why do I need to login to setup my pc??&amp;rdquo; 😭&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Wtf is this cortana shit popping up??&amp;rdquo; 😭&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-unix-philosophy&#34;&gt;The Unix Philosophy&lt;/h2&gt;
+&lt;p&gt;Basically, the Unix philosophy is to do &lt;strong&gt;one&lt;/strong&gt; thing and do it &lt;strong&gt;well.&lt;/strong&gt; Make it modular, simple and effective.
+Read more about it &lt;a class=&#34;link&#34; href=&#34;https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not going to go in-depth about how important this is for developing software,  but basically it makes talking to other programs really easy and keeps things as minimal and simple as possible.
+In Windows, software is packaged with all its dependencies in one huge ass program and a shitty installer.
+It&amp;rsquo;s &lt;strong&gt;monolithic&lt;/strong&gt; and bloated as hell.&lt;/p&gt;
+&lt;p&gt;To install something, you usually go into a browser and download some suspicious setup.exe. Odds are, you will have no idea what its actually doing under the hood and have no way of knowing unless its open source. To fend it off you have Window&amp;rsquo;s built in antivirus which isn&amp;rsquo;t even necessary in the first place if Windows was just fucking secure.&lt;/p&gt;
+&lt;p&gt;I personally cannot stand it. For context I easily have around 9000 hours plus using Windows.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re unfamiliar with the idea of free software (not just cost), I highly recommend watching this &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/Ag1AKIl_2GM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Ted Talk&lt;/a&gt; by a very, very &lt;strong&gt;based&lt;/strong&gt; individual.&lt;/p&gt;
+&lt;h2 id=&#34;learning-resources&#34;&gt;Learning resources&lt;/h2&gt;
+&lt;p&gt;If you&amp;rsquo;d like to get started, this is a pretty good first video.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/lNsjlvwHR-0&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Go on youtube and find a tutorial for VirtualBox and just try any distribution before you install it on bare metal.&lt;/p&gt;
+&lt;h3 id=&#34;youtube-channels&#34;&gt;Youtube Channels&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/c/LukeSmithxyz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Luke Smith&lt;/a&gt; - best one&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/c/MentalOutlaw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mental Outlaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/c/BugsWriter0x1337&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;BugsWriter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;websites&#34;&gt;Websites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://linuxjourney.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Linux Journey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wiki.archlinux.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arch Wiki&lt;/a&gt; - Not just for Arch&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.mankier.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mankier&lt;/a&gt; - manuals for every command&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;but-but-which-distro-should-i-start-with&#34;&gt;But&amp;hellip; but which Distro should I start with?&lt;/h3&gt;
+&lt;p&gt;Don&amp;rsquo;t read bullshit articles that are like &lt;strong&gt;&amp;ldquo;TOP 10 LINUX DISTROS&amp;rdquo;&lt;/strong&gt;.
+It literally doesn&amp;rsquo;t matter. Just don&amp;rsquo;t start with Gentoo first unless you&amp;rsquo;re a masochist.&lt;/p&gt;
+&lt;p&gt;In &lt;em&gt;my&lt;/em&gt; opinion don&amp;rsquo;t start off with distros that are derived from other ones. For example Ubuntu is based off Debian and Manjaro is based off Arch. Just use the base because they&amp;rsquo;ll have more solid documentation.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t make your decision based on Xorg vs Wayland or SystemD vs another init system if you don&amp;rsquo;t know what those are in the first place.&lt;/p&gt;
+&lt;p&gt;Also, don&amp;rsquo;t make your choice depending on what other people say, which contradicts everything I just said.
+Choice is good. Whatever you do is up to you.&lt;/p&gt;
+&lt;h3 id=&#34;but-but-how-do-i-learn&#34;&gt;But&amp;hellip; but how do I learn?&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.readthefuckingmanual.com/&#34;&gt;http://www.readthefuckingmanual.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In general, be &lt;strong&gt;very open&lt;/strong&gt; to learning. Don&amp;rsquo;t force doing something in a way you did it before just because you already know how to do that specific thing in a specific way.&lt;/p&gt;
+&lt;p&gt;Your way of doing things was probably heavily influenced by the tailored user experience by Microsoft/Apple etc.&lt;/p&gt;
+&lt;p&gt;Generally, strive for efficiency. Over time, you&amp;rsquo;ll eventually realize how much easier and simpler Linux is.&lt;/p&gt;
+&lt;h3 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h3&gt;
+&lt;p&gt;If you have some fancy hardware that uses proprietary software then forget it.
+If you want rgb puke lights from your new Razer keyboard then forget it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/razer.jpg&#34;
+	width=&#34;600&#34;
+	height=&#34;451&#34;
+	srcset=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_480x0_resize_q75_box.jpg 480w, https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;319px&#34;
+	
+&gt;
+For example, I use a &lt;a class=&#34;link&#34; href=&#34;https://www.logitech.com/en-us/eol/mx-master-2s-mouse.910-005131.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Logitech MX Master 2s&lt;/a&gt; as my mouse.
+There&amp;rsquo;s no way im getting to use all the fancy gestures in the &lt;a class=&#34;link&#34; href=&#34;https://images-na.ssl-images-amazon.com/images/I/91c8SQfG8cS.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;software&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Gaming controllers will work.
+Most printers will work.
+Bluetooth works.&lt;/p&gt;
+&lt;p&gt;Did you know that the Corsair iCUE software is 800 MB?
+Nearly 1GB for fucking lights. That&amp;rsquo;s literally &lt;strong&gt;just&lt;/strong&gt; the installer.
+These companies can just get away with nonsense because people don&amp;rsquo;t have a choice.
+Why support companies like this?&lt;/p&gt;
+&lt;h2 id=&#34;gaming&#34;&gt;Gaming&lt;/h2&gt;
+&lt;p&gt;You can play plenty games on Linux.
+If you&amp;rsquo;re a hardcore gamer, as in you wanna play all sorts of different games, Linux isn&amp;rsquo;t for you right now.
+What you could do is dual-boot which is what I do but for different reasons. I have to because of University.&lt;/p&gt;
+&lt;p&gt;If you start using Linux, don&amp;rsquo;t get into messing with all the settings in Wine and Lutris. Its such a waste of time and effort.&lt;/p&gt;
+&lt;h2 id=&#34;ending-off&#34;&gt;Ending Off&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/chad.jpg&#34;
+	width=&#34;400&#34;
+	height=&#34;340&#34;
+	srcset=&#34;https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_480x0_resize_q75_box.jpg 480w, https://macawls.dev/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;117&#34;
+		data-flex-basis=&#34;282px&#34;
+	
+&gt;
+TLDR: If you care about using software that respects your privacy and that you are free to change, use Linux. Here&amp;rsquo;s a meme video.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/A33j8il0FwM&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

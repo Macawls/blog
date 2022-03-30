@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Shitpost on Macawls&#39; Blog</title>
+        <link>https://macawls.dev/categories/shitpost/</link>
+        <description>Recent content in Shitpost on Macawls&#39; Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/categories/shitpost/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Programming is...</title>
+        <link>https://macawls.dev/post/programming-is.../</link>
+        <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/post/programming-is.../</guid>
+        <description>&lt;img src="https://macawls.dev/post/programming-is.../intro.jpeg" alt="Featured image of post Programming is..." /&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;nullpointer.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;nullpointer.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;The more I learn, the more I feel like I don&amp;rsquo;t know anything ᕙ(⇀‸↼‶)ᕗ&lt;/p&gt;
+&lt;p&gt;Can&amp;rsquo;t focus on one thing for too long, sometimes I just don&amp;rsquo;t have any ideas or I try learning too many things at the same time. I only get in the &amp;ldquo;zone&amp;rdquo; when I &lt;strong&gt;really&lt;/strong&gt; wanna finish something. I love that place.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/post/programming-is.../what.jpg&#34;
+	width=&#34;1080&#34;
+	height=&#34;1920&#34;
+	srcset=&#34;https://macawls.dev/post/programming-is.../what_hu87b9f9e7b160fc7114be4953a46e4239_520136_480x0_resize_q75_box.jpg 480w, https://macawls.dev/post/programming-is.../what_hu87b9f9e7b160fc7114be4953a46e4239_520136_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;56&#34;
+		data-flex-basis=&#34;135px&#34;
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

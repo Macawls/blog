@@ -1,7 +1,7 @@
 +++
 author = "Josh"
 title = "Bangers 🎵 | Part 1"
-date = "2022-03-29"
+date = "2022-03-16"
 description = "A collection of tracks I've been enjoying recently - continued"
 tags = [
     "personal",

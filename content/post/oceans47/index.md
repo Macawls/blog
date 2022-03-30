@@ -28,8 +28,8 @@ Pro Era or rather the Progressive Era, started out as just a group of friends in
 
 ## Explanation 
 
-I'm not going to go into detail about Steez's life or how important he was to me.
-Just know that he was Joey's best friend and unfortunately committed suicide on the 23rd of December 2012.
+I'm not going to go into detail about Steez's life.
+He was Joey's best friend and unfortunately committed suicide on the 23rd of December 2012.
 The numbers on date on his death ```12/23/12``` add up to 47.
 His last message was "THE END". 
 The next album in his career was going to be called "47 Shift".
@@ -58,12 +58,11 @@ Steez was a leader. He told his peers to do something meaningful with their live
 The number 47 would mean nothing to Pro Era without Steez.
 Steez saw the number 47 as the perfect number. It is a prime number. The number 4, represents the 4th or **Heart** Chakra. The number 7, represents the 7th or **Crown** Chakra.
 
-According to Steez, its the balance of the heart and mind. The balance of logical and irrational thinking. He believed that when connecting with others, you need to be sympathetic and caring while also not being completely heartless and logical. Now there's also the [47th problem of Euclid](https://www.masonic-lodge-of-education.com/47th-problem-of-euclid.html), more commonly known as the Pythagorean theorem. There's also connections with the number 47 and the Swastika symbol. There's **also** "angel numbers" and many more stuff.
+According to Steez, its the balance of the heart and mind. The balance of logical and irrational thinking. He believed that when connecting with others, you need to be sympathetic and caring while also not being completely heartless and logical. Now there's also the **[47th problem of Euclid](https://www.masonic-lodge-of-education.com/47th-problem-of-euclid.html)**, more commonly known as the **Pythagorean** theorem. There's also connections with the number 47 and the **Swastika** symbol. There is **also** "angel numbers" and many more stuff.
 
-Now look, personally, I don't really believe in nonsense like this. 
-But, he was a smart and talented individual. 
-His music had left a mark on me. 
-I do believe that there needs to be a balance between the heart and mind. 
+I don't believe there is anything significant about the number and it's various connections really but
+his music had left a mark on me. 
+I do believe that there needs to be a balance between the heart and mind. The number represent's to me. 
 I think too rationally at times; to the point where I can't connect with others.
 
 ## The Word Ocean 
