@@ -1,0 +1,30 @@
+name: CI
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Update theme
+        run: git submodule update --init --recursive
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.80.0"
+
+      - name: Build
+        run: hugo -d docs/
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.HUGO }}
+          external_repository: Macawls/blog.github.io
+          publish_dir: ./docs
+          user_name: Macawls
+          user_email: josh@macawls.dev
+          publish_branch: based
+          cname: macawls.dev
