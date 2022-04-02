@@ -1,6 +1,6 @@
 +++
 author = "Josh"
-title = "The Links between Taoism and Rastafarianism"
+title = "Links and differences between Taoism and Rastafarianism"
 date = "2022-03-30"
 description = "Just vibin anon..."
 toc = true
@@ -9,7 +9,8 @@ tags = [
     "personal"
 ]
 categories = [
-    "fluff"
+    "fluff",
+    "short"
 ]
 image = "420.jpg"
 +++
@@ -31,7 +32,7 @@ Religion is a difficult word to define. I personally believe both these belief s
 
 I feel that when a 'religion' has more strict beliefs, is unified and becomes widely institutionalized, it falls under the 'religion' category. Example's would be Christianity, Hinduism, Islam including their many respective forms and so on. However, that's not to say places of worship for Taoism and Rastafarianism do not exist, because they do. 
 
-Both Taoism and Rastafari Culture embrace the idea of treading on your **own** path to enlightenment. Albeit in Rastafarianism it is much more of a collective effort.
+Both Taoism and Rastafari Culture embrace the idea of treading on your **own** path to enlightenment, finding peace and content in life's simple joys . Albeit in Rastafarianism it is much more of a collective effort.
 
 ![](lol.jpg)
 
@@ -44,11 +45,10 @@ Rastas are primarily vegan. Their diet is called **"Ital"**. They do this becaus
 
 The Tao believe the same essentially; eating as close to natural as possible including little meat.  
 
-Both discourage the consumption of substances such as nicotine and alcohol as well as other drugs.
-
-Both look down on political systems, violence and authoritarianism.
+* Both discourage the consumption of substances such as nicotine and alcohol as well as other drugs.
+* Both look down on political systems, violence and authoritarianism.
 
 ## Ending off
-I don't necessarily follow any of these ways of life but I find it fascinating. There are aspects are disagree upon in both, moreso in Rastafari Culture. There is also so much more depth to both so I highly recommend taking whatever I said with a grain of salt.  
+I don't necessarily follow any of these ways of life but I find it fascinating. There are aspects are disagree upon in both, moreso in Rastafari Culture because of its misogynistic views. There is also so much more depth to both so I highly recommend taking whatever I said with a grain of salt.  
 
 TLDR: Both are super chill 
