@@ -34,7 +34,10 @@ I like unique and unpopular things too. Maybe it's because I like standing out a
 
 ## Test-driving the CRZ
 
-It ticked all the boxes for me. The second I got in, the interior blew me away.
+It ticked all the boxes for me. The second I got in, the interior blew me away. It's not NA, Steering wheel is on the right side for me.
+
+![Interior](interior.jpg)
+
 For 2011, it was very modern. It was comfy, a really smooth drive, pretty damn responsive in sport mode, manual transmission, great sound system, hatchback, great fuel economy.
 
 The only downside is that it's a two-seater primarily but I mean, 4 people is **possible**. Its just insanely uncomfortable.
