@@ -15,6 +15,14 @@
         <description>&lt;img src="https://macawls.dev/blog/categories/fluff/cat.jpg" alt="Featured image of post Fluff" /&gt;</description>
         </item>
         <item>
+        <title>Short</title>
+        <link>https://macawls.dev/blog/categories/short/</link>
+        <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/categories/short/</guid>
+        <description>&lt;img src="https://macawls.dev/blog/categories/short/doorbell.png" alt="Featured image of post Short" /&gt;</description>
+        </item>
+        <item>
         <title>Music</title>
         <link>https://macawls.dev/blog/categories/music/</link>
         <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
@@ -37,14 +45,6 @@
         
         <guid>https://macawls.dev/blog/categories/loonix/</guid>
         <description>&lt;img src="https://macawls.dev/blog/categories/loonix/jak.jpg" alt="Featured image of post Loonix" /&gt;</description>
-        </item>
-        <item>
-        <title>Short</title>
-        <link>https://macawls.dev/blog/categories/short/</link>
-        <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.dev/blog/categories/short/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/short/doorbell.png" alt="Featured image of post Short" /&gt;</description>
         </item>
         <item>
         <title>Guide</title>
