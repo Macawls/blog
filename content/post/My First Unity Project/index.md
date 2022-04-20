@@ -5,12 +5,11 @@ date = "2022-04-20"
 description = "Gamedev yaaaay"
 toc = true
 tags = [
-    "mindset",
-    "personal"
+    "development",
+    "unity"
 ]
 categories = [
-    "fluff",
-    "short"
+    "programming"
 ]
 image = "thumb.jpg"
 +++

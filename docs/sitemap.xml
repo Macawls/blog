@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://macawls.dev/blog/categories/fluff/</loc>
+    <loc>https://macawls.dev/blog/tags/development/</loc>
     <lastmod>2022-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,17 +18,7 @@
   </url>
   
   <url>
-    <loc>https://macawls.dev/blog/tags/mindset/</loc>
-    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://macawls.dev/blog/post/my-first-unity-project/</loc>
-    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macawls.dev/blog/tags/personal/</loc>
     <lastmod>2022-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -38,13 +28,38 @@
   </url>
   
   <url>
-    <loc>https://macawls.dev/blog/categories/short/</loc>
+    <loc>https://macawls.dev/blog/categories/programming/</loc>
     <lastmod>2022-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://macawls.dev/blog/tags/</loc>
     <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/tags/unity/</loc>
+    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/categories/fluff/</loc>
+    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/tags/mindset/</loc>
+    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/tags/personal/</loc>
+    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/categories/short/</loc>
+    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -75,11 +90,6 @@
   <url>
     <loc>https://macawls.dev/blog/post/my-new-honda-crz-2011/</loc>
     <lastmod>2022-01-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macawls.dev/blog/tags/development/</loc>
-    <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
