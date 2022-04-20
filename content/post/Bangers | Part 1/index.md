@@ -1,8 +1,8 @@
 +++
 author = "Josh"
 title = "Bangers 🎵 | Part 1"
-date = "2022-03-16"
-description = "A collection of tracks I've been enjoying recently - continued"
+date = "2021-12-14"
+description = "A collection of tracks I've been enjoying recently"
 tags = [
     "personal",
 ]
@@ -10,27 +10,15 @@ categories = [
     "fluff",
     "music"
 ]
-image = "monkee.jpg"
+image = "bg.jpg"
 +++
 <!--more-->
-Random genres this time around.
+These tracks are mostly hardstyle and techno including subgenres.
 
-My fav. Just an absolute fucking banger this one 🔥
-
-{{< soundcloud-track 1164496222 >}}
-
-Kind of vanilla but really really good. 
-
-{{< soundcloud-track 1096515109 >}}
-
-Love the mellow vibes on this track. That synth too omg. Really catchy. 
-
-{{< youtube syNGDDMYQzg >}}
-
-Love singing along to this.
-
-{{< youtube 6XLLl1AyjD8 >}}
-
-
+{{< soundcloud-track 1075343497 >}}
+{{< soundcloud-track 929893924 >}}
+{{< soundcloud-track 1139052841 >}}
+{{< soundcloud-track 1181250304 >}}
+{{< soundcloud-track 1005254830 >}}
 
 
