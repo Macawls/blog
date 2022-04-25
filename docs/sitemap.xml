@@ -4,16 +4,46 @@
   
   <url>
     <loc>https://macawls.dev/blog/categories/</loc>
-    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macawls.dev/blog/tags/development/</loc>
-    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
+    <loc>https://macawls.dev/blog/categories/fluff/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://macawls.dev/blog/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/post/mood/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/tags/personal/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/post/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/categories/short/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/tags/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macawls.dev/blog/tags/development/</loc>
     <lastmod>2022-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,17 +53,7 @@
   </url>
   
   <url>
-    <loc>https://macawls.dev/blog/post/</loc>
-    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://macawls.dev/blog/categories/programming/</loc>
-    <lastmod>2022-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macawls.dev/blog/tags/</loc>
     <lastmod>2022-04-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,22 +63,7 @@
   </url>
   
   <url>
-    <loc>https://macawls.dev/blog/categories/fluff/</loc>
-    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://macawls.dev/blog/tags/mindset/</loc>
-    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macawls.dev/blog/tags/personal/</loc>
-    <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macawls.dev/blog/categories/short/</loc>
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
   </url>
   
