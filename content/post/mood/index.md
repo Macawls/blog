@@ -22,6 +22,4 @@ We're driven by greed and pleasure. Humanity is a plague. We're divided by borde
 
 Well anyways, who cares lol :)
 
-Lets get married! Hopefully we can selflessly bring a child into this world too! 
-
-I do not care if I've offended you. Believe in the things you believe in. I'm tired of suppressing thoughts.
+![](smol.jpg)
