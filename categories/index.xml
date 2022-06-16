@@ -6,21 +6,29 @@
         <description>Recent content in Categories on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Guide</title>
+        <link>https://macawls.dev/blog/categories/guide/</link>
+        <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/categories/guide/</guid>
+        <description>&lt;img src="https://macawls.dev/blog/categories/guide/reading.jpg" alt="Featured image of post Guide" /&gt;</description>
+        </item>
+        <item>
+        <title>Short</title>
+        <link>https://macawls.dev/blog/categories/short/</link>
+        <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/categories/short/</guid>
+        <description>&lt;img src="https://macawls.dev/blog/categories/short/doorbell.png" alt="Featured image of post Short" /&gt;</description>
+        </item>
+        <item>
         <title>Fluff</title>
         <link>https://macawls.dev/blog/categories/fluff/</link>
         <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.dev/blog/categories/fluff/</guid>
         <description>&lt;img src="https://macawls.dev/blog/categories/fluff/cat.jpg" alt="Featured image of post Fluff" /&gt;</description>
-        </item>
-        <item>
-        <title>Short</title>
-        <link>https://macawls.dev/blog/categories/short/</link>
-        <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.dev/blog/categories/short/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/short/doorbell.png" alt="Featured image of post Short" /&gt;</description>
         </item>
         <item>
         <title>Programming</title>
@@ -53,14 +61,6 @@
         
         <guid>https://macawls.dev/blog/categories/loonix/</guid>
         <description>&lt;img src="https://macawls.dev/blog/categories/loonix/jak.jpg" alt="Featured image of post Loonix" /&gt;</description>
-        </item>
-        <item>
-        <title>Guide</title>
-        <link>https://macawls.dev/blog/categories/guide/</link>
-        <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.dev/blog/categories/guide/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/guide/reading.jpg" alt="Featured image of post Guide" /&gt;</description>
         </item>
         
     </channel>
