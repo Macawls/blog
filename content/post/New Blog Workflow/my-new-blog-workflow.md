@@ -3,7 +3,7 @@ author = "Josh"
 categories = ["short", "guide"]
 date = "2022-06-15"
 description = "lesgooooooo"
-image = "bed.png"
+image = "/uploads/bed.png"
 tags = [
     "development"
     ]
