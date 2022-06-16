@@ -1,5 +1,5 @@
 ## What is this?
-My blog
+My blog, made with [hugo](https://gohugo.io/)
 
 ## What do you write about?
 Random things. Really anything I feel like writing about.
