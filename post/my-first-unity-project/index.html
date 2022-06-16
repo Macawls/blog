@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Gamedev yaaaay'><title>My First Unity Project</title>
+
+<link rel='canonical' href='https://macawls.dev/blog/post/my-first-unity-project/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.55e8bace6e1ca490e8162231706331e3b50bb5187bef656d7be6a5ab183972e1.css"><meta property='og:title' content='My First Unity Project'>
+<meta property='og:description' content='Gamedev yaaaay'>
+<meta property='og:url' content='https://macawls.dev/blog/post/my-first-unity-project/'>
+<meta property='og:site_name' content='Macawls&#39; Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='development' /><meta property='article:tag' content='unity' /><meta property='article:published_time' content='2022-04-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-04-20T00:00:00&#43;00:00'/><meta property='og:image' content='https://macawls.dev/blog/post/my-first-unity-project/thumb.jpg' />
+<meta name="twitter:title" content="My First Unity Project">
+<meta name="twitter:description" content="Gamedev yaaaay"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://macawls.dev/blog/post/my-first-unity-project/thumb.jpg' />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Macawls/dump/main/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog/">
+                
+                    <img src="https://avatars.githubusercontent.com/u/80009513?v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🌸</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog">Macawls&#39; Blog</a></h1>
+            <h2 class="site-description">A safe haven to document, express and share my thoughts.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Macawls'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.instagram.com/jmacawls/'
+                        target="_blank"
+                        title="Instagram"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA'
+                        target="_blank"
+                        title="Youtube"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="4" />
+  <path d="M10 9l5 3l-5 3z" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://soundcloud.com/user-226762181'
+                        target="_blank"
+                        title="Soundcloud"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-soundcloud" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M17 11h1c1.38 0 3 1.274 3 3c0 1.657 -1.5 3 -3 3l-6 0v-10c3 0 4.5 1.5 5 4z" />
+  <line x1="9" y1="8" x2="9" y2="17" />
+  <line x1="6" y1="17" x2="6" y2="10" />
+  <line x1="3" y1="16" x2="3" y2="14" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/blog/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/categories/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>Categories</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/post/my-first-unity-project/">
+                <img src="/blog/post/my-first-unity-project/thumb_hu2f1ff0de0e936714e856d95e211682a4_178195_800x0_resize_q75_box.jpg"
+                        srcset="/blog/post/my-first-unity-project/thumb_hu2f1ff0de0e936714e856d95e211682a4_178195_800x0_resize_q75_box.jpg 800w, /blog/post/my-first-unity-project/thumb_hu2f1ff0de0e936714e856d95e211682a4_178195_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post My First Unity Project" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/programming/" >
+                Programming
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/post/my-first-unity-project/">My First Unity Project</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Gamedev yaaaay
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Apr 20, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    6 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="intro">Intro</h2>
+<p>So, it wasn&rsquo;t my <strong>first</strong> Unity project but it was my first one for University. I had a ton of fun making it.
+We were restricted to Unity but if I could I would have probably used Godot.
+It&rsquo;s one part of a three part project so I&rsquo;ll continue to add updates. Its meant to be an Endless Runner type game.
+I&rsquo;ll be able to make the repository public once the project is complete.</p>
+<p>You can try the WebGL build here. I would suggest using a chromium browser to run it.</p>
+<p><strong><a class="link" href="https://macawls.dev/Endless-Runner-Unity/"  target="_blank" rel="noopener"
+    >https://macawls.dev/Endless-Runner-Unity/</a></strong></p>
+<h2 id="development">Development</h2>
+<p>I remember a while back I had issues with vscode and Unity on linux. The experience just wasn&rsquo;t polished. Dotnet is okay-ish on linux. I usually use Microsoft&rsquo;s <a class="link" href="https://dot.net/v1/dotnet-install.sh"  target="_blank" rel="noopener"
+    >bash</a> script to install it.</p>
+<p>It didn&rsquo;t really feel like Unity and vscode were communicating properly. Sometimes when I switched back to the editor and my project wouldn&rsquo;t recompile. Getting intellisense for Unity in vscode is also a hassle. Had to go back to Windows unfortunately. I couldn&rsquo;t afford to run into any issues, rather not take the chance for University.</p>
+<p>I tried Rider for the first time and <strong>HOLY</strong>. It was great. Really loved it. No issues, no hassle. I managed to get it for free through Github&rsquo;s Student Pack so I didn&rsquo;t have to pay a dime. Definitely the best IDE for Unity, hands down.</p>
+<h2 id="learning">Learning</h2>
+<p>So I learnt a bunch of stuff in C# and understanding how Unity works.
+So, most scripts you have will inherit from MonoBehaviour, which adds functionality to controlling how things behave in the scene. So most commonly you&rsquo;ll have event functions like</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="n">Awake</span><span class="p">()</span>  <span class="c1">// once on initialisation, references to components here </span>
+</span></span><span class="line"><span class="cl"><span class="n">Start</span><span class="p">()</span>  <span class="c1">// kind of the same thing as awake but not really, only ever called once</span>
+</span></span><span class="line"><span class="cl"><span class="n">Update</span><span class="p">()</span> <span class="c1">// every frame</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Game Objects sort of have a life-cycle and functions are called in this <a class="link" href="https://docs.unity3d.com/Manual/ExecutionOrder.html"  target="_blank" rel="noopener"
+    >order</a>.</p>
+<h3 id="problem">Problem</h3>
+<p>You gotta be smart about doing things willy nilly, else you&rsquo;ll run into performance issues pretty quickly.</p>
+<p>So, I had an object spawner script on every &rsquo;tile&rsquo; that was being made in the scene. It made sense to me to have every tile deal with spawning objects on itself so that the objects would be children of that tile. If the objects were children, it meant that when the tile was deleted, the children would die with it, so I wouldn&rsquo;t have to deal with deleting objects.</p>
+<p>Problem was, there were around 15 tiles at every given time in the game to make it &ldquo;endless&rdquo;. Now, having 15 tiles each have references to the objects that need to be spawned and have <strong>that object</strong> be deleted and instantiated every x seconds absolutely tanked performance. Keep in mind this script contained the logic for randomly spawning objects as well.</p>
+<p>I dropped from 300 fps to around 70/90 fps.</p>
+<p>I can&rsquo;t explain why this was happening from a technical standpoint because frankly I don&rsquo;t and I was learning.
+My guess is it was an issue with garbage collection, memory and just so many references all over the place.</p>
+<p>I fixed it by having a <strong>single</strong> object spawner script and my fps went back to around 270 fps. This time, the objects weren&rsquo;t the children of the tile.</p>
+<h4 id="object-spawner-script">Object Spawner script</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">InvokeRepeating</span><span class="p">(</span><span class="n">nameof</span><span class="p">(</span><span class="n">SpawnObjectsInRandomLane</span><span class="p">),</span> <span class="n">GameManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">PathManager</span><span class="p">.</span><span class="n">startTime</span><span class="p">,</span> <span class="n">GameManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">PathManager</span><span class="p">.</span><span class="n">timeToDestroy</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">SpawnRandomObject</span><span class="p">(</span><span class="kt">float</span> <span class="n">xPosition</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">spawnPickUp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// zPos changes after every invoke repeating call(in Path Manager)</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">zPos</span> <span class="p">=</span> <span class="n">GameManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">PathManager</span><span class="p">.</span><span class="n">ZTilePos</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">obstacle</span> <span class="p">=</span> <span class="n">ReturnRandomObstacle</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">    <span class="c1">// For now, the spawn height is zero because when obstacles are made in blender the origin is set to the bottom of the object</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">//var spawnHeight = obstacle.GetComponent&lt;MeshFilter&gt;().sharedMesh.bounds.extents.y;</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">    <span class="n">Instantiate</span><span class="p">(</span><span class="n">obstacle</span><span class="p">,</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">xPosition</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">zPos</span><span class="p">),</span> <span class="n">Quaternion</span><span class="p">.</span><span class="n">identity</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// PickUps are spawned above the obstacle</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">spawnPickUp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Instantiate</span><span class="p">(</span><span class="n">ReturnRandomPickUp</span><span class="p">(),</span> <span class="k">new</span> <span class="n">Vector3</span><span class="p">(</span><span class="n">xPosition</span><span class="p">,</span> <span class="n">pickUpSpawnHeight</span><span class="p">,</span> <span class="n">zPos</span><span class="p">),</span> <span class="n">Quaternion</span><span class="p">.</span><span class="n">identity</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In line 9, getting the zPos from PathManager is pretty ugly to be honest but it sufficed for the prototype.</p>
+<p>PathManager and Obstacle Spawner had the exact same InvokeRepating call in Start(), I wanted to &ldquo;sync&rdquo; them, thats why I passed in those values but eish. It is very ugly.</p>
+<p><img src="/blog/post/my-first-unity-project/bugs.jpg"
+	width="500"
+	height="385"
+	srcset="/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, /blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="129"
+		data-flex-basis="311px"
+	
+></p>
+<h3 id="new-stuff-i-learnt-in-c">New Stuff I learnt in C#</h3>
+<p>Okay so mainly two things, <strong>Singletons</strong> and <strong>Delegates</strong>.</p>
+<h4 id="singletons">Singletons</h4>
+<p>Singletons are cool. How they work is you can only have once instance of that class at any time and because of DontDestroyOnLoad(), it persists between scenes.</p>
+<p>This is my GameManager script.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Awake</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Instance</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">Instance</span> <span class="p">!=</span> <span class="k">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Destroy</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Instance</span> <span class="p">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DontDestroyOnLoad</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    <span class="n">Controls</span> <span class="p">=</span> <span class="n">GetComponentInChildren</span><span class="p">&lt;</span><span class="n">Controls</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">PlayerCooldowns</span> <span class="p">=</span> <span class="n">GetComponentInChildren</span><span class="p">&lt;</span><span class="n">PlayerCooldowns</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">PathManager</span> <span class="p">=</span> <span class="n">GetComponentInChildren</span><span class="p">&lt;</span><span class="n">PathManager</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">PlayerInfo</span> <span class="p">=</span> <span class="n">GetComponentInChildren</span><span class="p">&lt;</span><span class="n">PlayerInfo</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ObstacleSpawner</span> <span class="p">=</span> <span class="n">GetComponentInChildren</span><span class="p">&lt;</span><span class="n">ObstacleSpawner</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, I went kind crazy with it here because of all the components attached. Which is definitely gonna give me a headache later.
+On the one hand, its really easy to grab anything you want like this because its global.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"> <span class="n">GameManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.&lt;</span><span class="n">blah</span> <span class="n">blah</span> <span class="n">blah</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>But it&rsquo;s really going to get messy later. To restart the game, I had to destroy it in addition to loading the scene.</p>
+<h4 id="delegates">Delegates</h4>
+<p>OKAY THIS. This shit is the holy grail of game dev. It took a while to wrap my head around events, but once it clicked, it just unlocked so many more possibilities.</p>
+<p><img src="/blog/post/my-first-unity-project/doorbell.jpg"
+	width="400"
+	height="287"
+	srcset="/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, /blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="139"
+		data-flex-basis="334px"
+	
+></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Awake</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Instance</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">Instance</span> <span class="p">!=</span> <span class="k">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Destroy</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Instance</span> <span class="p">=</span> <span class="k">this</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">DontDestroyOnLoad</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">PlayerDeath</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnPlayerDeath</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">GameStart</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameStart</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">GamePause</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGamePause</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">ResumeGame</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameResume</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">GameRestart</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameRestart</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>So how it works is, I have an EventsManager singleton. When I invoke an event by saying,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">    Events.Manager.Instance.PlayerDeath()
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Methods in other classes that are assigned to that event, will run. Which just decouples everything. Its soo gooood. Really glad I have a basic understanding of it now.</p>
+<h3 id="thoughts-on-unity">Thoughts on Unity</h3>
+<p>Unity makes getting a game done fairly easy because there&rsquo;s a plethora of resources online.
+Although, there&rsquo;s a big difference between being in tutorial hell and actually understanding how to design and make a game, especially a <strong>good</strong> one.</p>
+<p>Game dev is pretty damn difficult. I was feeling insanely burnt out but it was fun regardless.</p>
+<p>All the objects for the game were made in Blender, except the character which I got from here</p>
+<div class="video-wrapper">
+    <iframe loading="lazy" 
+            src="https://www.youtube.com/embed/jKErxSUx54Q" 
+            allowfullscreen 
+            title="YouTube Video"
+    >
+    </iframe>
+</div>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/development/">development</a>
+        
+            <a href="/blog/tags/unity/">unity</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2022 Macawls&#39; Blog
+    </section>
+    
+    <section class="powerby">
+        
+            ʕ•ᴥ•ʔ <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#development">Development</a></li>
+    <li><a href="#learning">Learning</a>
+      <ol>
+        <li><a href="#problem">Problem</a>
+          <ol>
+            <li><a href="#object-spawner-script">Object Spawner script</a></li>
+          </ol>
+        </li>
+        <li><a href="#new-stuff-i-learnt-in-c">New Stuff I learnt in C#</a>
+          <ol>
+            <li><a href="#singletons">Singletons</a></li>
+            <li><a href="#delegates">Delegates</a></li>
+          </ol>
+        </li>
+        <li><a href="#thoughts-on-unity">Thoughts on Unity</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
