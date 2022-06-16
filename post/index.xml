@@ -6,13 +6,14 @@
         <description>Recent content in Posts on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 15 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 14 Jun 2022 22:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My New Blog workflow ^~^</title>
         <link>https://macawls.dev/blog/post/my-new-blog-workflow-~/</link>
-        <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 14 Jun 2022 22:00:00 +0000</pubDate>
         
         <guid>https://macawls.dev/blog/post/my-new-blog-workflow-~/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/bed.png" alt="Featured image of post My New Blog workflow ^~^" /&gt;&lt;p&gt;Alright so dis is a &lt;strong&gt;banger&lt;/strong&gt; post. I haven&amp;rsquo;t written in about 2 months because I&amp;rsquo;ve been swamped with campus work and updating the blog became tiresome with the workflow I had going.&lt;/p&gt;
+        <description>&lt;img src="https://macawls.dev/uploads/farm.jpg" alt="Featured image of post My New Blog workflow ^~^" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Alright so dis is a &lt;strong&gt;banger&lt;/strong&gt; post. I haven&amp;rsquo;t written in about 2 months because I&amp;rsquo;ve been swamped with campus work and updating the blog became tiresome with the workflow I had going.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/apu-gallery/apu/beer.jpeg&#34;
 	
 	
@@ -35,7 +36,9 @@
 &lt;h2 id=&#34;new-workflow&#34;&gt;New Workflow&lt;/h2&gt;
 &lt;p&gt;Really have no idea why I didn&amp;rsquo;t do this sooner. Feel free to inspect the source repo and have a look at the &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/blog/blob/based/.github/workflows/main.yml&#34;  title=&#34;main.yml&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;main.yml&lt;/a&gt; . So using GitHub actions, on every commit to the repository, it builds and deploys on another branch within the repository to GitHub Pages. Using &lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Forestry&lt;/a&gt;, a headless &lt;strong&gt;Git&lt;/strong&gt;-Based &lt;strong&gt;CMS&lt;/strong&gt;(Content Management System) I can edit the content of my blog.&lt;/p&gt;
+    &gt;main.yml&lt;/a&gt; . So using GitHub actions, on every commit to the repository, it builds and deploys on another branch within the repository to GitHub Pages. Using &lt;a class=&#34;link&#34; href=&#34;https://forestry.io/&#34;  title=&#34;Forestry&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Forestry&lt;/a&gt;, a headless &lt;strong&gt;Git&lt;/strong&gt;-Based &lt;strong&gt;CMS&lt;/strong&gt;(Content Management System) I can edit the content of my blog.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/DV6cRA6.png&#34;
 	
 	
