@@ -1,11 +1,13 @@
 +++
 author = "Josh"
 categories = ["short", "guide"]
-date = 2022-06-15T22:00:00Z
+date = "2022-06-15"
 description = "lesgooooooo"
 draft = true
-image = "/uploads/bed.png"
-tags = ["development"]
+image = "static/uploads/bed.png"
+tags = [
+    "development"
+    ]
 title = "My New Blog workflow ^~^"
 
 +++
