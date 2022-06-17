@@ -12,14 +12,14 @@
         <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.dev/blog/post/endless-runner-continued/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/character.jpg" alt="Featured image of post Endless Runner Continued" /&gt;&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
+        <description>&lt;img src="https://i.imgur.com/xAKL2bZ.jpg" alt="Featured image of post Endless Runner Continued" /&gt;&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
 &lt;p&gt;Alright this one is leagues better than the other &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/blog/post/my-first-unity-project/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;version&lt;/a&gt;.
 To be honest the code in there is embarrassing, but I guess that&amp;rsquo;s the point of learning. Someday I&amp;rsquo;ll look back at this specific project and probably think its trash.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ll be able to make the repo public once the final is complete and uploaded for school. Mainly going to talk about the improvements in this blog. Unfortunately I can&amp;rsquo;t host the WebGL build anywhere, It&amp;rsquo;s pretty massive.&lt;/p&gt;
 &lt;h3 id=&#34;the-character&#34;&gt;The Character&lt;/h3&gt;
 &lt;p&gt;The character in the game was made using Vroid Studio. I tried making it look sort of like Mirror&amp;rsquo;s Edge&amp;rsquo;s Main Character, Faith. The importing process from Vroid to Unity was Seamless.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/char.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/s5y7E75.png&#34;
 	
 	
 	
@@ -86,7 +86,7 @@ To be honest the code in there is embarrassing, but I guess that&amp;rsquo;s the
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;powerups&#34;&gt;PowerUps&lt;/h3&gt;
 &lt;p&gt;I finally got around to learning scriptable objects, really useful. PowerUps definately made the game feel alot more fun.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/object.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Kh9K3bV.png&#34;
 	
 	
 	
@@ -132,7 +132,7 @@ To be honest the code in there is embarrassing, but I guess that&amp;rsquo;s the
 &lt;/div&gt;&lt;h3 id=&#34;ending-off&#34;&gt;Ending Off&lt;/h3&gt;
 &lt;p&gt;This project was pretty fun so far. 
 One major problem I have is scalability and really understanding OOP concepts and I&amp;rsquo;m definately looking to improve on that. Overall, I&amp;rsquo;m really happy with the progress.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/troubles.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/SuMzi1Q.png&#34;
 	
 	
 	
