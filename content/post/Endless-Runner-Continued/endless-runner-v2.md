@@ -11,7 +11,7 @@ tags = [
 categories = [
     "programming"
 ]
-image = "character.jpg"
+image = "https://i.imgur.com/xAKL2bZ.jpg"
 +++
 <!--more-->
 
@@ -24,7 +24,7 @@ I'll be able to make the repo public once the final is complete and uploaded for
 ### The Character 
 The character in the game was made using Vroid Studio. I tried making it look sort of like Mirror's Edge's Main Character, Faith. The importing process from Vroid to Unity was Seamless.
 
-![Character in Vroid](char.png)
+![Character in Vroid](https://i.imgur.com/s5y7E75.png)
 
 ### Tile Spawning
 In the last project, I would have the character **AND** the ground plane move forwards, which honestly made no sense, so I decided to scrap it and start fresh. With the new implementation, the character is essentially standing still while the ground moves backwards, giving the illusion the character is moving. I added some noise on the camera for the handheld effect. 
@@ -60,7 +60,7 @@ private void KillCharacter(bool falling)
 ### PowerUps
 I finally got around to learning scriptable objects, really useful. PowerUps definately made the game feel alot more fun.
 
-![Scriptable Object](object.png)
+![Scriptable Object](https://i.imgur.com/Kh9K3bV.png)
 
 I wrote this really really neat function using a Sine Function to flash the outline of the character depending on how much time is left on their pickup. Results were amazing. Should have paid more attention in math class 🤓. 
 
@@ -84,4 +84,4 @@ private IEnumerator ColorOutline(Color desiredColor, float duration, float multi
 This project was pretty fun so far. 
 One major problem I have is scalability and really understanding OOP concepts and I'm definately looking to improve on that. Overall, I'm really happy with the progress. 
 
-![](troubles.png)
+![](https://i.imgur.com/SuMzi1Q.png)
