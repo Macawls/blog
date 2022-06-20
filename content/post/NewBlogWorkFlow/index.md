@@ -1,6 +1,6 @@
 +++
 author = "Josh"
-title = "My New Blog workflow ^~^"
+title = "My New Blog Workflow ^~^"
 date = "2022-06-14"
 description = "lesgooooooo"
 toc = true
@@ -22,7 +22,7 @@ Alright so dis is a **banger** post. I haven't written in about 2 months because
 
 ## Old Workflow(TRASH)
 
-So, this blog is made using [Hugo](), which is a **static site generator**(SSG) using GitHub as a remote repository. What I would do is have all of my files up on Github including the build which would be put under the "docs/" folder for hosting and Github pages. What I would have to do to **add another** post is:
+So, this blog is made using [Hugo](https://gohugo.io/), which is a **static site generator**(SSG) using GitHub as a remote repository. What I would do is have all of my files up on Github including the build which would be put under the "docs/" folder for hosting and Github pages. What I would have to do to **add another** post is:
 
 1. Clone the repo(with my theme submodule)
 2. Add another post under a new folder written in markdown
@@ -37,7 +37,7 @@ Don't its just, so bad. Windows is bad. Winblows.
 
 ## New Workflow
 
-Really have no idea why I didn't do this sooner. Feel free to inspect the source repo and have a look at the [main.yml](https://github.com/Macawls/blog/blob/based/.github/workflows/main.yml "main.yml") . So using GitHub actions, on every commit to the repository, it builds and deploys on another branch within the repository to GitHub Pages. Using [Forestry](https://forestry.io/ "Forestry"), a headless **Git**-Based **CMS**(Content Management System) I can edit the content of my blog.
+I wish I knew how to do this sooner. Feel free to inspect the source repo and have a look at the [main.yml](https://github.com/Macawls/blog/blob/based/.github/workflows/main.yml "main.yml") . So using GitHub actions, on every commit to the repository, it builds and deploys on another branch within the repository to GitHub Pages. Using [Forestry](https://forestry.io/ "Forestry"), a headless **Git**-Based **CMS**(Content Management System) I can edit the content of my blog.
 
 ![Forestry Frontend](https://i.imgur.com/DV6cRA6.png)
 
