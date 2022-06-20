@@ -142,12 +142,12 @@ One major problem I have is scalability and really understanding OOP concepts an
 &gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>My New Blog workflow ^~^</title>
+        <title>My New Blog Workflow ^~^</title>
         <link>https://macawls.dev/blog/post/my-new-blog-workflow-~/</link>
         <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.dev/blog/post/my-new-blog-workflow-~/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-new-blog-workflow-~/bed.png" alt="Featured image of post My New Blog workflow ^~^" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <description>&lt;img src="https://macawls.dev/blog/post/my-new-blog-workflow-~/bed.png" alt="Featured image of post My New Blog Workflow ^~^" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Alright so dis is a &lt;strong&gt;banger&lt;/strong&gt; post. I haven&amp;rsquo;t written in about 2 months because I&amp;rsquo;ve been swamped with campus work and updating the blog became tiresome with the workflow I had going.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/apu-gallery/apu/beer.jpeg&#34;
 	
@@ -158,7 +158,8 @@ One major problem I have is scalability and really understanding OOP concepts an
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;old-workflowtrash&#34;&gt;Old Workflow(TRASH)&lt;/h2&gt;
-&lt;p&gt;So, this blog is made using &lt;a class=&#34;link&#34; href=&#34;&#34; &gt;Hugo&lt;/a&gt;, which is a &lt;strong&gt;static site generator&lt;/strong&gt;(SSG) using GitHub as a remote repository. What I would do is have all of my files up on Github including the build which would be put under the &amp;ldquo;docs/&amp;rdquo; folder for hosting and Github pages. What I would have to do to &lt;strong&gt;add another&lt;/strong&gt; post is:&lt;/p&gt;
+&lt;p&gt;So, this blog is made using &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;, which is a &lt;strong&gt;static site generator&lt;/strong&gt;(SSG) using GitHub as a remote repository. What I would do is have all of my files up on Github including the build which would be put under the &amp;ldquo;docs/&amp;rdquo; folder for hosting and Github pages. What I would have to do to &lt;strong&gt;add another&lt;/strong&gt; post is:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Clone the repo(with my theme submodule)&lt;/li&gt;
 &lt;li&gt;Add another post under a new folder written in markdown&lt;/li&gt;
@@ -169,7 +170,7 @@ One major problem I have is scalability and really understanding OOP concepts an
 &lt;h4 id=&#34;another-issue-hugo-on-windows&#34;&gt;Another Issue: Hugo On Windows&lt;/h4&gt;
 &lt;p&gt;Don&amp;rsquo;t its just, so bad. Windows is bad. Winblows.&lt;/p&gt;
 &lt;h2 id=&#34;new-workflow&#34;&gt;New Workflow&lt;/h2&gt;
-&lt;p&gt;Really have no idea why I didn&amp;rsquo;t do this sooner. Feel free to inspect the source repo and have a look at the &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/blog/blob/based/.github/workflows/main.yml&#34;  title=&#34;main.yml&#34;
+&lt;p&gt;I wish I knew how to do this sooner. Feel free to inspect the source repo and have a look at the &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/blog/blob/based/.github/workflows/main.yml&#34;  title=&#34;main.yml&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;main.yml&lt;/a&gt; . So using GitHub actions, on every commit to the repository, it builds and deploys on another branch within the repository to GitHub Pages. Using &lt;a class=&#34;link&#34; href=&#34;https://forestry.io/&#34;  title=&#34;Forestry&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
