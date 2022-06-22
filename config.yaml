@@ -33,7 +33,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: https://raw.githubusercontent.com/Macawls/dump/main/favicon.ico
+    favicon: https://raw.githubusercontent.com/Macawls/home/main/docs/favicon.ico
 
     footer:
         since: 2021
@@ -60,12 +60,12 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         utterances:
-            repo:
-            issueTerm: pathname
+            repo: Macawls/blog
+            issueTerm: title
             label:
 
         remark42:
