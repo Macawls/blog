@@ -6,29 +6,7 @@
         <description>Recent content in Short on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 24 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/short/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Microsoft Bamboozle: Copilot isn&#39;t free</title>
-        <link>https://macawls.dev/blog/post/microsoft-bamboozle-copilot-isnt-free/</link>
-        <pubDate>Fri, 24 Jun 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.dev/blog/post/microsoft-bamboozle-copilot-isnt-free/</guid>
-        <description>&lt;img src="https://i.imgur.com/PJybryI.jpg" alt="Featured image of post Microsoft Bamboozle: Copilot isn&#39;t free" /&gt;&lt;h2 id=&#34;thoughts-and-my-experience&#34;&gt;Thoughts and my Experience&lt;/h2&gt;
-&lt;p&gt;I signed up for the Github copilot technical preview about maybe 6 months ago and got access about 2 months after.
-Initially I thought it was pretty cool and it was honestly pretty useful. Pretty amazing that it understands the context in addition to understanding the comments you make. It wasn&amp;rsquo;t perfect but it was really good.&lt;/p&gt;
-&lt;p&gt;Eventually I kinda just stopped using it. It kinda ruined my &lt;em&gt;&amp;lsquo;flow&amp;rsquo;&lt;/em&gt; and thought process when programming. 
-It&amp;rsquo;s perfectly fine for a topic you already understand and just kinda forgot the syntax. In my case, as a &lt;strong&gt;student&lt;/strong&gt; I&amp;rsquo;m largely learning and not so much &lt;strong&gt;implementing&lt;/strong&gt;. So, Copilot wasn&amp;rsquo;t that great of an idea to use.&lt;/p&gt;
-&lt;h2 id=&#34;service-model&#34;&gt;Service Model&lt;/h2&gt;
-&lt;p&gt;In the initial preview, there was no mention that it would be a paid service. Once the preview had finished, they announced it would be a paid service. Currently it&amp;rsquo;s priced at 10$ a month, which is a pretty decent sum if I&amp;rsquo;m being honest. At the moment it doesn&amp;rsquo;t affect me at all because I&amp;rsquo;ve got a free pro student membership on Github until the end of next year. What&amp;rsquo;s baffling is, the model was trained on public repositories so it&amp;rsquo;s kinda antithetical to make it a paid sorta thing. Open-source doesn&amp;rsquo;t neccessarily mean &lt;strong&gt;free&lt;/strong&gt;, but alot of people assume that it&amp;rsquo;s what it means. Doesn&amp;rsquo;t Microsoft have enough money to deal with the costs?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-monster-collection/huh.jpg&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 14 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/short/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My New Blog Workflow ^~^</title>
         <link>https://macawls.dev/blog/post/my-new-blog-workflow-~/</link>
         <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
