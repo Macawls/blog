@@ -4,7 +4,7 @@ title = "My New Blog Workflow ^~^"
 date = "2022-06-14"
 description = "lesgooooooo"
 toc = true
-image = "bed.png"
+image = "bed.jpg"
 tags = [
     "development"
     ]
