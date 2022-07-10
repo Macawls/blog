@@ -48,4 +48,7 @@ The only people I **respect**, are people that are driven and constantly working
 
 I feel like its slowly killing me from the inside. Everyone else seems so... relaxed. Like there's just no care in the world. Why can't I feel like that? Why am I constantly pushing and pushing and pushing. I feel like I can't relate to anyone anymore. I feel like there's just.... something deep down thats completely off. 
 
+## Clarifications
+I wanna emphasize that I don't think I'm "above" others in any way. I'm not self-absorbed or yearning for social acceptance. I just, suddenly feel a disconnect.
+
 
