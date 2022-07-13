@@ -43,7 +43,7 @@ People around me are constantly talking about this new food place, or this new c
 
 Whenever I do talk about the things I'm personally interested in, which is technology and psychology topics, I feel like a buzzkill. I have quite controversial opinions and hot takes on topics that **many** people disagree with or simply don't understand. 
 
-For example, online-privacy, botnet, technology companies, antinatalism, ethics etc. 
+For example, online-privacy, botnet, technology companies, ethics etc. 
 
 At the same time, when I do talk about things that interest me, I talk sooooo much and can never summarize it from a high level.
 So, I feel like I can never just be honest and be myself. Obviously I do not want to offend anyone, that's the last thing I'd want to do. Maybe its a self-confidence issue. 
