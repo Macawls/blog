@@ -1,3 +1,5 @@
+[![github pages CI](https://github.com/Macawls/blog/actions/workflows/main.yml/badge.svg)](https://github.com/Macawls/blog/actions/workflows/main.yml)
+
 ## What is this?
 My blog, made with [hugo](https://gohugo.io/)
 
