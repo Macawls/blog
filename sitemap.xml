@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://macawls.dev/blog/post/bangers-part-3/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/categories/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/categories/fluff/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/categories/music/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/tags/personal/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/post/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/tags/</loc>
+    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://macawls.dev/blog/post/alienation/</loc>
     <lastmod>2022-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://macawls.dev/blog/categories/</loc>
-    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/categories/fluff/</loc>
-    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/</loc>
-    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://macawls.dev/blog/tags/mindset/</loc>
-    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/tags/personal/</loc>
-    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/post/</loc>
-    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/tags/</loc>
     <lastmod>2022-07-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/tags/development/</loc>
@@ -57,9 +63,6 @@
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/post/bangers-part-2/</loc>
-    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/categories/music/</loc>
     <lastmod>2022-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/post/programming-is.../</loc>
