@@ -10,7 +10,7 @@ tags = [
 categories = [
     "Programming"
 ]
-image = "https://i.imgur.com/888bqA9.png"
+image = "https://i.imgur.com/JaY7RZL.jpg"
 +++
 <!--more-->
 
