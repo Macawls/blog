@@ -12,7 +12,7 @@
         <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.dev/blog/post/dalle-is-kinda-fucking-crazy/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/cocoa.jpg" alt="Featured image of post DALL·E is kinda fucking crazy" /&gt;&lt;h2 id=&#34;can-i-try-it-out&#34;&gt;Can I try it out?&lt;/h2&gt;
+        <description>&lt;img src="https://macawls.dev/blog/post/dalle-is-kinda-fucking-crazy/openai.png" alt="Featured image of post DALL·E is kinda fucking crazy" /&gt;&lt;h2 id=&#34;can-i-try-it-out&#34;&gt;Can I try it out?&lt;/h2&gt;
 &lt;p&gt;Yes kinda.&lt;br&gt;
 It&amp;rsquo;s far too powerful of a tool to be easily accessible to the masses.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/dalle-is-kinda-fucking-crazy/smol.jpg&#34;
@@ -27,8 +27,8 @@ It&amp;rsquo;s far too powerful of a tool to be easily accessible to the masses.
 		data-flex-basis=&#34;297px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;For me, it took &lt;strong&gt;3 months&lt;/strong&gt; of being in the waiting list to get 45 tries.
-For every other subsequent month I get 15 tries. Forking out &lt;strong&gt;$15&lt;/strong&gt; gets me another &lt;strong&gt;115 tries&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;For me, it took &lt;strong&gt;3 months&lt;/strong&gt; of being in the &lt;strong&gt;waiting list&lt;/strong&gt; to get access. &lt;br&gt;
+I was given 45 tries. For every other subsequent month I get 15 tries. Forking out &lt;strong&gt;$15&lt;/strong&gt; gets me another &lt;strong&gt;115 tries&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;what-can-it-do&#34;&gt;What can it do?&lt;/h2&gt;
 &lt;p&gt;So pretty much, you supply a text prompt describing the kind of image you want to generate.
 The AI takes care of the rest. It understands the relationship between objects insanely well and can even generate images in a specific artsyle.&lt;/p&gt;
