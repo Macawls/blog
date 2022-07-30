@@ -9,7 +9,7 @@ tags = [
 categories = [
     "fluff",
 ]
-image = "cocoa.jpg"
+image = "openai.png"
 +++
 <!--more-->
 
@@ -19,8 +19,8 @@ It's far too powerful of a tool to be easily accessible to the masses.
 
 ![](smol.jpg)
 
-For me, it took **3 months** of being in the waiting list to get 45 tries.
-For every other subsequent month I get 15 tries. Forking out **$15** gets me another **115 tries**.
+For me, it took **3 months** of being in the **waiting list** to get access. \
+I was given 45 tries. For every other subsequent month I get 15 tries. Forking out **$15** gets me another **115 tries**.
 
 
 ## What can it do?
