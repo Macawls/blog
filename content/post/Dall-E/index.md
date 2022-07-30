@@ -27,6 +27,8 @@ I was given 45 tries. For every other subsequent month I get 15 tries. Forking o
 So pretty much, you supply a text prompt describing the kind of image you want to generate.
 The AI takes care of the rest. It understands the relationship between objects insanely well and can even generate images in a specific artsyle. 
 
+After supplying the prompt, it took just a moment for it to generate 4 unique images.
+
 The results are just absolutely mind-boggling and it'll only improve over-time.\
 All of these images are unique and cannot be found online.
 
