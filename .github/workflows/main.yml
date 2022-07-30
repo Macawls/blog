@@ -2,6 +2,8 @@ name: github pages CI
 on:
   push:
     branches: [ based ]
+    paths-ignore:
+      - '**/README.md'
 
 jobs:
   deploy:
@@ -14,26 +16,21 @@ jobs:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-    # Step 2 - Sets up the latest version of Hugo
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
           hugo-version: 'latest'
+          extended: true
 
-    # Step 3 - Clean and don't fail
     - name: Clean public directory
       run: rm -rf public
 
-    # Step 4 - Builds the site using the latest version of Hugo
-    # Also specifies the theme we want to use
     - name: Build
       run: hugo --theme=hugo-theme-stack
 
-    # Step 5 - Create name file
     - name: Create cname file
       run: echo 'macawls.dev' > public/CNAME
 
-    # Step 6 - Push our generated site to our gh-pages branch
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
