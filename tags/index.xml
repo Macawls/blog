@@ -6,7 +6,15 @@
         <description>Recent content in Tags on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 30 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>personal</title>
+        <link>https://macawls.dev/blog/tags/personal/</link>
+        <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/tags/personal/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>rant</title>
         <link>https://macawls.dev/blog/tags/rant/</link>
         <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
@@ -20,14 +28,6 @@
         <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.dev/blog/tags/unity/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>personal</title>
-        <link>https://macawls.dev/blog/tags/personal/</link>
-        <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.dev/blog/tags/personal/</guid>
         <description></description>
         </item>
         <item>

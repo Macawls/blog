@@ -6,7 +6,179 @@
         <description>Recent content in personal on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/tags/personal/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 30 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/tags/personal/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>DALL·E is kinda fucking crazy</title>
+        <link>https://macawls.dev/blog/post/dalle-is-kinda-fucking-crazy/</link>
+        <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/post/dalle-is-kinda-fucking-crazy/</guid>
+        <description>&lt;img src="https://macawls.dev/blog/cocoa.jpg" alt="Featured image of post DALL·E is kinda fucking crazy" /&gt;&lt;h2 id=&#34;can-i-try-it-out&#34;&gt;Can I try it out?&lt;/h2&gt;
+&lt;p&gt;Yes kinda.&lt;br&gt;
+It&amp;rsquo;s far too powerful of a tool to be easily accessible to the masses.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/dalle-is-kinda-fucking-crazy/smol.jpg&#34;
+	width=&#34;125&#34;
+	height=&#34;101&#34;
+	srcset=&#34;https://macawls.dev/blog/blog/post/dalle-is-kinda-fucking-crazy/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/dalle-is-kinda-fucking-crazy/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;297px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;For me, it took &lt;strong&gt;3 months&lt;/strong&gt; of being in the waiting list to get 45 tries.
+For every other subsequent month I get 15 tries. Forking out &lt;strong&gt;$15&lt;/strong&gt; gets me another &lt;strong&gt;115 tries&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-can-it-do&#34;&gt;What can it do?&lt;/h2&gt;
+&lt;p&gt;So pretty much, you supply a text prompt describing the kind of image you want to generate.
+The AI takes care of the rest. It understands the relationship between objects insanely well and can even generate images in a specific artsyle.&lt;/p&gt;
+&lt;p&gt;The results are just absolutely mind-boggling and it&amp;rsquo;ll only improve over-time.&lt;br&gt;
+All of these images are unique and cannot be found online.&lt;/p&gt;
+&lt;h2 id=&#34;my-best-results&#34;&gt;My Best Results&lt;/h2&gt;
+&lt;p&gt;Initially it started out with sub-par results because I wasn&amp;rsquo;t specific enough.&lt;br&gt;
+Over time I learnt how to optimize my prompts.&lt;/p&gt;
+&lt;h3 id=&#34;cat-listening-to-music&#34;&gt;Cat listening to music&lt;/h3&gt;
+&lt;p&gt;Prompt: &lt;em&gt;&amp;ldquo;A cat studying at a desk listing to music through studio monitors in cartoonish kawaii style&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/2Eiiajo.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/YiFQpxT.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/WRyanWW.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;sad-cat-with-hoodie&#34;&gt;Sad Cat with Hoodie&lt;/h3&gt;
+&lt;p&gt;Prompt: &lt;em&gt;&amp;ldquo;A sad looking white cat looking down wearing a black hoodie in a digital art style&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/rr2zlez.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Jtuz6Pm.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Obz0FKR.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;panda-flying&#34;&gt;Panda Flying&lt;/h3&gt;
+&lt;p&gt;Prompt: &lt;em&gt;&amp;ldquo;A flying panda wearing a pink beanie in vector art style&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Xm1hJuk.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/y9B7CUC.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;capybara-driving&#34;&gt;Capybara Driving&lt;/h3&gt;
+&lt;p&gt;Prompt: &lt;em&gt;&amp;ldquo;A capybara driving a luxury sports car in at sunset vapourwave aesthetic&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/XLf9xGg.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/z9WCVt7.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;laptop-dancing-in-a-disco&#34;&gt;Laptop Dancing in a Disco&lt;/h3&gt;
+&lt;p&gt;Prompt: &lt;em&gt;&amp;ldquo;a biped laptop dancing in a disco in pop art style&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/uw5zPwP.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/T2c2Yz6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/6iiJlHK.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;dog-in-space&#34;&gt;Dog in Space&lt;/h3&gt;
+&lt;p&gt;Prompt: &lt;em&gt;&amp;ldquo;retro art deco of a dog flying in space&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/FTLiNhs.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/durShwt.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/IBtwfpa.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Bangers 🎵 | Part 3</title>
         <link>https://macawls.dev/blog/post/bangers-part-3/</link>
         <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
