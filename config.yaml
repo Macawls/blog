@@ -222,13 +222,6 @@ menu:
           params:
             icon: brand-youtube
 
-        - identifier: instagram
-          name: Instagram
-          url: https://www.instagram.com/jmacawls/
-          weight: 2
-          params:
-            icon: brand-instagram
-
         - identifier: soundcloud
           name: Soundcloud
           url: https://soundcloud.com/user-226762181
