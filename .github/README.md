@@ -10,3 +10,22 @@ Random things. Really anything I feel like writing about.
 
 ## Theme used: 
 [Hugo-Theme-Stack](https://github.com/CaiJimmy/hugo-theme-stack)
+
+
+<hr/>
+<br/>
+
+## Trying it yourself
+
+Clone the repo with the theme
+```
+$ git clone --recursive https://github.com/Macawls/blog.git
+```
+
+[Install Hugo (extended version)](https://gohugo.io/getting-started/installing/) 👍
+
+
+Start the server in the project directory
+```
+$ hugo server
+```
