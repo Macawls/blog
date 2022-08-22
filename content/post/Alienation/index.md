@@ -50,7 +50,7 @@ So, I feel like I can never just be honest and be myself. Obviously I do not wan
 ## Life Goals
 I respect very few of my peers. The only people I **respect**, are people that are driven and constantly working on extra things, which in my university(rich kids) is incredibly rare to be honest. Doesn't matter what it is, could be work, could be health, could be hobbies, as long as its **something** they're pushing towards and improving upon. 
 
-I feel like its slowly killing me from the inside. Everyone else seems so... relaxed. Like there's just no care in the world. Why can't I feel like that? Why am I constantly pushing and pushing and pushing? I feel like I can't relate to anyone anymore. Perhaps I feel like this because I've been isolating for so long. I feel like there's just.... something deep down.
+I feel like its slowly killing me from the inside. Everyone else seems so... relaxed. Like there's just no care in the world. I put so much pressure on myself to the point where it's detrimental. I feel like I can't relate to anyone anymore. Perhaps I feel like this because I've been isolating for so long. I feel like there's just.... something deep down.
 
 ## Clarifications
 I wanna emphasize that I don't think I'm "above" others in any way. I'm not self-absorbed or yearning for social acceptance. I just, suddenly feel a massive disconnect.
