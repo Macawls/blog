@@ -1,7 +1,7 @@
 name: github pages CI
 on:
   push:
-    branches: [ based ]
+    branches: [ aight ]
     paths-ignore:
       - '**/README.md'
 
