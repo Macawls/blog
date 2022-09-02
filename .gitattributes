@@ -1,0 +1,37 @@
+# Audio
+*.aif                binary
+*.aiff               binary
+*.it                 binary
+*.mod                binary
+*.mp3                binary
+*.ogg                binary
+*.s3m                binary
+*.wav                binary
+*.xm                 binary
+
+# Video
+*.asf                binary
+*.avi                binary
+*.flv                binary
+*.mov                binary
+*.mp4                binary
+*.mpeg               binary
+*.mpg                binary
+*.ogv                binary
+*.wmv                binary
+
+# Images
+*.bmp                binary
+*.exr                binary
+*.gif                binary
+*.hdr                binary
+*.iff                binary
+*.jpeg               binary
+*.jpg                binary
+*.pict               binary
+*.png                binary
+*.psd                binary
+*.tga                binary
+*.tif                binary
+*.tiff               binary
+*.webp               binary
