@@ -228,6 +228,13 @@ menu:
           weight: 4
           params:
             icon: brand-soundcloud
+
+        - identifier: spotify
+          name: Spotify
+          url: https://open.spotify.com/user/31o7peloe4i6yfnxmmdwrydcgo34
+          weight: 5
+          params:
+            icon: brand-spotify
         
 
 
