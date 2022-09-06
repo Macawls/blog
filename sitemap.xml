@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://macawls.dev/blog/categories/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/tags/development/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/post/introducing-apu-bot/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/post/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/categories/programming/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.dev/blog/tags/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://macawls.dev/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://macawls.dev/blog/categories/</loc>
-    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://macawls.dev/blog/categories/fluff/</loc>
-    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/</loc>
-    <lastmod>2022-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/post/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/categories/shitpost/</loc>
     <lastmod>2022-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/tags/personal/</loc>
-    <lastmod>2022-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/tags/</loc>
     <lastmod>2022-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/post/the-best-birfday-eva/</loc>
@@ -33,9 +42,6 @@
     <lastmod>2022-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/post/its-the-small-things.../</loc>
-    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/categories/programming/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/tags/rant/</loc>
@@ -55,9 +61,6 @@
   </url><url>
     <loc>https://macawls.dev/blog/tags/mindset/</loc>
     <lastmod>2022-07-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.dev/blog/tags/development/</loc>
-    <lastmod>2022-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.dev/blog/post/endless-runner-continued/</loc>
     <lastmod>2022-06-17T00:00:00+00:00</lastmod>
