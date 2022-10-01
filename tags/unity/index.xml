@@ -391,15 +391,8 @@ On the one hand, its really easy to grab anything you want like this because its
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;So how it works is, I have an EventsManager singleton. When I invoke an event by saying,&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    Events.Manager.Instance.PlayerDeath()
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Methods in other classes that are assigned to that event, will run. Which just decouples everything. Its soo gooood. Really glad I have a basic understanding of it now.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-chsarp&#34; data-lang=&#34;chsarp&#34;&gt;    Events.Manager.Instance.PlayerDeath()
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Methods in other classes that are assigned to that event, will run. Which just decouples everything. Its soo gooood. Really glad I have a basic understanding of it now.&lt;/p&gt;
 &lt;h3 id=&#34;thoughts-on-unity&#34;&gt;Thoughts on Unity&lt;/h3&gt;
 &lt;p&gt;Unity makes getting a game done fairly easy because there&amp;rsquo;s a plethora of resources online.
 Although, there&amp;rsquo;s a big difference between being in tutorial hell and actually understanding how to design and make a game, especially a &lt;strong&gt;good&lt;/strong&gt; one.&lt;/p&gt;
