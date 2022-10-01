@@ -2,7 +2,7 @@
 author = "Josh"
 title = "Introducing, Apu Bot!"
 date = "2022-09-06"
-description = "Post under construction 🛠🚧. Please wait until further notice."
+description = "🛠🚧"
 toc = true
 tags = [
     "development"
@@ -14,8 +14,14 @@ image = "https://i.imgur.com/8SuuiNP.png"
 +++
 <!--more-->
 
-<center><img src= https://c.tenor.com/bHGUqVIKzhoAAAAC/let-me-in-eric-andre.gif></center>
-
+<center>
+Post under construction 🛠🚧.
+Please wait until further notice.
+<br>
+</center>
+<center>
+<img src= https://c.tenor.com/bHGUqVIKzhoAAAAC/let-me-in-eric-andre.gif>
+</center>
 ***
 
 

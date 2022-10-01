@@ -261,7 +261,7 @@ markup:
     highlight:
         noClasses: false
         codeFences: true
-        guessSyntax: true
+        guessSyntax: false
         lineNoStart: 1
         lineNos: true
         lineNumbersInTable: true
