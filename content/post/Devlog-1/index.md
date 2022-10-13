@@ -17,7 +17,6 @@ image = "https://i.imgur.com/gH6DeZQ.png"
 ## Intro
 
 I've came a long way from this [absolute dumpster fire of a project](https://macawls.dev/blog/post/my-first-unity-project/) from 5 months ago. I've improved so much it's ridiculous. Looking at the code I wrote back then is so embarassing. But I wanna keep it there for growth refference.
-<br>I've got alot more knowledge and experience now and I can barely stomach looking at any of my old code.
 
 <center>
 <img src="https://i.imgur.com/y4DHR9O.png">
