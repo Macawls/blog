@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Cool ass game!, epic 💯'><title>Racing Game Devlog -1</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Cool ass game!, epic 💯'><title>Racing Game Devlog, Episode 1</title>
 
-<link rel='canonical' href='https://macawls.dev/blog/post/racing-game-devlog-1/'>
+<link rel='canonical' href='https://macawls.dev/blog/post/racing-game-devlog-episode-1/'>
 
-<link rel="stylesheet" href="/blog/scss/style.min.f52514ef14db50cc6d4863c388512f6ca946575d2ce1a856a561e17832dae60e.css"><meta property='og:title' content='Racing Game Devlog -1'>
+<link rel="stylesheet" href="/blog/scss/style.min.f52514ef14db50cc6d4863c388512f6ca946575d2ce1a856a561e17832dae60e.css"><meta property='og:title' content='Racing Game Devlog, Episode 1'>
 <meta property='og:description' content='Cool ass game!, epic 💯'>
-<meta property='og:url' content='https://macawls.dev/blog/post/racing-game-devlog-1/'>
+<meta property='og:url' content='https://macawls.dev/blog/post/racing-game-devlog-episode-1/'>
 <meta property='og:site_name' content='Macawls&#39; Blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='development' /><meta property='article:published_time' content='2022-10-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-10-01T00:00:00&#43;00:00'/><meta property='og:image' content='https://i.imgur.com/gH6DeZQ.png' />
-<meta name="twitter:title" content="Racing Game Devlog -1">
+<meta name="twitter:title" content="Racing Game Devlog, Episode 1">
 <meta name="twitter:description" content="Cool ass game!, epic 💯"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://i.imgur.com/gH6DeZQ.png' />
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/Macawls/home/main/docs/favicon.ico" />
@@ -264,9 +264,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/blog/post/racing-game-devlog-1/">
+            <a href="/blog/post/racing-game-devlog-episode-1/">
                 
-                    <img src="https://i.imgur.com/gH6DeZQ.png" loading="lazy" alt="Featured image of post Racing Game Devlog -1" />
+                    <img src="https://i.imgur.com/gH6DeZQ.png" loading="lazy" alt="Featured image of post Racing Game Devlog, Episode 1" />
                 
             </a>
         </div>
@@ -285,7 +285,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/blog/post/racing-game-devlog-1/">Racing Game Devlog -1</a>
+            <a href="/blog/post/racing-game-devlog-episode-1/">Racing Game Devlog, Episode 1</a>
         </h2>
     
         
@@ -419,12 +419,14 @@ It&rsquo;s quite long so I recommend navigating to different sections using the 
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">CustomLinkedList</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;(</span><span class="k">new</span><span class="p">[]</span> <span class="p">{</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">6</span><span class="p">});</span>
-</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">oddNumbers</span> <span class="p">=</span> <span class="n">list</span><span class="p">.</span><span class="n">SelectMany</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="n">e</span> <span class="p">=&gt;</span> <span class="n">e</span> <span class="p">%</span> <span class="m">2</span> <span class="p">!=</span> <span class="m">0</span><span class="p">);</span> <span class="c1">// get odd numbers from the list</span>
-</span></span><span class="line"><span class="cl"><span class="n">numbers</span><span class="p">.</span><span class="n">ForEach</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">))</span> <span class="c1">// action for every element</span>
+</span></span><span class="line"><span class="cl"><span class="c1">// get odd numbers from the linked list</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">oddNumbers</span> <span class="p">=</span> <span class="n">list</span><span class="p">.</span><span class="n">SelectMany</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">e</span> <span class="p">%</span> <span class="m">2</span> <span class="p">!=</span> <span class="m">0</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl"><span class="c1">// action for every element</span>
+</span></span><span class="line"><span class="cl"><span class="n">oddNumbers</span><span class="p">.</span><span class="n">ForEach</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">))</span> <span class="c1">// 1, 3, 5</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Obviously Linq already does this sorta thing but I always thought it was magic until I implemented it.</p>
@@ -437,10 +439,10 @@ I just used a linked list under the hood to make my life easier.</p>
 <p>Awwww snapp this one is my favourite. Its soo friggin cool 🤓, also lowkey the cheatcode to every leetcode problem. 
 <br> I love this <a class="link" href="https://youtu.be/FhNJ6aikTVI"  target="_blank" rel="noopener"
     >dude</a>, he explained it so well.</p>
-<p><img src="/blog/post/racing-game-devlog-1/smol.jpg"
+<p><img src="/blog/post/racing-game-devlog-episode-1/smol.jpg"
 	width="125"
 	height="101"
-	srcset="/blog/post/racing-game-devlog-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, /blog/post/racing-game-devlog-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w"
+	srcset="/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, /blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w"
 	loading="lazy"
 	
 	
@@ -540,7 +542,7 @@ None of them care about persistent data, they sort of act like static helpers.</
 </div><p>So here&rsquo;s the problem, these services are prefabs because I need them to act like a gameobject. For example the audio service has a bunch of audio sources as children, the dialogue has its own UI and the scene loader has its own UI.</p>
 <p>So what I did was, I <strong>inject</strong> all of them into any scene in the project when im playtesting in the editor and they get put under <a class="link" href="https://docs.unity3d.com/ScriptReference/Object.DontDestroyOnLoad.html"  target="_blank" rel="noopener"
     >DontDestroyOnLoad</a>.</p>
-<p>In the actual build, they all get dumped into the &lsquo;preload&rsquo; scene.</p>
+<p>In the actual build, they all get dumped into a preload scene.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -573,6 +575,11 @@ None of them care about persistent data, they sort of act like static helpers.</
 </span><span class="lnt">28
 </span><span class="lnt">29
 </span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">Bootstrapper</span>
@@ -584,39 +591,35 @@ None of them care about persistent data, they sort of act like static helpers.</
 </span></span><span class="line"><span class="cl">            <span class="n">ServiceLocator</span><span class="p">.</span><span class="n">Initialize</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">            <span class="n">GameSystems</span> <span class="p">=</span> <span class="n">Resources</span><span class="p">.</span><span class="n">LoadAll</span><span class="p">&lt;</span><span class="n">GameSystems</span><span class="p">&gt;(</span><span class="s">&#34;&#34;</span><span class="p">).</span><span class="n">First</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        <span class="c1">// editor and build</span>
-</span></span><span class="line"><span class="cl"><span class="na">        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]</span>
-</span></span><span class="line"><span class="cl">        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">SetupPreloadScene</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="kt">var</span> <span class="n">activeScene</span> <span class="p">=</span> <span class="n">SceneManager</span><span class="p">.</span><span class="n">GetActiveScene</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(!</span><span class="n">activeScene</span><span class="p">.</span><span class="n">IsEmpty</span><span class="p">()</span> <span class="p">&amp;&amp;</span> <span class="n">activeScene</span><span class="p">.</span><span class="n">buildIndex</span> <span class="p">!=</span> <span class="m">0</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">             <span class="n">SpawnPersistentSystems</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">            <span class="n">SceneManager</span><span class="p">.</span><span class="n">LoadScene</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="c1">// testing scenes in editor</span>
-</span></span><span class="line"><span class="cl">    <span class="cp">#if UNITY_EDITOR</span>
-</span></span><span class="line"><span class="cl"><span class="na">        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]</span>
+</span></span><span class="line"><span class="cl"><span class="na">        
+</span></span></span><span class="line"><span class="cl"><span class="na">        
+</span></span></span><span class="line"><span class="cl"><span class="na">        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]</span>
 </span></span><span class="line"><span class="cl">        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">Bootstrap</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">SceneManager</span><span class="p">.</span><span class="n">GetActiveScene</span><span class="p">().</span><span class="n">buildIndex</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">            <span class="n">SpawnPersistentSystems</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="err">#</span><span class="n">endif</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">SpawnPersistentSystems</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">var</span> <span class="n">list</span> <span class="p">=</span> <span class="n">GameSystems</span><span class="p">.</span><span class="n">prefabs</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">list</span><span class="p">.</span><span class="n">IsEmpty</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Debug</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="s">$&#34;No game systems present&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">            <span class="kt">var</span> <span class="n">parent</span> <span class="p">=</span> <span class="k">new</span> <span class="n">GameObject</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">name</span> <span class="p">=</span> <span class="s">&#34;[GameSystems]&#34;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="n">list</span><span class="p">.</span><span class="n">ForEach</span><span class="p">(</span><span class="n">e</span> <span class="p">=&gt;</span> <span class="n">Object</span><span class="p">.</span><span class="n">Instantiate</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">parent</span><span class="p">.</span><span class="n">transform</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl">            <span class="n">Object</span><span class="p">.</span><span class="n">DontDestroyOnLoad</span><span class="p">(</span><span class="n">parent</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Aigh&rsquo;t that&rsquo;s all I wanna share for now :D 
-I made a small vid showcasing some stuff in the game.</p>
-<div class="video-wrapper">
-    <iframe loading="lazy" 
-            src="https://www.youtube.com/embed/nt57a8SnFmk" 
-            allowfullscreen 
-            title="YouTube Video"
-    >
-    </iframe>
-</div>
+</div><p>Aigh&rsquo;t that&rsquo;s all I wanna share for now :D</p>
 </section>
 
 
@@ -655,6 +658,24 @@ I made a small vid showcasing some stuff in the game.</p>
     <h2 class="section-title">Related contents</h2>
     <div class="related-contents">
         <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/blog/post/racing-game-devlog-episode-2/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://i.imgur.com/rfZF3ra.png" loading="lazy" data-key="" data-hash="https://i.imgur.com/rfZF3ra.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Racing Game Devlog, Episode 2</h2>
+        </div>
+    </a>
+</article>
             
                 
 <article class="has-image">
