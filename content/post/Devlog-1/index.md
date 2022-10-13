@@ -1,6 +1,6 @@
 +++
 author = "Josh"
-title = "Racing Game Devlog -1"
+title = "Racing Game Devlog, Episode 1"
 date = "2022-10-01"
 description = "Cool ass game!, epic 💯"
 toc = true
@@ -74,9 +74,10 @@ public CustomLinkedList<T>SelectMany(Func<T, bool> func)
 
 ```csharp
 var numbers = new CustomLinkedList<int>(new[] {1, 2, 3, 4, 5, 6});
-var oddNumbers = list.SelectMany(
-    e => e % 2 != 0); // get odd numbers from the list
-numbers.ForEach(e => print(e)) // action for every element
+// get odd numbers from the linked list
+var oddNumbers = list.SelectMany(e => e % 2 != 0); 
+// action for every element
+oddNumbers.ForEach(e => print(e)) // 1, 3, 5
 ```
 
 Obviously Linq already does this sorta thing but I always thought it was magic until I implemented it. 
@@ -152,7 +153,7 @@ So here's the problem, these services are prefabs because I need them to act lik
 
 So what I did was, I **inject** all of them into any scene in the project when im playtesting in the editor and they get put under [DontDestroyOnLoad](https://docs.unity3d.com/ScriptReference/Object.DontDestroyOnLoad.html).
 
-In the actual build, they all get dumped into the 'preload' scene.
+In the actual build, they all get dumped into a preload scene.
 
 ```csharp
     public static class Bootstrapper
@@ -164,30 +165,31 @@ In the actual build, they all get dumped into the 'preload' scene.
             ServiceLocator.Initialize();
             GameSystems = Resources.LoadAll<GameSystems>("").First();
         }
-
-        // editor and build
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
-        private static void SetupPreloadScene()
-        {
-            var activeScene = SceneManager.GetActiveScene();
-            if (!activeScene.IsEmpty() && activeScene.buildIndex != 0) return;
-             SpawnPersistentSystems();
-            SceneManager.LoadScene(1);
-        }
         
-        // testing scenes in editor
-    #if UNITY_EDITOR
+        
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         private static void Bootstrap()
         {
-            if (SceneManager.GetActiveScene().buildIndex == 0) return;
             SpawnPersistentSystems();
         }
-    #endif
+        
+        private static void SpawnPersistentSystems()
+        {
+            var list = GameSystems.prefabs;
+            
+            if (list.IsEmpty())
+            {
+                Debug.Log($"No game systems present");
+                return;
+            }
+            
+            var parent = new GameObject {
+                name = "[GameSystems]"
+            };
+
+            list.ForEach(e => Object.Instantiate(e, parent.transform));
+            Object.DontDestroyOnLoad(parent);
+        }
     }
 ```
-Aigh't that's all I wanna share for now :D 
-I made a small vid showcasing some stuff in the game. 
-
-{{< youtube nt57a8SnFmk >}}
-
+Aigh't that's all I wanna share for now :D
