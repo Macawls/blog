@@ -5,7 +5,8 @@ date = "2022-10-01"
 description = "Cool ass game!, epic 💯"
 toc = true
 tags = [
-    "development"
+    "development, 
+    unity"
 ]
 categories = [
     "programming"
