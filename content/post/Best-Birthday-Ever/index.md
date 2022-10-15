@@ -47,8 +47,6 @@ BUT!
 
 Another wonderful close friend of mine was secretly organising a birthday event for me! It was so much fun. We ended up going to a karaoke bar with a bunch of friends. It was such a sweet thing to do and I appreciate it so much.
 
-{{< video src="karaoke.mp4" controls="yes" >}}
-
 
 ## Birthday Video
 
@@ -58,7 +56,7 @@ This video I recieved from one of my friends was incredibly elating. She is one 
 
 So seeing this was just... 
 
-Undoubtedly the best birthday gift I have ever recieved in my **entire life**. No words could fully convey how grateful I am.
+Undoubtedly the best birthday gift I have ever recieved in my **entire life**. No words could fully convey how grateful I am. Obviously I took out most of the super personal stuff and asked permission.
 
 {{< youtube PqvvKxopmn8 >}}
 
