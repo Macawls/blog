@@ -97,8 +97,16 @@ This is problematic. Subsequently, one might derive at a solution that &lt;em&gt
 &lt;/center&gt;
 &lt;p&gt;Quite simply, its asking about an attempted solution for a problem rather than the &lt;strong&gt;actual&lt;/strong&gt; problem. Which leads to both parties (The asker and the mentor) backtracking and misscomunicating.&lt;/p&gt;
 &lt;p&gt;A really general example is someone asking, how many hours do I need to solve X? &lt;strong&gt;How many hours&lt;/strong&gt; in this case, is completely irrelvant and is a Y problem. The actual problem is how X can be solved i.e the solution, regardless of time.&lt;/p&gt;
-&lt;p&gt;As a personal example, I had a friend ask about how they could &lt;strong&gt;essentially&lt;/strong&gt; have a serialized dictionary. It was asked in a convoluted way, whereby their attempted solutions were explained unnecessarily.&lt;/p&gt;
+&lt;p&gt;As a personal example, I was asked how one could &lt;strong&gt;essentially&lt;/strong&gt; have a serialized dictionary. It was asked in a convoluted way, whereby their attempted solutions were explained unnecessarily.&lt;/p&gt;
 &lt;p&gt;By asking some more questions, it became apparent that the root problem was retrieving a component by name. This makes things much easier for the person that was being asked the question by providing more context.&lt;/p&gt;
+&lt;p&gt;One of the worst offenders is sending over an error message and asking how the problem can be fixed. The solution is not how to get rid of the error, it is the error message itself.&lt;/p&gt;
+&lt;p&gt;Maybe not the best analogy but suppose you pour milk into a bowl and realize there&amp;rsquo;s no milk left, the problem is there&amp;rsquo;s no milk left. Therefore the solution is there&amp;rsquo;s no milk left.&lt;/p&gt;
+&lt;p&gt;No milk left = Ask yourself how to get more milk&lt;/p&gt;
+&lt;p&gt;From this, we can try&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Buying milk from the store.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;An example Y problem in this case would be, which store has the cheapest milk? It should be obvious that asking someone which store has the cheapest milk has little or nothing to do with the solution of getting more milk.&lt;/p&gt;
 &lt;p&gt;Finally, &lt;a class=&#34;link&#34; href=&#34;http://www.readthefuckingmanual.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;RTFM or read the fucking manual&lt;/a&gt; is the main motto for many problems. Greatest advice of all time.&lt;/p&gt;</description>
         </item>
