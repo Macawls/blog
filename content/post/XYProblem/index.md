@@ -75,9 +75,20 @@ Quite simply, its asking about an attempted solution for a problem rather than t
 
 A really general example is someone asking, how many hours do I need to solve X? **How many hours** in this case, is completely irrelvant and is a Y problem. The actual problem is how X can be solved i.e the solution, regardless of time.
 
-As a personal example, I had a friend ask about how they could **essentially** have a serialized dictionary. It was asked in a convoluted way, whereby their attempted solutions were explained unnecessarily.
+As a personal example, I was asked how one could **essentially** have a serialized dictionary. It was asked in a convoluted way, whereby their attempted solutions were explained unnecessarily.
 
 By asking some more questions, it became apparent that the root problem was retrieving a component by name. This makes things much easier for the person that was being asked the question by providing more context.
+
+One of the worst offenders is sending over an error message and asking how the problem can be fixed. The solution is not how to get rid of the error, it is the error message itself. 
+
+Maybe not the best analogy but suppose you pour milk into a bowl and realize there's no milk left, the problem is there's no milk left. Therefore the solution is there's no milk left. 
+
+No milk left = Ask yourself how to get more milk
+
+From this, we can try
+- Buying milk from the store.
+
+An example Y problem in this case would be, which store has the cheapest milk? It should be obvious that asking someone which store has the cheapest milk has little or nothing to do with the solution of getting more milk.
 
 Finally, [RTFM or read the fucking manual](http://www.readthefuckingmanual.com/) is the main motto for many problems. Greatest advice of all time. 
 
