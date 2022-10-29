@@ -5,8 +5,7 @@ date = "2022-10-28"
 description = "🧠⚡"
 toc = true
 tags = [
-    "development",
-    "unity"
+    "development"
 ]
 categories = [
     "guide"
