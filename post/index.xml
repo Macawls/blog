@@ -6,7 +6,68 @@
         <description>Recent content in Posts on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 13 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The XY Problem</title>
+        <link>https://macawls.dev/blog/post/the-xy-problem/</link>
+        <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/post/the-xy-problem/</guid>
+        <description>&lt;img src="https://i.imgur.com/aXu6r95.png" alt="Featured image of post The XY Problem" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;The motivation behind this post stemmed from recent experiences. I started helping out some peeps alot more these days and found that certain patterns started to repeat itself.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;the-process&#34;&gt;The Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;You understand the problem&lt;/li&gt;
+&lt;li&gt;Iterate over possible solutions.&lt;/li&gt;
+&lt;li&gt;Decide which solution is most optimal.&lt;/li&gt;
+&lt;li&gt;Execute.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This first step; &lt;strong&gt;Understanding&lt;/strong&gt; is paramount. This is becuase in order to arrive at a complete solution, the problem must be completely understood. Not considering communication skills, a good understanding of the problem directly correlates to how well it can be effectively communicated.&lt;/p&gt;
+&lt;p&gt;I noticed that a common pattern is to only understand a problem at a &lt;strong&gt;high level&lt;/strong&gt;.
+This is highly problematic. Subsequently, one might derive at a solution that &lt;em&gt;supposedly&lt;/em&gt; should suffice which would be more prone to adopting inefficient or incorrect solutions.&lt;/p&gt;
+&lt;p&gt;After its fully understood, it should be divided into smaller, digestable chunks if possible. Finally, each chunk should be solved by priority. This is a pretty effective way to tackle an issue in my humble opinion.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/klhHGBA.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;what-is-the-xy-problem&#34;&gt;What is the XY Problem?&lt;/h2&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://xyproblem.info/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SOURCE&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;Quite simply, its asking about an attempted solution for a problem rather than the &lt;strong&gt;actual&lt;/strong&gt; problem. Which leads to both parties (The asker and the mentor) backtracking and misscomunicating.&lt;/p&gt;
+&lt;p&gt;A really general example is someone asking, how many hours do I need to solve X? &lt;strong&gt;How many hours&lt;/strong&gt; in this case, is completely irrelvant and is a Y problem. The actual solution to how X can be acommplished, regardless of time is the root X problem.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/5bivKwxhVzshNk2Rjw/giphy.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;As a personal example, I had someone ask about how they could essentially have a serialized dictionary in a convulted way, whereby their attempted solutions were explained unnecessarily.
+By asking some more questions, it became apparent that the root problem was retrieving a component by name. This makes things much easier for the person that was being asked the question by providing more context.&lt;/p&gt;
+&lt;p&gt;Finally, &lt;a class=&#34;link&#34; href=&#34;http://www.readthefuckingmanual.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RTFM or read the fucking manual&lt;/a&gt; is the main motto for many problems. Shit is the greatest advice of all time.&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Racing Game Devlog, Episode 2</title>
         <link>https://macawls.dev/blog/post/racing-game-devlog-episode-2/</link>
         <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
@@ -46,7 +107,7 @@
 &lt;h2 id=&#34;to-improve&#34;&gt;To Improve&lt;/h2&gt;
 &lt;p&gt;Definately code cleanliness and robustness.
 It happens every single project. Start off, insanely clean, then it gets messier and messier and messier towards the end.&lt;/p&gt;
-&lt;p&gt;Overall I feel like it&amp;rsquo;s alright for now but eish. 
+&lt;p&gt;Overall I feel like it&amp;rsquo;s alright for now but eish.
 One day I wanna write an entire codebase (not just a single snippet) that is just like mwah, y&amp;rsquo;know. You look at it and just think wow, this is beautiful.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme.png&#34;
 	width=&#34;320&#34;
@@ -169,12 +230,12 @@ It&amp;rsquo;s quite long so I recommend navigating to different sections using 
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Obviously Linq already does this sorta thing but I always thought it was magic until I implemented it.&lt;/p&gt;
 &lt;h3 id=&#34;stack-and-queue&#34;&gt;Stack and queue&lt;/h3&gt;
-&lt;p&gt;Honestly nothing interesting here. It was all pretty basic. 
+&lt;p&gt;Honestly nothing interesting here. It was all pretty basic.
 I just used a linked list under the hood to make my life easier.&lt;/p&gt;
 &lt;h3 id=&#34;hashmapdictionary&#34;&gt;Hashmap/Dictionary&lt;/h3&gt;
 &lt;p&gt;Full Source: &lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/Macawls/1f561aaca221f3868967e43a9125e660&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;gist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Awwww snapp this one is my favourite. Its soo friggin cool 🤓, also lowkey the cheatcode to every leetcode problem. 
+&lt;p&gt;Awwww snapp this one is my favourite. Its soo friggin cool 🤓, also lowkey the cheatcode to every leetcode problem.
 &lt;br&gt; I love this &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/FhNJ6aikTVI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;dude&lt;/a&gt;, he explained it so well.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol.jpg&#34;
@@ -231,7 +292,7 @@ For resolving collisions I&amp;rsquo;m using &lt;a class=&#34;link&#34; href=&#3
 &lt;p&gt;Alright so I got tired of the singleton nonsense. Gave me so many issues all the damn time.
 I&amp;rsquo;m still lowkey using it, but in a different way using the &lt;a class=&#34;link&#34; href=&#34;https://www.geeksforgeeks.org/service-locator-pattern/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;service locator&lt;/a&gt; pattern.&lt;/p&gt;
-&lt;p&gt;So pretty much, I have these prefabs in the game which act as &lt;em&gt;services&lt;/em&gt;. 
+&lt;p&gt;So pretty much, I have these prefabs in the game which act as &lt;em&gt;services&lt;/em&gt;.
 None of them care about persistent data, they sort of act like static helpers.&lt;/p&gt;
 &lt;p&gt;So I have:&lt;/p&gt;
 &lt;ul&gt;
@@ -768,8 +829,8 @@ Can&amp;rsquo;t wait till his new album 2000 drops in a couple days.&lt;/p&gt;
         
         <guid>https://macawls.dev/blog/post/alienation/</guid>
         <description>&lt;img src="https://i.imgur.com/v1OKSxN.jpg" alt="Featured image of post Alienation" /&gt;&lt;h2 id=&#34;intro---context&#34;&gt;Intro - Context&lt;/h2&gt;
-&lt;p&gt;I have an insane amount of freedom and agency these days. 
-I go to campus/classes whenever I like. 
+&lt;p&gt;I have an insane amount of freedom and agency these days.
+I go to campus/classes whenever I like.
 My parents pretty much allow me to do &lt;strong&gt;anything I want&lt;/strong&gt; because they trust me, I&amp;rsquo;m responsible and I don&amp;rsquo;t do dumb shit.
 With my car(absolutely blessed), I can literally go wherever I want or need. Whats weird is that, I&amp;rsquo;ve been going out less often than before.
 Something has me feeling off recently&amp;hellip;&lt;/p&gt;
@@ -780,7 +841,7 @@ At the same time, I&amp;rsquo;ve been excelling in my aspirations and school wor
 &lt;p&gt;On the one hand, thats great right? On the other hand, I don&amp;rsquo;t have the close relationships I had last year.&lt;/p&gt;
 &lt;p&gt;So, when I do accomplish something I&amp;rsquo;m really proud of, its kinda important for me to recieve some kind of feedback or just idk, something yknow? I feel like the more I progress the more people seem to leave.&lt;/p&gt;
 &lt;h2 id=&#34;activities&#34;&gt;Activities&lt;/h2&gt;
-&lt;p&gt;I go out fairly often and it&amp;rsquo;s not like I don&amp;rsquo;t have friends around. But when I do, whether its going out clubbing or chilling at a friends place, I go because I feel like its important to be &lt;strong&gt;included&lt;/strong&gt;. 
+&lt;p&gt;I go out fairly often and it&amp;rsquo;s not like I don&amp;rsquo;t have friends around. But when I do, whether its going out clubbing or chilling at a friends place, I go because I feel like its important to be &lt;strong&gt;included&lt;/strong&gt;.
 I know that I won&amp;rsquo;t be studying forever so I have this fear deep down that I&amp;rsquo;ll miss out on social experiences.
 I don&amp;rsquo;t enjoy hanging out as much as I used to anymore.&lt;/p&gt;
 &lt;p&gt;I literally do not care about anyone, which is such a shitty thing to say, but I genuinely feel like this.&lt;br&gt;
@@ -927,7 +988,7 @@ To be honest the code in there is embarrassing, but I guess that&amp;rsquo;s the
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;ending-off&#34;&gt;Ending Off&lt;/h3&gt;
-&lt;p&gt;This project was pretty fun so far. 
+&lt;p&gt;This project was pretty fun so far.
 One major problem I have is scalability and really understanding OOP concepts and I&amp;rsquo;m definately looking to improve on that. Overall, I&amp;rsquo;m really happy with the progress.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/SuMzi1Q.png&#34;
 	

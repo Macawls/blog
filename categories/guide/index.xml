@@ -6,7 +6,68 @@
         <description>Recent content in Guide on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 14 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/guide/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/guide/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>The XY Problem</title>
+        <link>https://macawls.dev/blog/post/the-xy-problem/</link>
+        <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/post/the-xy-problem/</guid>
+        <description>&lt;img src="https://i.imgur.com/aXu6r95.png" alt="Featured image of post The XY Problem" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;The motivation behind this post stemmed from recent experiences. I started helping out some peeps alot more these days and found that certain patterns started to repeat itself.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/dbtDDSvWErdf2/giphy.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;the-process&#34;&gt;The Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;You understand the problem&lt;/li&gt;
+&lt;li&gt;Iterate over possible solutions.&lt;/li&gt;
+&lt;li&gt;Decide which solution is most optimal.&lt;/li&gt;
+&lt;li&gt;Execute.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This first step; &lt;strong&gt;Understanding&lt;/strong&gt; is paramount. This is becuase in order to arrive at a complete solution, the problem must be completely understood. Not considering communication skills, a good understanding of the problem directly correlates to how well it can be effectively communicated.&lt;/p&gt;
+&lt;p&gt;I noticed that a common pattern is to only understand a problem at a &lt;strong&gt;high level&lt;/strong&gt;.
+This is highly problematic. Subsequently, one might derive at a solution that &lt;em&gt;supposedly&lt;/em&gt; should suffice which would be more prone to adopting inefficient or incorrect solutions.&lt;/p&gt;
+&lt;p&gt;After its fully understood, it should be divided into smaller, digestable chunks if possible. Finally, each chunk should be solved by priority. This is a pretty effective way to tackle an issue in my humble opinion.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/klhHGBA.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;what-is-the-xy-problem&#34;&gt;What is the XY Problem?&lt;/h2&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://xyproblem.info/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SOURCE&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;Quite simply, its asking about an attempted solution for a problem rather than the &lt;strong&gt;actual&lt;/strong&gt; problem. Which leads to both parties (The asker and the mentor) backtracking and misscomunicating.&lt;/p&gt;
+&lt;p&gt;A really general example is someone asking, how many hours do I need to solve X? &lt;strong&gt;How many hours&lt;/strong&gt; in this case, is completely irrelvant and is a Y problem. The actual solution to how X can be acommplished, regardless of time is the root X problem.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/5bivKwxhVzshNk2Rjw/giphy.gif&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;As a personal example, I had someone ask about how they could essentially have a serialized dictionary in a convulted way, whereby their attempted solutions were explained unnecessarily.
+By asking some more questions, it became apparent that the root problem was retrieving a component by name. This makes things much easier for the person that was being asked the question by providing more context.&lt;/p&gt;
+&lt;p&gt;Finally, &lt;a class=&#34;link&#34; href=&#34;http://www.readthefuckingmanual.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RTFM or read the fucking manual&lt;/a&gt; is the main motto for many problems. Shit is the greatest advice of all time.&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>My New Blog Workflow ^~^</title>
         <link>https://macawls.dev/blog/post/my-new-blog-workflow-~/</link>
         <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>

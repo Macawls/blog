@@ -46,7 +46,7 @@
 &lt;h2 id=&#34;to-improve&#34;&gt;To Improve&lt;/h2&gt;
 &lt;p&gt;Definately code cleanliness and robustness.
 It happens every single project. Start off, insanely clean, then it gets messier and messier and messier towards the end.&lt;/p&gt;
-&lt;p&gt;Overall I feel like it&amp;rsquo;s alright for now but eish. 
+&lt;p&gt;Overall I feel like it&amp;rsquo;s alright for now but eish.
 One day I wanna write an entire codebase (not just a single snippet) that is just like mwah, y&amp;rsquo;know. You look at it and just think wow, this is beautiful.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme.png&#34;
 	width=&#34;320&#34;
@@ -169,12 +169,12 @@ It&amp;rsquo;s quite long so I recommend navigating to different sections using 
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Obviously Linq already does this sorta thing but I always thought it was magic until I implemented it.&lt;/p&gt;
 &lt;h3 id=&#34;stack-and-queue&#34;&gt;Stack and queue&lt;/h3&gt;
-&lt;p&gt;Honestly nothing interesting here. It was all pretty basic. 
+&lt;p&gt;Honestly nothing interesting here. It was all pretty basic.
 I just used a linked list under the hood to make my life easier.&lt;/p&gt;
 &lt;h3 id=&#34;hashmapdictionary&#34;&gt;Hashmap/Dictionary&lt;/h3&gt;
 &lt;p&gt;Full Source: &lt;a class=&#34;link&#34; href=&#34;https://gist.github.com/Macawls/1f561aaca221f3868967e43a9125e660&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;gist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Awwww snapp this one is my favourite. Its soo friggin cool 🤓, also lowkey the cheatcode to every leetcode problem. 
+&lt;p&gt;Awwww snapp this one is my favourite. Its soo friggin cool 🤓, also lowkey the cheatcode to every leetcode problem.
 &lt;br&gt; I love this &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/FhNJ6aikTVI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;dude&lt;/a&gt;, he explained it so well.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol.jpg&#34;
@@ -231,7 +231,7 @@ For resolving collisions I&amp;rsquo;m using &lt;a class=&#34;link&#34; href=&#3
 &lt;p&gt;Alright so I got tired of the singleton nonsense. Gave me so many issues all the damn time.
 I&amp;rsquo;m still lowkey using it, but in a different way using the &lt;a class=&#34;link&#34; href=&#34;https://www.geeksforgeeks.org/service-locator-pattern/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;service locator&lt;/a&gt; pattern.&lt;/p&gt;
-&lt;p&gt;So pretty much, I have these prefabs in the game which act as &lt;em&gt;services&lt;/em&gt;. 
+&lt;p&gt;So pretty much, I have these prefabs in the game which act as &lt;em&gt;services&lt;/em&gt;.
 None of them care about persistent data, they sort of act like static helpers.&lt;/p&gt;
 &lt;p&gt;So I have:&lt;/p&gt;
 &lt;ul&gt;
@@ -549,7 +549,7 @@ To be honest the code in there is embarrassing, but I guess that&amp;rsquo;s the
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h3 id=&#34;ending-off&#34;&gt;Ending Off&lt;/h3&gt;
-&lt;p&gt;This project was pretty fun so far. 
+&lt;p&gt;This project was pretty fun so far.
 One major problem I have is scalability and really understanding OOP concepts and I&amp;rsquo;m definately looking to improve on that. Overall, I&amp;rsquo;m really happy with the progress.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://i.imgur.com/SuMzi1Q.png&#34;
 	
