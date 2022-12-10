@@ -6,7 +6,77 @@
         <description>Recent content in Posts on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 07 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Dang, now what?</title>
+        <link>https://macawls.dev/blog/post/dang-now-what/</link>
+        <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/post/dang-now-what/</guid>
+        <description>&lt;img src="https://macawls.dev/blog/post/dang-now-what/tv.jpg" alt="Featured image of post Dang, now what?" /&gt;&lt;p align=&#34;center&#34;&gt;&lt;b&gt;ENDED THE SEMESTER A COUPLE WEEKS AGO 🥳🎉 LESGOOOOO&lt;/b&gt;&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+ &lt;video width=&#34;400&#34;  controls&gt;
+  &lt;source src=&#34;friday-night.mp4&#34; type=&#34;video/mp4&#34;&gt;
+Your browser does not support the video tag.
+&lt;/video&gt; 
+&lt;/p&gt;
+&lt;p&gt;Was really happy with the results. Pure relief man.&lt;/p&gt;
+&lt;p&gt;My dreads are getting hella long now which is dope. I didn&amp;rsquo;t re-twist AND cut them since the start exams and it&amp;rsquo;s been bothering me so much. I just was just a caveman wearing a beanie everyday.&lt;/p&gt;
+&lt;p&gt;I went clubbing before exams and I lost my wallet that night. I drove to campus every single day without a license, no credit card and no ID. Professional dumbass 😎👍.&lt;/p&gt;
+&lt;p&gt;So, I&amp;rsquo;m glad I finally have time now to sort these things out.&lt;/p&gt;
+&lt;p&gt;Being home is kinda boring tho not gonna lie. But I got a couple things to keep me busy.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;tv.jpg&#34; alt=&#34;&#34; width=&#34;250&#34;/&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;what-im-working-on---prototype&#34;&gt;What I&amp;rsquo;m working on - Prototype&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;prototype-vid.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;prototype-vid.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I made a state machine package for unity recently. Its still in development but I wanted to test it out.&lt;/p&gt;
+&lt;p&gt;I really love &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Celeste_%28video_game%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Celeste&lt;/a&gt; , it&amp;rsquo;s one of my favourite games and I really wanna recreate some aspects of it. Something mixed with celestes parkour and some survival/dungeon elements would be cool. The problem is celeste&amp;rsquo;s character controller is like 2k lines alone, so I&amp;rsquo;ve been rewriting it in a modular fashion where I hopefully just pop it into another game.&lt;/p&gt;
+&lt;h2 id=&#34;recent-events-and-stuff&#34;&gt;Recent Events and Stuff&lt;/h2&gt;
+&lt;p&gt;I got my first &lt;a class=&#34;link&#34; href=&#34;https://www.toxyngames.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;internship&lt;/a&gt; which is dope.
+Whats great about it is that it&amp;rsquo;s during the holidays so it won&amp;rsquo;t affect me next year.&lt;/p&gt;
+&lt;p&gt;Also I wen&amp;rsquo;t to this &lt;a class=&#34;link&#34; href=&#34;http://gamesweek.africa/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;game dev/design event&lt;/a&gt; called Africa Games Week recently.
+It was pretty cool. Enjoyed the people more than anything else to be honest. There were talks but I personally didn&amp;rsquo;t find them all that interesting because they weren&amp;rsquo;t technical type talks. More like overview type talks.
+Generally, really enjoyed it.&lt;/p&gt;
+&lt;p&gt;I still can&amp;rsquo;t believe it though dawg, I met &lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/thea_booysen/?hl=en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Thea Booysen&lt;/a&gt; on the first day, of whom is &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/MrBeast&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mr Beast&amp;rsquo;s&lt;/a&gt; current girlfriend.&lt;/p&gt;
+&lt;p&gt;Like bro, wtf what are the odds. Why it was so suprising is because she was incredibly down to earth and so friendly. I was genuinely shocked after I found out later. So far all the &amp;ldquo;celebs&amp;rdquo; I&amp;rsquo;ve met include Jack Parow, Marc Lottering and Riaad Moosa of whom are all local SA celebs.&lt;/p&gt;
+&lt;p&gt;But like, whats different compared to the previous instances was I had no idea of her being &amp;lsquo;famous&amp;rsquo;. I just conversed normally like it was any other person.&lt;/p&gt;
+&lt;p&gt;Epic shit.&lt;/p&gt;
+&lt;h2 id=&#34;what-now&#34;&gt;What now&lt;/h2&gt;
+&lt;p&gt;Idk. I&amp;rsquo;ll work on da prototype and relax in the holidays.
+Cya bros 😸🤜🤛😁.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;video
+    controls
+    src=&#34;cat.mp4&#34;
+    
+    
+    &gt;
+        &lt;p&gt;
+            Your browser doesn&#39;t support HTML5 video. Here is a
+            &lt;a href=&#34;cat.mp4&#34;&gt;link to the video&lt;/a&gt; instead.
+        &lt;/p&gt;
+    &lt;/video&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
         <title>Can relationships be non-transactional?</title>
         <link>https://macawls.dev/blog/post/can-relationships-be-non-transactional/</link>
         <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
