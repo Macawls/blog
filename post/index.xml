@@ -6,7 +6,104 @@
         <description>Recent content in Posts on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Why a Multi-scene workflow in Unity is important</title>
+        <link>https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</link>
+        <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</guid>
+        <description>&lt;img src="https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah.jpg" alt="Featured image of post Why a Multi-scene workflow in Unity is important" /&gt;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+&lt;center&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;https://media.giphy.com/media/igFbuVNCTNQ1V516Ng/giphy.gif&#34; alt=&#34;&#34; width=&#34;500&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.unity3d.com/560/Documentation/Manual/MultiSceneEditing.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unity Docs&lt;/a&gt;
+&lt;br&gt; &lt;a class=&#34;link&#34; href=&#34;http://www.unity-glue.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unity-Glue.com&lt;/a&gt;
+&lt;br&gt; &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/zObWVOv1GlE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Unity Youtube&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s important because it allows designers and developers test and work on and different aspects of the game in isolation.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-multi-scene-workflow&#34;&gt;What is a multi-scene workflow?&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s relatively simple practice that&amp;rsquo;s often overlooked in smaller projects. It simply means there&amp;rsquo;ll be multiple scenes loaded at runtime.&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://docs.unity3d.com/560/Documentation/uploads/Main/MultiSceneEditingHierarchy.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;A multi-scene workflow isn&amp;rsquo;t all that viable for something like prototypes since the principle of &lt;a class=&#34;link&#34; href=&#34;https://nalexn.github.io/separation-of-concerns/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;separation of concerns&lt;/a&gt; doesn&amp;rsquo;t really matter.&lt;/p&gt;
+&lt;p&gt;Where it&amp;rsquo;s value becomes most apparent is when we need to maximize reusability, modularity, performance and most importantly &lt;strong&gt;collaboration&lt;/strong&gt;. Of course it&amp;rsquo;s different on a case by case basis, but I&amp;rsquo;ve found it to be a very useful practice generally.&lt;/p&gt;
+&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s many places data could live. It could be scene dependent (game objects/monobehaviours etc) or scene independent(statics/scripts/scriptable objects). At the end of the day, scenes are just data containers where the data is stored in a hierarchy.
+There&amp;rsquo;s no need to duplicate data across scenes when it&amp;rsquo;s not necessary.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;https://i.imgur.com/lnStXSV.jpg&#34; alt=&#34;&#34; width=&#34;150&#34;/&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;Suppose we have a couple people in a team, all with their own roles.
+Perhaps there are environment artists, programmers, designers etc.&lt;/p&gt;
+&lt;p&gt;Splitting up each logical component of the game into it&amp;rsquo;s own scene allows each person to work on their own component in isolation.&lt;/p&gt;
+&lt;center&gt;It really is that simple 😎🤙&lt;/center&gt;
+&lt;p&gt;Instead of say Level 1 being a single scene, we could have&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Level_1_Environment&lt;/li&gt;
+&lt;li&gt;Level_1_Props&lt;/li&gt;
+&lt;li&gt;Level_1_Audio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Or whatever arbitrary names we want.
+As long as it&amp;rsquo;s logical.&lt;/p&gt;
+&lt;p&gt;Maybe we realize that Level_1_Environment can be split into 3 logical sections or scenes.
+So, we simply load or unload whichever scene we need accordingly runtime.&lt;/p&gt;
+&lt;p&gt;So now, suppose we need to test something specific in the final section of Level 1. We simply load Level_1_Environment_3, and if necessary, setup some required data or other scenes beforehand to simulate the state of the game and we&amp;rsquo;re good to go. It&amp;rsquo;s isolated and testable.&lt;/p&gt;
+&lt;h2 id=&#34;source-control&#34;&gt;Source Control&lt;/h2&gt;
+&lt;p&gt;To preface I&amp;rsquo;m mainly talking about &lt;a class=&#34;link&#34; href=&#34;https://git-scm.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;git&lt;/a&gt; in this case since I&amp;rsquo;m not familiar with other solutions such as &lt;a class=&#34;link&#34; href=&#34;https://unity.com/products/plastic-scm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;plastic scm&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Working with source control and monolithic scenes is a massive headache. I&amp;rsquo;ve had my fair share of merge conflicts 😌👍.&lt;/p&gt;
+&lt;p&gt;More often than not if we don&amp;rsquo;t separate scenes accordingly within a decently sized team, chaos will ensue.
+Even if you&amp;rsquo;re working alone, it&amp;rsquo;s still a good idea to separate scenes logically which I recommend doing regardless.&lt;/p&gt;
+&lt;p&gt;After getting used to it, it felt like I was sort of free from the shackles of coupling.&lt;/p&gt;
+&lt;center&gt;
+ &lt;video width=&#34;300&#34; controls&gt;
+  &lt;source src=&#34;frog.mp4&#34; type=&#34;video/mp4&#34;&gt;
+Your browser does not support the video tag.
+&lt;/video&gt; 
+&lt;/center&gt;
+&lt;h2 id=&#34;how-do-we-handle-communication-across-scenes&#34;&gt;How do we handle communication across scenes?&lt;/h2&gt;
+&lt;p&gt;There are 2 options as far as I believe.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Statics&lt;/li&gt;
+&lt;li&gt;Scriptable objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Scriptable objects are great for events and storing data that&amp;rsquo;s not scene dependent.
+This is a great blog post on the subject.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://unity.com/how-to/architect-game-code-scriptable-objects&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Game Architecture with Scriptable Objects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Statics are okay, but they&amp;rsquo;re not great and I&amp;rsquo;d advocate against using them in most cases.
+They&amp;rsquo;re not flexible and can be a pain to test. I&amp;rsquo;m not just regurgitating what many others have said, it really is painful.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s very difficult to simulate a specific state of the game when you have to worry about 50 invisible references scattered across the codebase and a global state.&lt;/p&gt;
+&lt;center&gt;
+ &lt;video width=&#34;550&#34; controls&gt;
+  &lt;source src=&#34;confused.mp4&#34; type=&#34;video/mp4&#34;&gt;
+Your browser does not support the video tag.
+&lt;/video&gt; 
+&lt;/center&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve benefitted quite a lot from this workflow which is why I decided to write a post about it.
+I could elaborate on how it helped me personally, but the resources above do more than enough to explain it.&lt;/p&gt;
+&lt;p&gt;Peace ✌️&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Dang, now what?</title>
         <link>https://macawls.dev/blog/post/dang-now-what/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>

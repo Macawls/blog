@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='📑'><title>Why a Multi-scene workflow in Unity is important</title>
+
+<link rel='canonical' href='https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.f52514ef14db50cc6d4863c388512f6ca946575d2ce1a856a561e17832dae60e.css"><meta property='og:title' content='Why a Multi-scene workflow in Unity is important'>
+<meta property='og:description' content='📑'>
+<meta property='og:url' content='https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/'>
+<meta property='og:site_name' content='Macawls&#39; Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='unity' /><meta property='article:tag' content='development' /><meta property='article:published_time' content='2023-01-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-01-10T00:00:00&#43;00:00'/><meta property='og:image' content='https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah.jpg' />
+<meta name="twitter:title" content="Why a Multi-scene workflow in Unity is important">
+<meta name="twitter:description" content="📑"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah.jpg' />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Macawls/home/main/docs/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog/">
+                
+                    <img src="https://avatars.githubusercontent.com/u/80009513?v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🌸</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog">Macawls&#39; Blog</a></h1>
+            <h2 class="site-description">A safe haven to document, express and share my thoughts.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Macawls'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA'
+                        target="_blank"
+                        title="Youtube"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="4" />
+  <path d="M10 9l5 3l-5 3z" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://soundcloud.com/user-226762181'
+                        target="_blank"
+                        title="Soundcloud"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-soundcloud" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M17 11h1c1.38 0 3 1.274 3 3c0 1.657 -1.5 3 -3 3l-6 0v-10c3 0 4.5 1.5 5 4z" />
+  <line x1="9" y1="8" x2="9" y2="17" />
+  <line x1="6" y1="17" x2="6" y2="10" />
+  <line x1="3" y1="16" x2="3" y2="14" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://open.spotify.com/user/31o7peloe4i6yfnxmmdwrydcgo34'
+                        target="_blank"
+                        title="Spotify"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-spotify" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+   <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527"></path>
+   <path d="M9 15c1.5 -1 4 -1 5 .5"></path>
+   <path d="M7 9c2 -1 6 -2 10 .5"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/blog/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/categories/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>Categories</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/post/why-a-multi-scene-workflow-in-unity-is-important/">
+                <img src="/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah_hub013fcee594fabd42683d80a5ee29818_416879_800x0_resize_q75_box.jpg"
+                        srcset="/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah_hub013fcee594fabd42683d80a5ee29818_416879_800x0_resize_q75_box.jpg 800w, /blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah_hub013fcee594fabd42683d80a5ee29818_416879_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="246" 
+                        loading="lazy"
+                        alt="Featured image of post Why a Multi-scene workflow in Unity is important" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/short/" >
+                Short
+            </a>
+        
+            <a href="/blog/categories/guide/" >
+                Guide
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/post/why-a-multi-scene-workflow-in-unity-is-important/">Why a Multi-scene workflow in Unity is important</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            📑
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Jan 10, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    3 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="resources">Resources</h2>
+<center>
+<p align="center">
+  <img src="https://media.giphy.com/media/igFbuVNCTNQ1V516Ng/giphy.gif" alt="" width="500"/>
+</p>
+<p><a class="link" href="https://docs.unity3d.com/560/Documentation/Manual/MultiSceneEditing.html"  target="_blank" rel="noopener"
+    >Unity Docs</a>
+<br> <a class="link" href="http://www.unity-glue.com/"  target="_blank" rel="noopener"
+    >Unity-Glue.com</a>
+<br> <a class="link" href="https://youtu.be/zObWVOv1GlE"  target="_blank" rel="noopener"
+    >Unity Youtube</a></p>
+</center>
+<h2 id="tldr">TLDR</h2>
+<p>It&rsquo;s important because it allows designers and developers test and work on and different aspects of the game in isolation.</p>
+<h2 id="what-is-a-multi-scene-workflow">What is a multi-scene workflow?</h2>
+<p>It&rsquo;s relatively simple practice that&rsquo;s often overlooked in smaller projects. It simply means there&rsquo;ll be multiple scenes loaded at runtime.</p>
+<center>
+<p><img src="https://docs.unity3d.com/560/Documentation/uploads/Main/MultiSceneEditingHierarchy.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+</center>
+<p>A multi-scene workflow isn&rsquo;t all that viable for something like prototypes since the principle of <a class="link" href="https://nalexn.github.io/separation-of-concerns/"  target="_blank" rel="noopener"
+    >separation of concerns</a> doesn&rsquo;t really matter.</p>
+<p>Where it&rsquo;s value becomes most apparent is when we need to maximize reusability, modularity, performance and most importantly <strong>collaboration</strong>. Of course it&rsquo;s different on a case by case basis, but I&rsquo;ve found it to be a very useful practice generally.</p>
+<h2 id="data">Data</h2>
+<p>There&rsquo;s many places data could live. It could be scene dependent (game objects/monobehaviours etc) or scene independent(statics/scripts/scriptable objects). At the end of the day, scenes are just data containers where the data is stored in a hierarchy.
+There&rsquo;s no need to duplicate data across scenes when it&rsquo;s not necessary.</p>
+<p align="center">
+  <img src="https://i.imgur.com/lnStXSV.jpg" alt="" width="150"/>
+</p>
+<h2 id="example">Example</h2>
+<p>Suppose we have a couple people in a team, all with their own roles.
+Perhaps there are environment artists, programmers, designers etc.</p>
+<p>Splitting up each logical component of the game into it&rsquo;s own scene allows each person to work on their own component in isolation.</p>
+<center>It really is that simple 😎🤙</center>
+<p>Instead of say Level 1 being a single scene, we could have</p>
+<ul>
+<li>Level_1_Environment</li>
+<li>Level_1_Props</li>
+<li>Level_1_Audio</li>
+</ul>
+<p>Or whatever arbitrary names we want.
+As long as it&rsquo;s logical.</p>
+<p>Maybe we realize that Level_1_Environment can be split into 3 logical sections or scenes.
+So, we simply load or unload whichever scene we need accordingly runtime.</p>
+<p>So now, suppose we need to test something specific in the final section of Level 1. We simply load Level_1_Environment_3, and if necessary, setup some required data or other scenes beforehand to simulate the state of the game and we&rsquo;re good to go. It&rsquo;s isolated and testable.</p>
+<h2 id="source-control">Source Control</h2>
+<p>To preface I&rsquo;m mainly talking about <a class="link" href="https://git-scm.com/"  target="_blank" rel="noopener"
+    >git</a> in this case since I&rsquo;m not familiar with other solutions such as <a class="link" href="https://unity.com/products/plastic-scm"  target="_blank" rel="noopener"
+    >plastic scm</a>.</p>
+<p>Working with source control and monolithic scenes is a massive headache. I&rsquo;ve had my fair share of merge conflicts 😌👍.</p>
+<p>More often than not if we don&rsquo;t separate scenes accordingly within a decently sized team, chaos will ensue.
+Even if you&rsquo;re working alone, it&rsquo;s still a good idea to separate scenes logically which I recommend doing regardless.</p>
+<p>After getting used to it, it felt like I was sort of free from the shackles of coupling.</p>
+<center>
+ <video width="300" controls>
+  <source src="frog.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+</center>
+<h2 id="how-do-we-handle-communication-across-scenes">How do we handle communication across scenes?</h2>
+<p>There are 2 options as far as I believe.</p>
+<ul>
+<li>Statics</li>
+<li>Scriptable objects.</li>
+</ul>
+<p>Scriptable objects are great for events and storing data that&rsquo;s not scene dependent.
+This is a great blog post on the subject.</p>
+<ul>
+<li><a class="link" href="https://unity.com/how-to/architect-game-code-scriptable-objects"  target="_blank" rel="noopener"
+    >Game Architecture with Scriptable Objects</a></li>
+</ul>
+<p>Statics are okay, but they&rsquo;re not great and I&rsquo;d advocate against using them in most cases.
+They&rsquo;re not flexible and can be a pain to test. I&rsquo;m not just regurgitating what many others have said, it really is painful.</p>
+<p>It&rsquo;s very difficult to simulate a specific state of the game when you have to worry about 50 invisible references scattered across the codebase and a global state.</p>
+<center>
+ <video width="550" controls>
+  <source src="confused.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+</center>
+<h3 id="conclusion">Conclusion</h3>
+<p>I&rsquo;ve benefitted quite a lot from this workflow which is why I decided to write a post about it.
+I could elaborate on how it helped me personally, but the resources above do more than enough to explain it.</p>
+<p>Peace ✌️</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/unity/">unity</a>
+        
+            <a href="/blog/tags/development/">development</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">Related contents</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/blog/post/my-first-unity-package-random-tunes/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a" loading="lazy" data-key="" data-hash="https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">My First Unity Package &amp; Random Tunes</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/blog/post/racing-game-devlog-episode-2/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://i.imgur.com/rfZF3ra.png" loading="lazy" data-key="" data-hash="https://i.imgur.com/rfZF3ra.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Racing Game Devlog, Episode 2</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/blog/post/racing-game-devlog-episode-1/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://i.imgur.com/gH6DeZQ.png" loading="lazy" data-key="" data-hash="https://i.imgur.com/gH6DeZQ.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Racing Game Devlog, Episode 1</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/blog/post/endless-runner-continued/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://i.imgur.com/xAKL2bZ.jpg" loading="lazy" data-key="" data-hash="https://i.imgur.com/xAKL2bZ.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Endless Runner Continued</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/blog/post/my-first-unity-project/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/post/my-first-unity-project/thumb.89337c671e3e63c23a18bf8c7b7f082d_hu2f1ff0de0e936714e856d95e211682a4_178195_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post My First Unity Project"
+                        
+                        data-hash="md5-iTN8Zx4&#43;Y8I6GL&#43;Me38ILQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">My First Unity Project</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="Macawls/blog"
+        issue-term="title"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2023 Macawls&#39; Blog
+    </section>
+    
+    <section class="powerby">
+        
+            ʕ•ᴥ•ʔ <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#resources">Resources</a></li>
+    <li><a href="#tldr">TLDR</a></li>
+    <li><a href="#what-is-a-multi-scene-workflow">What is a multi-scene workflow?</a></li>
+    <li><a href="#data">Data</a></li>
+    <li><a href="#example">Example</a></li>
+    <li><a href="#source-control">Source Control</a></li>
+    <li><a href="#how-do-we-handle-communication-across-scenes">How do we handle communication across scenes?</a>
+      <ol>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
