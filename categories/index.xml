@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Macawls&#39; Blog</title>
-        <link>https://macawls.dev/blog/categories/</link>
+        <link>https://macawls.github.io/blog/categories/</link>
         <description>Recent content in Categories on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Guide</title>
-        <link>https://macawls.dev/blog/categories/guide/</link>
+        <link>https://macawls.github.io/blog/categories/guide/</link>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/categories/guide/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/guide/reading.jpg" alt="Featured image of post Guide" /&gt;</description>
+        <guid>https://macawls.github.io/blog/categories/guide/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/guide/reading.jpg" alt="Featured image of post Guide" /&gt;</description>
         </item>
         <item>
         <title>Short</title>
-        <link>https://macawls.dev/blog/categories/short/</link>
+        <link>https://macawls.github.io/blog/categories/short/</link>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/categories/short/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/short/doorbell.png" alt="Featured image of post Short" /&gt;</description>
+        <guid>https://macawls.github.io/blog/categories/short/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/short/doorbell.png" alt="Featured image of post Short" /&gt;</description>
         </item>
         <item>
         <title>Fluff</title>
-        <link>https://macawls.dev/blog/categories/fluff/</link>
+        <link>https://macawls.github.io/blog/categories/fluff/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/categories/fluff/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/fluff/cat.jpg" alt="Featured image of post Fluff" /&gt;</description>
+        <guid>https://macawls.github.io/blog/categories/fluff/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/fluff/cat.jpg" alt="Featured image of post Fluff" /&gt;</description>
         </item>
         <item>
         <title>Music</title>
-        <link>https://macawls.dev/blog/categories/music/</link>
+        <link>https://macawls.github.io/blog/categories/music/</link>
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/categories/music/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/music/cut.jpg" alt="Featured image of post Music" /&gt;</description>
+        <guid>https://macawls.github.io/blog/categories/music/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/music/cut.jpg" alt="Featured image of post Music" /&gt;</description>
         </item>
         <item>
         <title>Programming</title>
-        <link>https://macawls.dev/blog/categories/programming/</link>
+        <link>https://macawls.github.io/blog/categories/programming/</link>
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/categories/programming/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/programming/drink.jpg" alt="Featured image of post Programming" /&gt;</description>
+        <guid>https://macawls.github.io/blog/categories/programming/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/programming/drink.jpg" alt="Featured image of post Programming" /&gt;</description>
         </item>
         <item>
         <title>Shitpost</title>
-        <link>https://macawls.dev/blog/categories/shitpost/</link>
+        <link>https://macawls.github.io/blog/categories/shitpost/</link>
         <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/categories/shitpost/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/shitpost/confused.jpg" alt="Featured image of post Shitpost" /&gt;</description>
+        <guid>https://macawls.github.io/blog/categories/shitpost/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/shitpost/confused.jpg" alt="Featured image of post Shitpost" /&gt;</description>
         </item>
         <item>
         <title>Loonix</title>
-        <link>https://macawls.dev/blog/categories/loonix/</link>
+        <link>https://macawls.github.io/blog/categories/loonix/</link>
         <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/categories/loonix/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/categories/loonix/jak.jpg" alt="Featured image of post Loonix" /&gt;</description>
+        <guid>https://macawls.github.io/blog/categories/loonix/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/loonix/jak.jpg" alt="Featured image of post Loonix" /&gt;</description>
         </item>
         
     </channel>

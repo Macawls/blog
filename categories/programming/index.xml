@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Programming on Macawls&#39; Blog</title>
-        <link>https://macawls.dev/blog/categories/programming/</link>
+        <link>https://macawls.github.io/blog/categories/programming/</link>
         <description>Recent content in Programming on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/programming/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/programming/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My First Unity Package &amp; Random Tunes</title>
-        <link>https://macawls.dev/blog/post/my-first-unity-package-random-tunes/</link>
+        <link>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</link>
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-first-unity-package-random-tunes/</guid>
+        <guid>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</guid>
         <description>&lt;img src="https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a" alt="Featured image of post My First Unity Package &amp; Random Tunes" /&gt;&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
 &lt;p&gt;Link: &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/OceanFSM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ocean FSM&lt;/a&gt;&lt;/p&gt;
@@ -97,10 +97,10 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
         </item>
         <item>
         <title>Racing Game Devlog, Episode 2</title>
-        <link>https://macawls.dev/blog/post/racing-game-devlog-episode-2/</link>
+        <link>https://macawls.github.io/blog/post/racing-game-devlog-episode-2/</link>
         <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/racing-game-devlog-episode-2/</guid>
+        <guid>https://macawls.github.io/blog/post/racing-game-devlog-episode-2/</guid>
         <description>&lt;img src="https://i.imgur.com/rfZF3ra.png" alt="Featured image of post Racing Game Devlog, Episode 2" /&gt;&lt;h2 id=&#34;patch-notes&#34;&gt;Patch Notes&lt;/h2&gt;
 &lt;p&gt;Changed:&lt;/p&gt;
 &lt;ul&gt;
@@ -137,10 +137,10 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
 It happens every single project. Start off, insanely clean, then it gets messier and messier and messier towards the end.&lt;/p&gt;
 &lt;p&gt;Overall I feel like it&amp;rsquo;s alright for now but eish.
 One day I wanna write an entire codebase (not just a single snippet) that is just like mwah, y&amp;rsquo;know. You look at it and just think wow, this is beautiful.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme.png&#34;
 	width=&#34;320&#34;
 	height=&#34;403&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -161,10 +161,10 @@ One day I wanna write an entire codebase (not just a single snippet) that is jus
         </item>
         <item>
         <title>Racing Game Devlog, Episode 1</title>
-        <link>https://macawls.dev/blog/post/racing-game-devlog-episode-1/</link>
+        <link>https://macawls.github.io/blog/post/racing-game-devlog-episode-1/</link>
         <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/racing-game-devlog-episode-1/</guid>
+        <guid>https://macawls.github.io/blog/post/racing-game-devlog-episode-1/</guid>
         <description>&lt;img src="https://i.imgur.com/gH6DeZQ.png" alt="Featured image of post Racing Game Devlog, Episode 1" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve came a long way from this &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/blog/post/my-first-unity-project/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;absolute dumpster fire of a project&lt;/a&gt; from 5 months ago. I&amp;rsquo;ve improved so much it&amp;rsquo;s ridiculous. Looking at the code I wrote back then is so embarassing. But I wanna keep it there for growth refference.&lt;/p&gt;
@@ -266,10 +266,10 @@ I just used a linked list under the hood to make my life easier.&lt;/p&gt;
 &lt;p&gt;Awwww snapp this one is my favourite. Its soo friggin cool 🤓, also lowkey the cheatcode to every leetcode problem.
 &lt;br&gt; I love this &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/FhNJ6aikTVI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;dude&lt;/a&gt;, he explained it so well.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-1/smol.jpg&#34;
 	width=&#34;125&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -450,10 +450,10 @@ None of them care about persistent data, they sort of act like static helpers.&l
         </item>
         <item>
         <title>Introducing, Apu Bot!</title>
-        <link>https://macawls.dev/blog/post/introducing-apu-bot/</link>
+        <link>https://macawls.github.io/blog/post/introducing-apu-bot/</link>
         <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/introducing-apu-bot/</guid>
+        <guid>https://macawls.github.io/blog/post/introducing-apu-bot/</guid>
         <description>&lt;img src="https://i.imgur.com/8SuuiNP.png" alt="Featured image of post Introducing, Apu Bot!" /&gt;&lt;center&gt;
 Post under construction 🛠🚧.
 Please wait until further notice.
@@ -466,19 +466,19 @@ Please wait until further notice.
         </item>
         <item>
         <title>It&#39;s the small things...</title>
-        <link>https://macawls.dev/blog/post/its-the-small-things.../</link>
+        <link>https://macawls.github.io/blog/post/its-the-small-things.../</link>
         <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/its-the-small-things.../</guid>
+        <guid>https://macawls.github.io/blog/post/its-the-small-things.../</guid>
         <description>&lt;img src="https://i.imgur.com/JaY7RZL.jpg" alt="Featured image of post It&#39;s the small things..." /&gt;&lt;hr&gt;
 &lt;p&gt;For context I&amp;rsquo;ll be partaking in a game jam soon.
 I&amp;rsquo;ve played a bunch of games from the previous jam&amp;rsquo;s submissions.&lt;/p&gt;
 &lt;p&gt;Honestly when making a game its the small things that many people forget about, or at least that I&amp;rsquo;ve noticed.
 For me personally, if a single aspect of the game doesn&amp;rsquo;t work correctly or is not implemented well, I&amp;rsquo;ll just stop playing.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/its-the-small-things.../smol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/its-the-small-things.../smol.jpg&#34;
 	width=&#34;125&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -516,10 +516,10 @@ With CI in place, we can playtest our game during development which will make bu
         </item>
         <item>
         <title>Endless Runner Continued</title>
-        <link>https://macawls.dev/blog/post/endless-runner-continued/</link>
+        <link>https://macawls.github.io/blog/post/endless-runner-continued/</link>
         <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/endless-runner-continued/</guid>
+        <guid>https://macawls.github.io/blog/post/endless-runner-continued/</guid>
         <description>&lt;img src="https://i.imgur.com/xAKL2bZ.jpg" alt="Featured image of post Endless Runner Continued" /&gt;&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
 &lt;p&gt;Alright this one is leagues better than the other &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/blog/post/my-first-unity-project/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;version&lt;/a&gt;.
@@ -651,11 +651,11 @@ One major problem I have is scalability and really understanding OOP concepts an
         </item>
         <item>
         <title>My First Unity Project</title>
-        <link>https://macawls.dev/blog/post/my-first-unity-project/</link>
+        <link>https://macawls.github.io/blog/post/my-first-unity-project/</link>
         <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-first-unity-project/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-first-unity-project/thumb.jpg" alt="Featured image of post My First Unity Project" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/my-first-unity-project/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-project/thumb.jpg" alt="Featured image of post My First Unity Project" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;So, it wasn&amp;rsquo;t my &lt;strong&gt;first&lt;/strong&gt; Unity project but it was my first one for University. I had a ton of fun making it.
 We were restricted to Unity but if I could I would have probably used Godot.
 It&amp;rsquo;s one part of a three part project so I&amp;rsquo;ll continue to add updates. Its meant to be an Endless Runner type game.
@@ -742,10 +742,10 @@ My guess is it was an issue with garbage collection, memory and just so many ref
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;In line 9, getting the zPos from PathManager is pretty ugly to be honest but it sufficed for the prototype.&lt;/p&gt;
 &lt;p&gt;PathManager and Obstacle Spawner had the exact same InvokeRepating call in Start(), I wanted to &amp;ldquo;sync&amp;rdquo; them, thats why I passed in those values but eish. It is very ugly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/bugs.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs.jpg&#34;
 	width=&#34;500&#34;
 	height=&#34;385&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -804,10 +804,10 @@ On the one hand, its really easy to grab anything you want like this because its
 &lt;/div&gt;&lt;p&gt;But it&amp;rsquo;s really going to get messy later. To restart the game, I had to destroy it in addition to loading the scene.&lt;/p&gt;
 &lt;h4 id=&#34;delegates&#34;&gt;Delegates&lt;/h4&gt;
 &lt;p&gt;OKAY THIS. This shit is the holy grail of game dev. It took a while to wrap my head around events, but once it clicked, it just unlocked so many more possibilities.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/doorbell.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;287&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

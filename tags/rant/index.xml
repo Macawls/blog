@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>rant on Macawls&#39; Blog</title>
-        <link>https://macawls.dev/blog/tags/rant/</link>
+        <link>https://macawls.github.io/blog/tags/rant/</link>
         <description>Recent content in rant on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/tags/rant/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/rant/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>It&#39;s the small things...</title>
-        <link>https://macawls.dev/blog/post/its-the-small-things.../</link>
+        <link>https://macawls.github.io/blog/post/its-the-small-things.../</link>
         <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/its-the-small-things.../</guid>
+        <guid>https://macawls.github.io/blog/post/its-the-small-things.../</guid>
         <description>&lt;img src="https://i.imgur.com/JaY7RZL.jpg" alt="Featured image of post It&#39;s the small things..." /&gt;&lt;hr&gt;
 &lt;p&gt;For context I&amp;rsquo;ll be partaking in a game jam soon.
 I&amp;rsquo;ve played a bunch of games from the previous jam&amp;rsquo;s submissions.&lt;/p&gt;
 &lt;p&gt;Honestly when making a game its the small things that many people forget about, or at least that I&amp;rsquo;ve noticed.
 For me personally, if a single aspect of the game doesn&amp;rsquo;t work correctly or is not implemented well, I&amp;rsquo;ll just stop playing.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/its-the-small-things.../smol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/its-the-small-things.../smol.jpg&#34;
 	width=&#34;125&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -58,14 +58,14 @@ With CI in place, we can playtest our game during development which will make bu
         </item>
         <item>
         <title>Software in Schools</title>
-        <link>https://macawls.dev/blog/post/software-in-schools/</link>
+        <link>https://macawls.github.io/blog/post/software-in-schools/</link>
         <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/software-in-schools/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/software-in-schools/baked.jpg" alt="Featured image of post Software in Schools" /&gt;&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/software-in-schools/meme.jpg&#34;
+        <guid>https://macawls.github.io/blog/post/software-in-schools/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/software-in-schools/baked.jpg" alt="Featured image of post Software in Schools" /&gt;&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/software-in-schools/meme.jpg&#34;
 	width=&#34;650&#34;
 	height=&#34;605&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

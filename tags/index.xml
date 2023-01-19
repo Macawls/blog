@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Macawls&#39; Blog</title>
-        <link>https://macawls.dev/blog/tags/</link>
+        <link>https://macawls.github.io/blog/tags/</link>
         <description>Recent content in Tags on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>development</title>
-        <link>https://macawls.dev/blog/tags/development/</link>
+        <link>https://macawls.github.io/blog/tags/development/</link>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/tags/development/</guid>
+        <guid>https://macawls.github.io/blog/tags/development/</guid>
         <description></description>
         </item>
         <item>
         <title>unity</title>
-        <link>https://macawls.dev/blog/tags/unity/</link>
+        <link>https://macawls.github.io/blog/tags/unity/</link>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/tags/unity/</guid>
+        <guid>https://macawls.github.io/blog/tags/unity/</guid>
         <description></description>
         </item>
         <item>
         <title>personal</title>
-        <link>https://macawls.dev/blog/tags/personal/</link>
+        <link>https://macawls.github.io/blog/tags/personal/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/tags/personal/</guid>
+        <guid>https://macawls.github.io/blog/tags/personal/</guid>
         <description></description>
         </item>
         <item>
         <title>tags</title>
-        <link>https://macawls.dev/blog/tags/tags/</link>
+        <link>https://macawls.github.io/blog/tags/tags/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/tags/tags/</guid>
+        <guid>https://macawls.github.io/blog/tags/tags/</guid>
         <description></description>
         </item>
         <item>
         <title>rant</title>
-        <link>https://macawls.dev/blog/tags/rant/</link>
+        <link>https://macawls.github.io/blog/tags/rant/</link>
         <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/tags/rant/</guid>
+        <guid>https://macawls.github.io/blog/tags/rant/</guid>
         <description></description>
         </item>
         <item>
         <title>mindset</title>
-        <link>https://macawls.dev/blog/tags/mindset/</link>
+        <link>https://macawls.github.io/blog/tags/mindset/</link>
         <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/tags/mindset/</guid>
+        <guid>https://macawls.github.io/blog/tags/mindset/</guid>
         <description></description>
         </item>
         

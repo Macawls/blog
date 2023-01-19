@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Macawls&#39; Blog</title>
-        <link>https://macawls.dev/blog/</link>
+        <link>https://macawls.github.io/blog/</link>
         <description>Recent content on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why a Multi-scene workflow in Unity is important</title>
-        <link>https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</link>
+        <link>https://macawls.github.io/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</link>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah.jpg" alt="Featured image of post Why a Multi-scene workflow in Unity is important" /&gt;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah.jpg" alt="Featured image of post Why a Multi-scene workflow in Unity is important" /&gt;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;center&gt;
 &lt;p align=&#34;center&#34;&gt;
   &lt;img src=&#34;https://media.giphy.com/media/igFbuVNCTNQ1V516Ng/giphy.gif&#34; alt=&#34;&#34; width=&#34;500&#34;/&gt;
@@ -105,11 +105,11 @@ I could elaborate on how it helped me personally, but the resources above do mor
         </item>
         <item>
         <title>Dang, now what?</title>
-        <link>https://macawls.dev/blog/post/dang-now-what/</link>
+        <link>https://macawls.github.io/blog/post/dang-now-what/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/dang-now-what/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/dang-now-what/tv.jpg" alt="Featured image of post Dang, now what?" /&gt;&lt;p align=&#34;center&#34;&gt;&lt;b&gt;ENDED THE SEMESTER A COUPLE WEEKS AGO 🥳🎉 LESGOOOOO&lt;/b&gt;&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/dang-now-what/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/dang-now-what/tv.jpg" alt="Featured image of post Dang, now what?" /&gt;&lt;p align=&#34;center&#34;&gt;&lt;b&gt;ENDED THE SEMESTER A COUPLE WEEKS AGO 🥳🎉 LESGOOOOO&lt;/b&gt;&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
  &lt;video width=&#34;400&#34;  controls&gt;
   &lt;source src=&#34;friday-night.mp4&#34; type=&#34;video/mp4&#34;&gt;
@@ -175,11 +175,11 @@ Cya bros 😸🤜🤛😁.&lt;/p&gt;
         </item>
         <item>
         <title>Can relationships be non-transactional?</title>
-        <link>https://macawls.dev/blog/post/can-relationships-be-non-transactional/</link>
+        <link>https://macawls.github.io/blog/post/can-relationships-be-non-transactional/</link>
         <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/can-relationships-be-non-transactional/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/can-relationships-be-non-transactional/banner.png" alt="Featured image of post Can relationships be non-transactional?" /&gt;&lt;p&gt;The pictures have no relation to the post whatsoever. I just find them funny 😎👍&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/can-relationships-be-non-transactional/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/can-relationships-be-non-transactional/banner.png" alt="Featured image of post Can relationships be non-transactional?" /&gt;&lt;p&gt;The pictures have no relation to the post whatsoever. I just find them funny 😎👍&lt;/p&gt;
 &lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;I thought about this a couple days ago. About why in some instances I seem to have zero interest in improving relationships with people.&lt;/p&gt;
 &lt;p&gt;I think when we&amp;rsquo;re younger we seem to have no problem with this. We&amp;rsquo;re more open to new things in general because our lack of life experience. We&amp;rsquo;re more willing to put in the effort to make things work and most importantly, &lt;strong&gt;more malleable and impressionable&lt;/strong&gt;. We&amp;rsquo;re still developing our own identity and are more willing to change our own beliefs and values to fit in with others. That&amp;rsquo;s completely normal because its in our human nature.&lt;/p&gt;
@@ -242,10 +242,10 @@ You&amp;rsquo;ve gotta trust your gut.&lt;/p&gt;
         </item>
         <item>
         <title>My First Unity Package &amp; Random Tunes</title>
-        <link>https://macawls.dev/blog/post/my-first-unity-package-random-tunes/</link>
+        <link>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</link>
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-first-unity-package-random-tunes/</guid>
+        <guid>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</guid>
         <description>&lt;img src="https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a" alt="Featured image of post My First Unity Package &amp; Random Tunes" /&gt;&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
 &lt;p&gt;Link: &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/OceanFSM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ocean FSM&lt;/a&gt;&lt;/p&gt;
@@ -331,10 +331,10 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
         </item>
         <item>
         <title>The XY Problem</title>
-        <link>https://macawls.dev/blog/post/the-xy-problem/</link>
+        <link>https://macawls.github.io/blog/post/the-xy-problem/</link>
         <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/the-xy-problem/</guid>
+        <guid>https://macawls.github.io/blog/post/the-xy-problem/</guid>
         <description>&lt;img src="https://i.imgur.com/aXu6r95.png" alt="Featured image of post The XY Problem" /&gt;&lt;center&gt;
 &lt;h2 id=&#34;stuff-ive-been-working-on-recently&#34;&gt;Stuff I&amp;rsquo;ve been working on recently&lt;/h2&gt;
 &lt;p&gt;A star pathfinding in an isometric game.&lt;/p&gt;
@@ -435,10 +435,10 @@ This is problematic. Subsequently, one might derive at a solution that &lt;em&gt
         </item>
         <item>
         <title>Racing Game Devlog, Episode 2</title>
-        <link>https://macawls.dev/blog/post/racing-game-devlog-episode-2/</link>
+        <link>https://macawls.github.io/blog/post/racing-game-devlog-episode-2/</link>
         <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/racing-game-devlog-episode-2/</guid>
+        <guid>https://macawls.github.io/blog/post/racing-game-devlog-episode-2/</guid>
         <description>&lt;img src="https://i.imgur.com/rfZF3ra.png" alt="Featured image of post Racing Game Devlog, Episode 2" /&gt;&lt;h2 id=&#34;patch-notes&#34;&gt;Patch Notes&lt;/h2&gt;
 &lt;p&gt;Changed:&lt;/p&gt;
 &lt;ul&gt;
@@ -475,10 +475,10 @@ This is problematic. Subsequently, one might derive at a solution that &lt;em&gt
 It happens every single project. Start off, insanely clean, then it gets messier and messier and messier towards the end.&lt;/p&gt;
 &lt;p&gt;Overall I feel like it&amp;rsquo;s alright for now but eish.
 One day I wanna write an entire codebase (not just a single snippet) that is just like mwah, y&amp;rsquo;know. You look at it and just think wow, this is beautiful.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme.png&#34;
 	width=&#34;320&#34;
 	height=&#34;403&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -499,10 +499,10 @@ One day I wanna write an entire codebase (not just a single snippet) that is jus
         </item>
         <item>
         <title>Racing Game Devlog, Episode 1</title>
-        <link>https://macawls.dev/blog/post/racing-game-devlog-episode-1/</link>
+        <link>https://macawls.github.io/blog/post/racing-game-devlog-episode-1/</link>
         <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/racing-game-devlog-episode-1/</guid>
+        <guid>https://macawls.github.io/blog/post/racing-game-devlog-episode-1/</guid>
         <description>&lt;img src="https://i.imgur.com/gH6DeZQ.png" alt="Featured image of post Racing Game Devlog, Episode 1" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve came a long way from this &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/blog/post/my-first-unity-project/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;absolute dumpster fire of a project&lt;/a&gt; from 5 months ago. I&amp;rsquo;ve improved so much it&amp;rsquo;s ridiculous. Looking at the code I wrote back then is so embarassing. But I wanna keep it there for growth refference.&lt;/p&gt;
@@ -604,10 +604,10 @@ I just used a linked list under the hood to make my life easier.&lt;/p&gt;
 &lt;p&gt;Awwww snapp this one is my favourite. Its soo friggin cool 🤓, also lowkey the cheatcode to every leetcode problem.
 &lt;br&gt; I love this &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/FhNJ6aikTVI&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;dude&lt;/a&gt;, he explained it so well.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-1/smol.jpg&#34;
 	width=&#34;125&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-1/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -788,10 +788,10 @@ None of them care about persistent data, they sort of act like static helpers.&l
         </item>
         <item>
         <title>Introducing, Apu Bot!</title>
-        <link>https://macawls.dev/blog/post/introducing-apu-bot/</link>
+        <link>https://macawls.github.io/blog/post/introducing-apu-bot/</link>
         <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/introducing-apu-bot/</guid>
+        <guid>https://macawls.github.io/blog/post/introducing-apu-bot/</guid>
         <description>&lt;img src="https://i.imgur.com/8SuuiNP.png" alt="Featured image of post Introducing, Apu Bot!" /&gt;&lt;center&gt;
 Post under construction 🛠🚧.
 Please wait until further notice.
@@ -804,19 +804,19 @@ Please wait until further notice.
         </item>
         <item>
         <title>😹🍓 emF6aWUgYmVldHogaXMgbXkgY2VsZWJyaXR5IGNydXNo</title>
-        <link>https://macawls.dev/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/</link>
+        <link>https://macawls.github.io/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/</link>
         <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/</guid>
+        <guid>https://macawls.github.io/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/</guid>
         <description>&lt;img src="https://i.imgur.com/GQiTPCd.jpg" alt="Featured image of post 😹🍓 emF6aWUgYmVldHogaXMgbXkgY2VsZWJyaXR5IGNydXNo" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Hmm I think this will be a filler type of post.
 You can decode the title and description from Base64.&lt;/p&gt;
 &lt;p&gt;You know whats crazy is, I realized that I love programming so fucking much.
 At a high level it&amp;rsquo;s just editing text, solving problems and making stuff. Being at my pc for hours doesn&amp;rsquo;t bother me in the slightest. It&amp;rsquo;s so fucking comfy.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/balling.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/balling.jpg&#34;
 	width=&#34;320&#34;
 	height=&#34;320&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/balling_hu3d665cbc421f3459a5d9e050773c4565_21699_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/balling_hu3d665cbc421f3459a5d9e050773c4565_21699_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/balling_hu3d665cbc421f3459a5d9e050773c4565_21699_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/balling_hu3d665cbc421f3459a5d9e050773c4565_21699_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -834,10 +834,10 @@ At a high level it&amp;rsquo;s just editing text, solving problems and making st
 &lt;/ul&gt;
 &lt;p&gt;Idk how to explain the last one, basically its easy for normies to gauge your level of expertise and progress if you&amp;rsquo;re a dancer/gym person/photographer/musician.&lt;/p&gt;
 &lt;p&gt;For abstract STEM fields its alot more difficult unless you have basic knowledge of the field itself.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/yaya.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/yaya.jpg&#34;
 	width=&#34;216&#34;
 	height=&#34;218&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/yaya_hub244791676407d1b7b14d98784d730c9_34190_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/yaya_hub244791676407d1b7b14d98784d730c9_34190_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/yaya_hub244791676407d1b7b14d98784d730c9_34190_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/emf6awugymvldhogaxmgbxkgy2vszwjyaxr5ignydxno/yaya_hub244791676407d1b7b14d98784d730c9_34190_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -866,19 +866,19 @@ At a high level it&amp;rsquo;s just editing text, solving problems and making st
         </item>
         <item>
         <title>THE BEST BIRFDAY EVA 🥳🍰🎂</title>
-        <link>https://macawls.dev/blog/post/the-best-birfday-eva/</link>
+        <link>https://macawls.github.io/blog/post/the-best-birfday-eva/</link>
         <pubDate>Sun, 21 Aug 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/the-best-birfday-eva/</guid>
+        <guid>https://macawls.github.io/blog/post/the-best-birfday-eva/</guid>
         <description>&lt;img src="https://i.imgur.com/TVWgjHH.jpg" alt="Featured image of post THE BEST BIRFDAY EVA 🥳🍰🎂" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Often I don&amp;rsquo;t really initiate and go out of my way to interact with people. I&amp;rsquo;m kinda just around? If that makes sense?&lt;br&gt;
 I&amp;rsquo;m not exactly introverted per say, but I&amp;rsquo;m someone that&amp;rsquo;s happy enough with only a few close friends I cherish and value. I would much rather nuture a few relationships than many.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Anyways what I&amp;rsquo;m saying is, I could not &lt;strong&gt;believe just how many wonderful and loving people im surrounded by&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/the-best-birfday-eva/hugsmall.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/the-best-birfday-eva/hugsmall.png&#34;
 	width=&#34;298&#34;
 	height=&#34;205&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/the-best-birfday-eva/hugsmall_hu59e9cd2296a226c987cccea1e428374c_33300_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/the-best-birfday-eva/hugsmall_hu59e9cd2296a226c987cccea1e428374c_33300_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/the-best-birfday-eva/hugsmall_hu59e9cd2296a226c987cccea1e428374c_33300_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/the-best-birfday-eva/hugsmall_hu59e9cd2296a226c987cccea1e428374c_33300_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -898,10 +898,10 @@ I&amp;rsquo;m not exactly introverted per say, but I&amp;rsquo;m someone that&am
 &lt;p&gt;So, thats why this experience was close to my heart and one I&amp;rsquo;d like to reminisce upon in future.&lt;/p&gt;
 &lt;h2 id=&#34;activities-of-the-day&#34;&gt;Activities of the day&lt;/h2&gt;
 &lt;p&gt;A couple days prior, I asked a bunch of people if they wanted to go to a morrocan type restuarant to chill, eat and smoke hookah to which many responded they were unable to and it was pretty much canceled.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/the-best-birfday-eva/sadcat.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/the-best-birfday-eva/sadcat.jpg&#34;
 	width=&#34;361&#34;
 	height=&#34;278&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/the-best-birfday-eva/sadcat_hub34530e1b33bf4833cf587160377e87e_18615_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/the-best-birfday-eva/sadcat_hub34530e1b33bf4833cf587160377e87e_18615_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/the-best-birfday-eva/sadcat_hub34530e1b33bf4833cf587160377e87e_18615_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/the-best-birfday-eva/sadcat_hub34530e1b33bf4833cf587160377e87e_18615_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -930,17 +930,17 @@ I&amp;rsquo;m not exactly introverted per say, but I&amp;rsquo;m someone that&am
         </item>
         <item>
         <title>DALL·E is kinda fucking crazy</title>
-        <link>https://macawls.dev/blog/post/dalle-is-kinda-fucking-crazy/</link>
+        <link>https://macawls.github.io/blog/post/dalle-is-kinda-fucking-crazy/</link>
         <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/dalle-is-kinda-fucking-crazy/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/dalle-is-kinda-fucking-crazy/openai.png" alt="Featured image of post DALL·E is kinda fucking crazy" /&gt;&lt;h2 id=&#34;can-i-try-it-out&#34;&gt;Can I try it out?&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/dalle-is-kinda-fucking-crazy/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/dalle-is-kinda-fucking-crazy/openai.png" alt="Featured image of post DALL·E is kinda fucking crazy" /&gt;&lt;h2 id=&#34;can-i-try-it-out&#34;&gt;Can I try it out?&lt;/h2&gt;
 &lt;p&gt;Yes kinda.&lt;br&gt;
 It&amp;rsquo;s far too powerful of a tool to be easily accessible to the masses.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/dalle-is-kinda-fucking-crazy/smol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/dalle-is-kinda-fucking-crazy/smol.jpg&#34;
 	width=&#34;125&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/dalle-is-kinda-fucking-crazy/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/dalle-is-kinda-fucking-crazy/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/dalle-is-kinda-fucking-crazy/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/dalle-is-kinda-fucking-crazy/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1103,19 +1103,19 @@ Over time I learnt how to optimize my prompts.&lt;/p&gt;
         </item>
         <item>
         <title>It&#39;s the small things...</title>
-        <link>https://macawls.dev/blog/post/its-the-small-things.../</link>
+        <link>https://macawls.github.io/blog/post/its-the-small-things.../</link>
         <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/its-the-small-things.../</guid>
+        <guid>https://macawls.github.io/blog/post/its-the-small-things.../</guid>
         <description>&lt;img src="https://i.imgur.com/JaY7RZL.jpg" alt="Featured image of post It&#39;s the small things..." /&gt;&lt;hr&gt;
 &lt;p&gt;For context I&amp;rsquo;ll be partaking in a game jam soon.
 I&amp;rsquo;ve played a bunch of games from the previous jam&amp;rsquo;s submissions.&lt;/p&gt;
 &lt;p&gt;Honestly when making a game its the small things that many people forget about, or at least that I&amp;rsquo;ve noticed.
 For me personally, if a single aspect of the game doesn&amp;rsquo;t work correctly or is not implemented well, I&amp;rsquo;ll just stop playing.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/its-the-small-things.../smol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/its-the-small-things.../smol.jpg&#34;
 	width=&#34;125&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/its-the-small-things.../smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1153,11 +1153,11 @@ With CI in place, we can playtest our game during development which will make bu
         </item>
         <item>
         <title>Bangers 🎵 | Part 3</title>
-        <link>https://macawls.dev/blog/post/bangers-part-3/</link>
+        <link>https://macawls.github.io/blog/post/bangers-part-3/</link>
         <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/bangers-part-3/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/bangers-part-3/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 3" /&gt;&lt;p&gt;I love the eerie feeling. Carries so much weight.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/bangers-part-3/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-3/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 3" /&gt;&lt;p&gt;I love the eerie feeling. Carries so much weight.&lt;/p&gt;
 &lt;iframe width=&#34;100%&#34; 
 height=&#34;166&#34; 
 scrolling=&#34;no&#34; 
@@ -1190,10 +1190,10 @@ Can&amp;rsquo;t wait till his new album 2000 drops in a couple days.&lt;/p&gt;
         </item>
         <item>
         <title>Alienation</title>
-        <link>https://macawls.dev/blog/post/alienation/</link>
+        <link>https://macawls.github.io/blog/post/alienation/</link>
         <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/alienation/</guid>
+        <guid>https://macawls.github.io/blog/post/alienation/</guid>
         <description>&lt;img src="https://i.imgur.com/v1OKSxN.jpg" alt="Featured image of post Alienation" /&gt;&lt;h2 id=&#34;intro---context&#34;&gt;Intro - Context&lt;/h2&gt;
 &lt;p&gt;I have an insane amount of freedom and agency these days.
 I go to campus/classes whenever I like.
@@ -1232,10 +1232,10 @@ I&amp;rsquo;m constantly surrounded by so many people I could reach out and talk
         </item>
         <item>
         <title>Endless Runner Continued</title>
-        <link>https://macawls.dev/blog/post/endless-runner-continued/</link>
+        <link>https://macawls.github.io/blog/post/endless-runner-continued/</link>
         <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/endless-runner-continued/</guid>
+        <guid>https://macawls.github.io/blog/post/endless-runner-continued/</guid>
         <description>&lt;img src="https://i.imgur.com/xAKL2bZ.jpg" alt="Featured image of post Endless Runner Continued" /&gt;&lt;h2 id=&#34;improvements&#34;&gt;Improvements&lt;/h2&gt;
 &lt;p&gt;Alright this one is leagues better than the other &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/blog/post/my-first-unity-project/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;version&lt;/a&gt;.
@@ -1367,11 +1367,11 @@ One major problem I have is scalability and really understanding OOP concepts an
         </item>
         <item>
         <title>My New Blog Workflow ^~^</title>
-        <link>https://macawls.dev/blog/post/my-new-blog-workflow-~/</link>
+        <link>https://macawls.github.io/blog/post/my-new-blog-workflow-~/</link>
         <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-new-blog-workflow-~/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-new-blog-workflow-~/bed.jpg" alt="Featured image of post My New Blog Workflow ^~^" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/my-new-blog-workflow-~/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-new-blog-workflow-~/bed.jpg" alt="Featured image of post My New Blog Workflow ^~^" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Alright so dis is a &lt;strong&gt;banger&lt;/strong&gt; post. I haven&amp;rsquo;t written in about 2 months because I&amp;rsquo;ve been swamped with campus work and updating the blog became tiresome with the workflow I had going.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/apu-gallery/apu/beer.jpeg&#34;
 	
@@ -1414,18 +1414,18 @@ One major problem I have is scalability and really understanding OOP concepts an
         </item>
         <item>
         <title>Mood</title>
-        <link>https://macawls.dev/blog/post/mood/</link>
+        <link>https://macawls.github.io/blog/post/mood/</link>
         <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/mood/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/mood/dead.jpg" alt="Featured image of post Mood" /&gt;&lt;p&gt;Ignorance and emotion blinds us all. The end of the world is imminent, either to artificial intelligence or global warming.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/mood/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/mood/dead.jpg" alt="Featured image of post Mood" /&gt;&lt;p&gt;Ignorance and emotion blinds us all. The end of the world is imminent, either to artificial intelligence or global warming.&lt;/p&gt;
 &lt;p&gt;Technology was a bad thing.&lt;/p&gt;
 &lt;p&gt;We&amp;rsquo;re driven by greed and pleasure. Humanity is a plague. We&amp;rsquo;re divided by borders, religion and other arbitrary things. We only believe in things that follow our narrative. The rich get richer. Everyone lives as a puppet.&lt;/p&gt;
 &lt;p&gt;Well anyways, who cares lol :)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/mood/smol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/mood/smol.jpg&#34;
 	width=&#34;125&#34;
 	height=&#34;101&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/mood/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/mood/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/mood/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/mood/smol_hu3cabb017450616c2ca21b5c7096f29d1_1442_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1437,11 +1437,11 @@ One major problem I have is scalability and really understanding OOP concepts an
         </item>
         <item>
         <title>My First Unity Project</title>
-        <link>https://macawls.dev/blog/post/my-first-unity-project/</link>
+        <link>https://macawls.github.io/blog/post/my-first-unity-project/</link>
         <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-first-unity-project/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-first-unity-project/thumb.jpg" alt="Featured image of post My First Unity Project" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/my-first-unity-project/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-project/thumb.jpg" alt="Featured image of post My First Unity Project" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;So, it wasn&amp;rsquo;t my &lt;strong&gt;first&lt;/strong&gt; Unity project but it was my first one for University. I had a ton of fun making it.
 We were restricted to Unity but if I could I would have probably used Godot.
 It&amp;rsquo;s one part of a three part project so I&amp;rsquo;ll continue to add updates. Its meant to be an Endless Runner type game.
@@ -1528,10 +1528,10 @@ My guess is it was an issue with garbage collection, memory and just so many ref
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;In line 9, getting the zPos from PathManager is pretty ugly to be honest but it sufficed for the prototype.&lt;/p&gt;
 &lt;p&gt;PathManager and Obstacle Spawner had the exact same InvokeRepating call in Start(), I wanted to &amp;ldquo;sync&amp;rdquo; them, thats why I passed in those values but eish. It is very ugly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/bugs.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs.jpg&#34;
 	width=&#34;500&#34;
 	height=&#34;385&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1590,10 +1590,10 @@ On the one hand, its really easy to grab anything you want like this because its
 &lt;/div&gt;&lt;p&gt;But it&amp;rsquo;s really going to get messy later. To restart the game, I had to destroy it in addition to loading the scene.&lt;/p&gt;
 &lt;h4 id=&#34;delegates&#34;&gt;Delegates&lt;/h4&gt;
 &lt;p&gt;OKAY THIS. This shit is the holy grail of game dev. It took a while to wrap my head around events, but once it clicked, it just unlocked so many more possibilities.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/doorbell.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;287&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1653,11 +1653,11 @@ Although, there&amp;rsquo;s a big difference between being in tutorial hell and 
         </item>
         <item>
         <title>Taoism and Rastafarianism</title>
-        <link>https://macawls.dev/blog/post/taoism-and-rastafarianism/</link>
+        <link>https://macawls.github.io/blog/post/taoism-and-rastafarianism/</link>
         <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/taoism-and-rastafarianism/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/taoism-and-rastafarianism/420.jpg" alt="Featured image of post Taoism and Rastafarianism" /&gt;&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/taoism-and-rastafarianism/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/taoism-and-rastafarianism/420.jpg" alt="Featured image of post Taoism and Rastafarianism" /&gt;&lt;h2 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h2&gt;
 &lt;p&gt;Firstly, I want to emphasize that what I am about to say is highly subjective and is part of my personal interpretation.
 I decided to write this because I find both fascinating.&lt;/p&gt;
 &lt;h3 id=&#34;their-origins&#34;&gt;Their Origins&lt;/h3&gt;
@@ -1667,10 +1667,10 @@ I decided to write this because I find both fascinating.&lt;/p&gt;
 &lt;p&gt;Religion is a difficult word to define. I personally believe both these belief systems can be defined rather as a &amp;ldquo;Way of Life&amp;rdquo; instead.&lt;/p&gt;
 &lt;p&gt;I feel that when a &amp;lsquo;religion&amp;rsquo; has more strict beliefs, is unified and becomes widely institutionalized, it falls under the &amp;lsquo;religion&amp;rsquo; category. Example&amp;rsquo;s would be Christianity, Hinduism, Islam including their many respective forms and so on. However, that&amp;rsquo;s not to say places of worship for Taoism and Rastafarianism do not exist, because they do.&lt;/p&gt;
 &lt;p&gt;Both Taoism and Rastafari Culture embrace the idea of treading on your &lt;strong&gt;own&lt;/strong&gt; path to enlightenment, finding peace and content in life&amp;rsquo;s simple joys . Albeit in Rastafarianism it is much more of a collective effort.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/taoism-and-rastafarianism/lol.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/taoism-and-rastafarianism/lol.jpg&#34;
 	width=&#34;1200&#34;
 	height=&#34;756&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/taoism-and-rastafarianism/lol_hu6db0bf348c7f7ee1fb81ffaed16baf19_381117_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/taoism-and-rastafarianism/lol_hu6db0bf348c7f7ee1fb81ffaed16baf19_381117_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/taoism-and-rastafarianism/lol_hu6db0bf348c7f7ee1fb81ffaed16baf19_381117_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/taoism-and-rastafarianism/lol_hu6db0bf348c7f7ee1fb81ffaed16baf19_381117_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1686,10 +1686,10 @@ It is by far the most &lt;strong&gt;crucial&lt;/strong&gt; aspect of both.&lt;/p
 We consume content, turn to the arts like literature and music, buy things we need or might not that serve some kind of purpose.&lt;/p&gt;
 &lt;p&gt;In the end its all kinda just pointless depending on how you view it, at least it is for me.
 When you stop for a second, take everything in and find peace and content by simply feeling and existing, that matters.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/taoism-and-rastafarianism/chillcat.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/taoism-and-rastafarianism/chillcat.jpg&#34;
 	width=&#34;500&#34;
 	height=&#34;287&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/taoism-and-rastafarianism/chillcat_hu496ab323a84514f468bbad3572766ea9_35475_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/taoism-and-rastafarianism/chillcat_hu496ab323a84514f468bbad3572766ea9_35475_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/taoism-and-rastafarianism/chillcat_hu496ab323a84514f468bbad3572766ea9_35475_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/taoism-and-rastafarianism/chillcat_hu496ab323a84514f468bbad3572766ea9_35475_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1712,11 +1712,11 @@ When you stop for a second, take everything in and find peace and content by sim
         </item>
         <item>
         <title>Bangers 🎵 | Part 2</title>
-        <link>https://macawls.dev/blog/post/bangers-part-2/</link>
+        <link>https://macawls.github.io/blog/post/bangers-part-2/</link>
         <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/bangers-part-2/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/bangers-part-2/monkee.jpg" alt="Featured image of post Bangers 🎵 | Part 2" /&gt;&lt;p&gt;Random genres this time around.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/bangers-part-2/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-2/monkee.jpg" alt="Featured image of post Bangers 🎵 | Part 2" /&gt;&lt;p&gt;Random genres this time around.&lt;/p&gt;
 &lt;p&gt;Just an absolute banger this one.&lt;/p&gt;
 &lt;iframe width=&#34;100%&#34; 
 height=&#34;166&#34; 
@@ -1758,11 +1758,11 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
         </item>
         <item>
         <title>Programming is...</title>
-        <link>https://macawls.dev/blog/post/programming-is.../</link>
+        <link>https://macawls.github.io/blog/post/programming-is.../</link>
         <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/programming-is.../</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/programming-is.../intro.jpeg" alt="Featured image of post Programming is..." /&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
+        <guid>https://macawls.github.io/blog/post/programming-is.../</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/programming-is.../intro.jpeg" alt="Featured image of post Programming is..." /&gt;&lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;video
     controls
     src=&#34;nullpointer.mp4&#34;
@@ -1780,10 +1780,10 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
 &lt;p&gt;The more I learn, the more I feel like I don&amp;rsquo;t know anything ᕙ(⇀‸↼‶)ᕗ&lt;/p&gt;
 &lt;p&gt;Can&amp;rsquo;t focus on one thing for too long, sometimes I just don&amp;rsquo;t have any ideas or I try learning too many things at the same time. I only get in the &amp;ldquo;zone&amp;rdquo; when I &lt;strong&gt;really&lt;/strong&gt; wanna finish something. I love that place.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/programming-is.../what.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/programming-is.../what.jpg&#34;
 	width=&#34;1080&#34;
 	height=&#34;1920&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/programming-is.../what_hu87b9f9e7b160fc7114be4953a46e4239_520136_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/programming-is.../what_hu87b9f9e7b160fc7114be4953a46e4239_520136_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/programming-is.../what_hu87b9f9e7b160fc7114be4953a46e4239_520136_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/programming-is.../what_hu87b9f9e7b160fc7114be4953a46e4239_520136_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1795,11 +1795,11 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
         </item>
         <item>
         <title>My New Honda Crz (2011)</title>
-        <link>https://macawls.dev/blog/post/my-new-honda-crz-2011/</link>
+        <link>https://macawls.github.io/blog/post/my-new-honda-crz-2011/</link>
         <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-new-honda-crz-2011/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-new-honda-crz-2011/cocoa.jpg" alt="Featured image of post My New Honda Crz (2011)" /&gt;&lt;p&gt;The picture looks like a terrible photoshop but things are blurred for privacy reasons.
+        <guid>https://macawls.github.io/blog/post/my-new-honda-crz-2011/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-new-honda-crz-2011/cocoa.jpg" alt="Featured image of post My New Honda Crz (2011)" /&gt;&lt;p&gt;The picture looks like a terrible photoshop but things are blurred for privacy reasons.
 Her name is Cocoa. No meaning behind the name, I just love calling her Cocoa.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve always been a massive fan of Japanese culture, JDM culture included. I&amp;rsquo;ll make a blog post about my previous trip to Japan soon. I make a lotta of references to it.&lt;/p&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
@@ -1819,10 +1819,10 @@ Her name is Cocoa. No meaning behind the name, I just love calling her Cocoa.&lt
 &lt;p&gt;I like unique and unpopular things too. Maybe it&amp;rsquo;s because I like standing out and being different or whatever.&lt;/p&gt;
 &lt;h2 id=&#34;test-driving-the-crz&#34;&gt;Test-driving the CRZ&lt;/h2&gt;
 &lt;p&gt;It ticked all the boxes for me. The second I got in, the interior blew me away. It&amp;rsquo;s not NA, Steering wheel is on the right side for me.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-new-honda-crz-2011/interior.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-new-honda-crz-2011/interior.jpg&#34;
 	width=&#34;1600&#34;
 	height=&#34;1200&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-new-honda-crz-2011/interior_hue515a5873b1eb36dc4b1e4016fe7a5cf_469057_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-new-honda-crz-2011/interior_hue515a5873b1eb36dc4b1e4016fe7a5cf_469057_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-new-honda-crz-2011/interior_hue515a5873b1eb36dc4b1e4016fe7a5cf_469057_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-new-honda-crz-2011/interior_hue515a5873b1eb36dc4b1e4016fe7a5cf_469057_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Interior&#34;
@@ -1867,15 +1867,15 @@ It was pretty old though with 160K km on the clock. My only concern was repairin
         </item>
         <item>
         <title>WSL is crazy good!!!!! OMG!!!</title>
-        <link>https://macawls.dev/blog/post/wsl-is-crazy-good-omg/</link>
+        <link>https://macawls.github.io/blog/post/wsl-is-crazy-good-omg/</link>
         <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/wsl-is-crazy-good-omg/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/wsl-is-crazy-good-omg/banner.jpg" alt="Featured image of post WSL is crazy good!!!!! OMG!!!" /&gt;&lt;p&gt;I tried it the first time today. Honestly, it&amp;rsquo;s extremely impressive and I haven&amp;rsquo;t even tried WSL2 yet.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/smug.png&#34;
+        <guid>https://macawls.github.io/blog/post/wsl-is-crazy-good-omg/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/wsl-is-crazy-good-omg/banner.jpg" alt="Featured image of post WSL is crazy good!!!!! OMG!!!" /&gt;&lt;p&gt;I tried it the first time today. Honestly, it&amp;rsquo;s extremely impressive and I haven&amp;rsquo;t even tried WSL2 yet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/smug.png&#34;
 	width=&#34;250&#34;
 	height=&#34;202&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1884,10 +1884,10 @@ It was pretty old though with 160K km on the clock. My only concern was repairin
 		data-flex-basis=&#34;297px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/capture.PNG&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/capture.PNG&#34;
 	width=&#34;1642&#34;
 	height=&#34;934&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_480x0_resize_box_3.PNG 480w, https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_1024x0_resize_box_3.PNG 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_480x0_resize_box_3.PNG 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_1024x0_resize_box_3.PNG 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1921,10 +1921,10 @@ The whole ecosystem is such a nightmare.&lt;/p&gt;
 &lt;p&gt;Powershell is insanely good. Ironically, I have it on my arch install and enjoy messing with it. It&amp;rsquo;s much more modern than bash and zsh. It&amp;rsquo;s got alot of stuff I don&amp;rsquo;t really need right now though.&lt;/p&gt;
 &lt;p&gt;The new Windows Terminal is pretty damn good. No complaints really. Works really well with WSL. Multiple tabs with different environments is siick.&lt;/p&gt;
 &lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/anime.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/anime.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;438&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1939,10 +1939,10 @@ Never gonna daily Windows though.&lt;/p&gt;
 &lt;p&gt;This has been my go to IDE for the longest time. Really good integration with Git and Github, love its integration with the shell, works and is configured the same on any machine. Extension ecosystem is amazing.&lt;/p&gt;
 &lt;p&gt;Yeah I know Electron blah, blah, blah. Don&amp;rsquo;t care 😴. Everything is web-based nowadays anyway.&lt;/p&gt;
 &lt;p&gt;WSL within VScode works like a charm.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/wsl.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/wsl.png&#34;
 	width=&#34;1389&#34;
 	height=&#34;908&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1958,10 +1958,10 @@ No need for docker or virtual machines or anything like that. WSL is fucking cra
 &lt;p&gt;Yeah I mean, nothing to say here. To say the window manager in PowerToys is rough around the edges is an understatement. It&amp;rsquo;s getting there and right now its pretty impressive, so I am very hopeful.&lt;/p&gt;
 &lt;p&gt;The problem doesn&amp;rsquo;t lie with the Powertoys devs. They&amp;rsquo;re doing amazing work.&lt;/p&gt;
 &lt;p&gt;Windows has always been an absolute dumpster-fire and a complete mess after the glorious Windows 7.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/why.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/why.jpg&#34;
 	width=&#34;1366&#34;
 	height=&#34;1344&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;whyyyyyyyyyyyyyyyyyyyyyy&#34;
@@ -1985,16 +1985,16 @@ No need for docker or virtual machines or anything like that. WSL is fucking cra
         </item>
         <item>
         <title>My Monster Collection</title>
-        <link>https://macawls.dev/blog/post/my-monster-collection/</link>
+        <link>https://macawls.github.io/blog/post/my-monster-collection/</link>
         <pubDate>Tue, 04 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-monster-collection/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-monster-collection/cans.jpg" alt="Featured image of post My Monster Collection" /&gt;&lt;p&gt;This is what it looks like at the time of writing this. It probably took around 4 years?&lt;br&gt;
+        <guid>https://macawls.github.io/blog/post/my-monster-collection/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-monster-collection/cans.jpg" alt="Featured image of post My Monster Collection" /&gt;&lt;p&gt;This is what it looks like at the time of writing this. It probably took around 4 years?&lt;br&gt;
 I&amp;rsquo;ve drank from each and every can because why not right? I guess it&amp;rsquo;s more valuable if it&amp;rsquo;s still sealed? idk&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-monster-collection/huh.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-monster-collection/huh.jpg&#34;
 	width=&#34;270&#34;
 	height=&#34;266&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-monster-collection/huh_hue7b8d425dc22ad2b98a1f253ca38ab61_65336_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-monster-collection/huh_hue7b8d425dc22ad2b98a1f253ca38ab61_65336_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-monster-collection/huh_hue7b8d425dc22ad2b98a1f253ca38ab61_65336_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-monster-collection/huh_hue7b8d425dc22ad2b98a1f253ca38ab61_65336_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2009,10 +2009,10 @@ Every friday after school I&amp;rsquo;d search for a new one at the gas station 
 &lt;p&gt;South Africa lags behind the rest of the world in pretty much everything. Shipping is insanely expensive, most things you find in grocery/convenience stores are made locally. The only one in my collection you cannot find locally is the Monster Punch. I got that from eBay.&lt;/p&gt;
 &lt;p&gt;The variety here doesn&amp;rsquo;t even come &lt;strong&gt;close&lt;/strong&gt; to the variety in first world countries. It legitimately takes years for us to get new ones. To grow the collection at a faster rate I&amp;rsquo;d have to order cans from overseas but that&amp;rsquo;s pretty costly.&lt;/p&gt;
 &lt;p&gt;They&amp;rsquo;ll discontinue some flavours eventually. That&amp;rsquo;s when the collection would mean a lot more to me.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-monster-collection/cat.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-monster-collection/cat.jpg&#34;
 	width=&#34;500&#34;
 	height=&#34;500&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-monster-collection/cat_hue323a01c93de9b3a3c7aed31c9b26717_40757_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-monster-collection/cat_hue323a01c93de9b3a3c7aed31c9b26717_40757_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-monster-collection/cat_hue323a01c93de9b3a3c7aed31c9b26717_40757_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-monster-collection/cat_hue323a01c93de9b3a3c7aed31c9b26717_40757_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2024,14 +2024,14 @@ Every friday after school I&amp;rsquo;d search for a new one at the gas station 
         </item>
         <item>
         <title>Software in Schools</title>
-        <link>https://macawls.dev/blog/post/software-in-schools/</link>
+        <link>https://macawls.github.io/blog/post/software-in-schools/</link>
         <pubDate>Sun, 26 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/software-in-schools/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/software-in-schools/baked.jpg" alt="Featured image of post Software in Schools" /&gt;&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/software-in-schools/meme.jpg&#34;
+        <guid>https://macawls.github.io/blog/post/software-in-schools/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/software-in-schools/baked.jpg" alt="Featured image of post Software in Schools" /&gt;&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/software-in-schools/meme.jpg&#34;
 	width=&#34;650&#34;
 	height=&#34;605&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/software-in-schools/meme_hueabf319d7ce08daedcc0202e1f831cf9_66916_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2075,10 +2075,10 @@ They actually care.&lt;/p&gt;</description>
         </item>
         <item>
         <title>About</title>
-        <link>https://macawls.dev/blog/about/</link>
+        <link>https://macawls.github.io/blog/about/</link>
         <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/about/</guid>
+        <guid>https://macawls.github.io/blog/about/</guid>
         <description>&lt;h3 id=&#34;greetings&#34;&gt;Greetings&lt;/h3&gt;
 &lt;p&gt;It seem&amp;rsquo;s you&amp;rsquo;ve stumbled upon my little corner of the web.
 This is my haven.&lt;/p&gt;
@@ -2105,10 +2105,10 @@ At one point, I realised its common for people to come and go as you follow your
 &lt;h3 id=&#34;ending-off&#34;&gt;Ending off&lt;/h3&gt;
 &lt;p&gt;My thoughts come and go, sometimes it&amp;rsquo;s silly, sometimes it&amp;rsquo;s pretty deep and sometimes in that moment, I feel excited and my creative juices are flowing. I don&amp;rsquo;t want those to be lodged somewhere in my inaccurate memory bank.&lt;/p&gt;
 &lt;p&gt;I could disappear at any moment, physically or mentally, unwillingly. You never truly know. I&amp;rsquo;d like to leave some things before I eventually go. This is simply a place without the noise.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/about/pain.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/about/pain.jpg&#34;
 	width=&#34;500&#34;
 	height=&#34;393&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/about/pain_hu528995c9246b84bd04cec855fd89b1a3_54744_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/about/pain_hu528995c9246b84bd04cec855fd89b1a3_54744_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/about/pain_hu528995c9246b84bd04cec855fd89b1a3_54744_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/about/pain_hu528995c9246b84bd04cec855fd89b1a3_54744_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2121,11 +2121,11 @@ At one point, I realised its common for people to come and go as you follow your
         </item>
         <item>
         <title>An Explanation on Ocean&#39;s 47</title>
-        <link>https://macawls.dev/blog/post/an-explanation-on-oceans-47/</link>
+        <link>https://macawls.github.io/blog/post/an-explanation-on-oceans-47/</link>
         <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/an-explanation-on-oceans-47/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/an-explanation-on-oceans-47/steez.jpg" alt="Featured image of post An Explanation on Ocean&#39;s 47" /&gt;&lt;p&gt;The man above is Courtney Jamal Dewar Jr, more commonly known as &lt;strong&gt;Capital Steez&lt;/strong&gt;.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/an-explanation-on-oceans-47/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/an-explanation-on-oceans-47/steez.jpg" alt="Featured image of post An Explanation on Ocean&#39;s 47" /&gt;&lt;p&gt;The man above is Courtney Jamal Dewar Jr, more commonly known as &lt;strong&gt;Capital Steez&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;who-is-capital-steez&#34;&gt;Who is Capital Steez?&lt;/h2&gt;
 &lt;p&gt;Capital Steez &lt;strong&gt;was&lt;/strong&gt;. He was a rapper from Brooklyn, New York.
 He was part of the colletive group; &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Pro_Era&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2200,10 +2200,10 @@ I think too rationally at times; to the point where I can&amp;rsquo;t connect wi
     &gt;&amp;ldquo;Oceans Eleven&amp;rdquo; (2001)&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;To me, it has a different meaning. When I think of an ocean, I think of water endlessly flowing and never resting. Waves crashing. From afar, it is still. On the shore, it exerts its tremendous kinetic energy on the surrounding area. In another blog I&amp;rsquo;ll talk about my trip to Japan, but it also reminds me of the Great Wave of Hokusai for this reason.&lt;/p&gt;
 &lt;h3 id=&#34;the-great-wave-of-hokusai&#34;&gt;The Great Wave of Hokusai&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/hokusai.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/hokusai.jpg&#34;
 	width=&#34;800&#34;
 	height=&#34;538&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/hokusai_hu12a289ef2460acfe1fa9dc9569991029_168910_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/hokusai_hu12a289ef2460acfe1fa9dc9569991029_168910_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/hokusai_hu12a289ef2460acfe1fa9dc9569991029_168910_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/hokusai_hu12a289ef2460acfe1fa9dc9569991029_168910_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;The Great Wave Off Kanagawa | Japanese: 神奈川沖浪裏&#34;
@@ -2222,10 +2222,10 @@ Their calming and understanding essence feels soothing and even &lt;em&gt;medici
 I&amp;rsquo;d like to be this kind of person to the people I care most about, while also not being completely rational and lacking empathy in some respect.&lt;/p&gt;
 &lt;p&gt;In this way, I feel the word Ocean is strongly linked to the number 47. I don&amp;rsquo;t think lyrics necessarily have to have a single-defined meaning. Its fine to interpret them in your own way as you like.&lt;/p&gt;
 &lt;h2 id=&#34;taosim&#34;&gt;Taosim&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/tao.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/tao.png&#34;
 	width=&#34;300&#34;
 	height=&#34;300&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/tao_hu2ae312aa34be84bde18807b30339ef60_66252_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/tao_hu2ae312aa34be84bde18807b30339ef60_66252_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/tao_hu2ae312aa34be84bde18807b30339ef60_66252_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/tao_hu2ae312aa34be84bde18807b30339ef60_66252_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2246,10 +2246,10 @@ In this way, its linked to the dualistic behaviour of the &lt;strong&gt;ocean&lt
 &lt;p&gt;Hope you enjoyed this short read. TLDR: I believe that having a balance in life is important.
 I highly recommend to check out some of Capital Steez&amp;rsquo;s music if enjoy you &amp;lsquo;Boom-Bap&amp;rsquo; as a subgenre or just rap in general.
 Peace &amp;lt;3.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/cutecat.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/cutecat.png&#34;
 	width=&#34;480&#34;
 	height=&#34;360&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/cutecat_hu7fa53c326e10933a05760b6587936164_215111_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/an-explanation-on-oceans-47/cutecat_hu7fa53c326e10933a05760b6587936164_215111_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/cutecat_hu7fa53c326e10933a05760b6587936164_215111_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/an-explanation-on-oceans-47/cutecat_hu7fa53c326e10933a05760b6587936164_215111_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2261,11 +2261,11 @@ Peace &amp;lt;3.&lt;/p&gt;
         </item>
         <item>
         <title>Bangers 🎵 | Part 1</title>
-        <link>https://macawls.dev/blog/post/bangers-part-1/</link>
+        <link>https://macawls.github.io/blog/post/bangers-part-1/</link>
         <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/bangers-part-1/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/bangers-part-1/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 1" /&gt;&lt;p&gt;These tracks are mostly hardstyle and techno including subgenres.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/bangers-part-1/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-1/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 1" /&gt;&lt;p&gt;These tracks are mostly hardstyle and techno including subgenres.&lt;/p&gt;
 &lt;p&gt;&lt;iframe width=&#34;100%&#34; 
 height=&#34;166&#34; 
 scrolling=&#34;no&#34; 
@@ -2309,16 +2309,16 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
         </item>
         <item>
         <title>My Journey and how you can get started with using Linux</title>
-        <link>https://macawls.dev/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</link>
+        <link>https://macawls.github.io/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</link>
         <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/screenshot.png" alt="Featured image of post My Journey and how you can get started with using Linux" /&gt;&lt;p&gt;If you watched any Linus Tech Tips videos about Linux, &lt;strong&gt;ignore&lt;/strong&gt; all of it &lt;em&gt;unless&lt;/em&gt; &lt;strong&gt;Anthony&lt;/strong&gt; or &lt;strong&gt;Luke&lt;/strong&gt; said something.
+        <guid>https://macawls.github.io/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/screenshot.png" alt="Featured image of post My Journey and how you can get started with using Linux" /&gt;&lt;p&gt;If you watched any Linus Tech Tips videos about Linux, &lt;strong&gt;ignore&lt;/strong&gt; all of it &lt;em&gt;unless&lt;/em&gt; &lt;strong&gt;Anthony&lt;/strong&gt; or &lt;strong&gt;Luke&lt;/strong&gt; said something.
 They actually know what they&amp;rsquo;re talking about.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus.jpg&#34;
 	width=&#34;350&#34;
 	height=&#34;350&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Linus the &amp;lsquo;Content Creator&amp;rsquo;&#34;
@@ -2330,10 +2330,10 @@ They actually know what they&amp;rsquo;re talking about.&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution.png&#34;
 	width=&#34;700&#34;
 	height=&#34;394&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Tech Literacy&#34;
@@ -2368,10 +2368,10 @@ Why was there so many different ways to do the same thing?
 What the heck is a package manager?
 What is the difference between a Desktop Environment and a Window Manager?
 Oh my god a terminal!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;400&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2398,10 +2398,10 @@ Vim was something I didn&amp;rsquo;t even know existed.
 The whole journey made me take a step back and really think about many, many aspects of software I hadn&amp;rsquo;t thought about before.
 Source code, webapps, compatibility, modularity, backend, efficiency, UX, underlying frameworks and languages, all that good stuff.&lt;/p&gt;
 &lt;p&gt;You don&amp;rsquo;t like the way a program does a certain thing? Sure bro, here&amp;rsquo;s the source code, do whatever you want.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad.png&#34;
 	width=&#34;331&#34;
 	height=&#34;311&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2474,10 +2474,10 @@ Choice is good. Whatever you do is up to you.&lt;/p&gt;
 &lt;h3 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h3&gt;
 &lt;p&gt;If you have some fancy hardware that uses proprietary software then forget it.
 If you want rgb puke lights from your new Razer keyboard then forget it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer.jpg&#34;
 	width=&#34;600&#34;
 	height=&#34;451&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2503,10 +2503,10 @@ If you&amp;rsquo;re a hardcore gamer, as in you wanna play all sorts of differen
 What you could do is dual-boot which is what I do but for different reasons. I have to because of University.&lt;/p&gt;
 &lt;p&gt;If you start using Linux, don&amp;rsquo;t get into messing with all the settings in Wine and Lutris. Its such a waste of time and effort.&lt;/p&gt;
 &lt;h2 id=&#34;ending-off&#34;&gt;Ending Off&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;340&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -2527,18 +2527,18 @@ TLDR: If you care about using software that respects your privacy and that you a
         </item>
         <item>
         <title>Archives</title>
-        <link>https://macawls.dev/blog/archives/</link>
+        <link>https://macawls.github.io/blog/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/archives/</guid>
+        <guid>https://macawls.github.io/blog/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://macawls.dev/blog/search/</link>
+        <link>https://macawls.github.io/blog/search/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/search/</guid>
+        <guid>https://macawls.github.io/blog/search/</guid>
         <description></description>
         </item>
         

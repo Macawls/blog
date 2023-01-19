@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Guide on Macawls&#39; Blog</title>
-        <link>https://macawls.dev/blog/categories/guide/</link>
+        <link>https://macawls.github.io/blog/categories/guide/</link>
         <description>Recent content in Guide on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/guide/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/guide/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Why a Multi-scene workflow in Unity is important</title>
-        <link>https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</link>
+        <link>https://macawls.github.io/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</link>
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah.jpg" alt="Featured image of post Why a Multi-scene workflow in Unity is important" /&gt;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/why-a-multi-scene-workflow-in-unity-is-important/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/why-a-multi-scene-workflow-in-unity-is-important/yeah.jpg" alt="Featured image of post Why a Multi-scene workflow in Unity is important" /&gt;&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
 &lt;center&gt;
 &lt;p align=&#34;center&#34;&gt;
   &lt;img src=&#34;https://media.giphy.com/media/igFbuVNCTNQ1V516Ng/giphy.gif&#34; alt=&#34;&#34; width=&#34;500&#34;/&gt;
@@ -105,10 +105,10 @@ I could elaborate on how it helped me personally, but the resources above do mor
         </item>
         <item>
         <title>The XY Problem</title>
-        <link>https://macawls.dev/blog/post/the-xy-problem/</link>
+        <link>https://macawls.github.io/blog/post/the-xy-problem/</link>
         <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/the-xy-problem/</guid>
+        <guid>https://macawls.github.io/blog/post/the-xy-problem/</guid>
         <description>&lt;img src="https://i.imgur.com/aXu6r95.png" alt="Featured image of post The XY Problem" /&gt;&lt;center&gt;
 &lt;h2 id=&#34;stuff-ive-been-working-on-recently&#34;&gt;Stuff I&amp;rsquo;ve been working on recently&lt;/h2&gt;
 &lt;p&gt;A star pathfinding in an isometric game.&lt;/p&gt;
@@ -209,11 +209,11 @@ This is problematic. Subsequently, one might derive at a solution that &lt;em&gt
         </item>
         <item>
         <title>My New Blog Workflow ^~^</title>
-        <link>https://macawls.dev/blog/post/my-new-blog-workflow-~/</link>
+        <link>https://macawls.github.io/blog/post/my-new-blog-workflow-~/</link>
         <pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-new-blog-workflow-~/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-new-blog-workflow-~/bed.jpg" alt="Featured image of post My New Blog Workflow ^~^" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/my-new-blog-workflow-~/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-new-blog-workflow-~/bed.jpg" alt="Featured image of post My New Blog Workflow ^~^" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;Alright so dis is a &lt;strong&gt;banger&lt;/strong&gt; post. I haven&amp;rsquo;t written in about 2 months because I&amp;rsquo;ve been swamped with campus work and updating the blog became tiresome with the workflow I had going.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.dev/apu-gallery/apu/beer.jpeg&#34;
 	
@@ -256,16 +256,16 @@ This is problematic. Subsequently, one might derive at a solution that &lt;em&gt
         </item>
         <item>
         <title>My Journey and how you can get started with using Linux</title>
-        <link>https://macawls.dev/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</link>
+        <link>https://macawls.github.io/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</link>
         <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/screenshot.png" alt="Featured image of post My Journey and how you can get started with using Linux" /&gt;&lt;p&gt;If you watched any Linus Tech Tips videos about Linux, &lt;strong&gt;ignore&lt;/strong&gt; all of it &lt;em&gt;unless&lt;/em&gt; &lt;strong&gt;Anthony&lt;/strong&gt; or &lt;strong&gt;Luke&lt;/strong&gt; said something.
+        <guid>https://macawls.github.io/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/screenshot.png" alt="Featured image of post My Journey and how you can get started with using Linux" /&gt;&lt;p&gt;If you watched any Linus Tech Tips videos about Linux, &lt;strong&gt;ignore&lt;/strong&gt; all of it &lt;em&gt;unless&lt;/em&gt; &lt;strong&gt;Anthony&lt;/strong&gt; or &lt;strong&gt;Luke&lt;/strong&gt; said something.
 They actually know what they&amp;rsquo;re talking about.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus.jpg&#34;
 	width=&#34;350&#34;
 	height=&#34;350&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/linus_hu23a104f0c4d9e7728884c8a61347aa53_29889_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Linus the &amp;lsquo;Content Creator&amp;rsquo;&#34;
@@ -277,10 +277,10 @@ They actually know what they&amp;rsquo;re talking about.&lt;/p&gt;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;my-journey&#34;&gt;My Journey&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution.png&#34;
 	width=&#34;700&#34;
 	height=&#34;394&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/evolution_hu1edcc1779a74f02ef37ab13e3017035c_229231_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Tech Literacy&#34;
@@ -315,10 +315,10 @@ Why was there so many different ways to do the same thing?
 What the heck is a package manager?
 What is the difference between a Desktop Environment and a Window Manager?
 Oh my god a terminal!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;400&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/hacker_huf967e5a945bbba7002dfc7f92f6139b1_72838_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -345,10 +345,10 @@ Vim was something I didn&amp;rsquo;t even know existed.
 The whole journey made me take a step back and really think about many, many aspects of software I hadn&amp;rsquo;t thought about before.
 Source code, webapps, compatibility, modularity, backend, efficiency, UX, underlying frameworks and languages, all that good stuff.&lt;/p&gt;
 &lt;p&gt;You don&amp;rsquo;t like the way a program does a certain thing? Sure bro, here&amp;rsquo;s the source code, do whatever you want.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad.png&#34;
 	width=&#34;331&#34;
 	height=&#34;311&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_480x0_resize_box_3.png 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad_hude66f1aaf1e6febfbe01299d06190142_54182_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -421,10 +421,10 @@ Choice is good. Whatever you do is up to you.&lt;/p&gt;
 &lt;h3 id=&#34;compatibility&#34;&gt;Compatibility&lt;/h3&gt;
 &lt;p&gt;If you have some fancy hardware that uses proprietary software then forget it.
 If you want rgb puke lights from your new Razer keyboard then forget it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer.jpg&#34;
 	width=&#34;600&#34;
 	height=&#34;451&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/razer_hu93707674cfe5af6cc8fbc803d30034f6_55360_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -450,10 +450,10 @@ If you&amp;rsquo;re a hardcore gamer, as in you wanna play all sorts of differen
 What you could do is dual-boot which is what I do but for different reasons. I have to because of University.&lt;/p&gt;
 &lt;p&gt;If you start using Linux, don&amp;rsquo;t get into messing with all the settings in Wine and Lutris. Its such a waste of time and effort.&lt;/p&gt;
 &lt;h2 id=&#34;ending-off&#34;&gt;Ending Off&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;340&#34;
-	srcset=&#34;https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_480x0_resize_q75_box.jpg 480w, https://macawls.dev/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/chad_hu6193e1c2d8da1d2cd0b497dfd5731f02_55463_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

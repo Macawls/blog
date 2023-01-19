@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Music on Macawls&#39; Blog</title>
-        <link>https://macawls.dev/blog/categories/music/</link>
+        <link>https://macawls.github.io/blog/categories/music/</link>
         <description>Recent content in Music on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.dev/blog/categories/music/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/music/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My First Unity Package &amp; Random Tunes</title>
-        <link>https://macawls.dev/blog/post/my-first-unity-package-random-tunes/</link>
+        <link>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</link>
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/my-first-unity-package-random-tunes/</guid>
+        <guid>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</guid>
         <description>&lt;img src="https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a" alt="Featured image of post My First Unity Package &amp; Random Tunes" /&gt;&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
 &lt;p&gt;Link: &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/OceanFSM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ocean FSM&lt;/a&gt;&lt;/p&gt;
@@ -97,11 +97,11 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
         </item>
         <item>
         <title>Bangers 🎵 | Part 3</title>
-        <link>https://macawls.dev/blog/post/bangers-part-3/</link>
+        <link>https://macawls.github.io/blog/post/bangers-part-3/</link>
         <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/bangers-part-3/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/bangers-part-3/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 3" /&gt;&lt;p&gt;I love the eerie feeling. Carries so much weight.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/bangers-part-3/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-3/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 3" /&gt;&lt;p&gt;I love the eerie feeling. Carries so much weight.&lt;/p&gt;
 &lt;iframe width=&#34;100%&#34; 
 height=&#34;166&#34; 
 scrolling=&#34;no&#34; 
@@ -134,11 +134,11 @@ Can&amp;rsquo;t wait till his new album 2000 drops in a couple days.&lt;/p&gt;
         </item>
         <item>
         <title>Bangers 🎵 | Part 2</title>
-        <link>https://macawls.dev/blog/post/bangers-part-2/</link>
+        <link>https://macawls.github.io/blog/post/bangers-part-2/</link>
         <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/bangers-part-2/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/bangers-part-2/monkee.jpg" alt="Featured image of post Bangers 🎵 | Part 2" /&gt;&lt;p&gt;Random genres this time around.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/bangers-part-2/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-2/monkee.jpg" alt="Featured image of post Bangers 🎵 | Part 2" /&gt;&lt;p&gt;Random genres this time around.&lt;/p&gt;
 &lt;p&gt;Just an absolute banger this one.&lt;/p&gt;
 &lt;iframe width=&#34;100%&#34; 
 height=&#34;166&#34; 
@@ -180,11 +180,11 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
         </item>
         <item>
         <title>Bangers 🎵 | Part 1</title>
-        <link>https://macawls.dev/blog/post/bangers-part-1/</link>
+        <link>https://macawls.github.io/blog/post/bangers-part-1/</link>
         <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.dev/blog/post/bangers-part-1/</guid>
-        <description>&lt;img src="https://macawls.dev/blog/post/bangers-part-1/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 1" /&gt;&lt;p&gt;These tracks are mostly hardstyle and techno including subgenres.&lt;/p&gt;
+        <guid>https://macawls.github.io/blog/post/bangers-part-1/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-1/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 1" /&gt;&lt;p&gt;These tracks are mostly hardstyle and techno including subgenres.&lt;/p&gt;
 &lt;p&gt;&lt;iframe width=&#34;100%&#34; 
 height=&#34;166&#34; 
 scrolling=&#34;no&#34; 
