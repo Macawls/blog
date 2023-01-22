@@ -1,6 +1,6 @@
 +++
 author = "Josh"
-title = "My Recent Shenanigans"
+title = "My Recent Shenanigans [Actually Good Content]"
 date = "2023-01-21"
 description = "😌"
 tags = [
@@ -17,6 +17,15 @@ image = "thumb.png"
 This is a heavy fluff post. 
 I'm just gonna talk about some of the things I've been up to recently.
 Most peeps are out of the country or in different cities so I've been chilling at home, working on stuff and listening to music.
+
+
+## Random
+
+My friend and I were trying to see if we could find each other's names on google. I randomly found this guy who did a playthrough of my game!
+
+{{< youtube aviWojbsjKw >}}
+
+I couldn't believe how happy I was just seeing him smile. Dat warm fuzzy feeling. 😌
 
 ## Music
 
