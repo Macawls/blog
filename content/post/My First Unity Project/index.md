@@ -1,6 +1,6 @@
 +++
 author = "Josh"
-title = "My First Unity Project"
+title = "My First Unity Project (Edit: Embarrasing but I'm keeping it 🤣)"
 date = "2022-04-20"
 description = "Gamedev yaaaay"
 toc = true
