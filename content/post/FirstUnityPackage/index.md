@@ -12,7 +12,7 @@ categories = [
     "programming",
     "music"
 ]
-image = "https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a"
+image = "ocean.jpg"
 +++
 <!--more-->
 
