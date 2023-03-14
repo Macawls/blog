@@ -12,7 +12,7 @@
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</guid>
-        <description>&lt;img src="https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a" alt="Featured image of post My First Unity Package &amp; Random Tunes" /&gt;&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/ocean.jpg" alt="Featured image of post My First Unity Package &amp; Random Tunes" /&gt;&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
 &lt;p&gt;Link: &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/OceanFSM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ocean FSM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nothing crazy but its a okay starting point. I might decide to add more stuff later.&lt;/p&gt;
@@ -650,12 +650,12 @@ One major problem I have is scalability and really understanding OOP concepts an
 &gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>My First Unity Project</title>
-        <link>https://macawls.github.io/blog/post/my-first-unity-project/</link>
+        <title>My First Unity Project (Edit: Embarrasing but I&#39;m keeping it 🤣)</title>
+        <link>https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/</link>
         <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.github.io/blog/post/my-first-unity-project/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-project/thumb.jpg" alt="Featured image of post My First Unity Project" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/thumb.jpg" alt="Featured image of post My First Unity Project (Edit: Embarrasing but I&#39;m keeping it 🤣)" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;So, it wasn&amp;rsquo;t my &lt;strong&gt;first&lt;/strong&gt; Unity project but it was my first one for University. I had a ton of fun making it.
 We were restricted to Unity but if I could I would have probably used Godot.
 It&amp;rsquo;s one part of a three part project so I&amp;rsquo;ll continue to add updates. Its meant to be an Endless Runner type game.
@@ -742,10 +742,10 @@ My guess is it was an issue with garbage collection, memory and just so many ref
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;In line 9, getting the zPos from PathManager is pretty ugly to be honest but it sufficed for the prototype.&lt;/p&gt;
 &lt;p&gt;PathManager and Obstacle Spawner had the exact same InvokeRepating call in Start(), I wanted to &amp;ldquo;sync&amp;rdquo; them, thats why I passed in those values but eish. It is very ugly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs.jpg&#34;
 	width=&#34;500&#34;
 	height=&#34;385&#34;
-	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -804,10 +804,10 @@ On the one hand, its really easy to grab anything you want like this because its
 &lt;/div&gt;&lt;p&gt;But it&amp;rsquo;s really going to get messy later. To restart the game, I had to destroy it in addition to loading the scene.&lt;/p&gt;
 &lt;h4 id=&#34;delegates&#34;&gt;Delegates&lt;/h4&gt;
 &lt;p&gt;OKAY THIS. This shit is the holy grail of game dev. It took a while to wrap my head around events, but once it clicked, it just unlocked so many more possibilities.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;287&#34;
-	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

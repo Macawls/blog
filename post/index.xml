@@ -6,7 +6,86 @@
         <description>Recent content in Posts on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 21 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 14 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Probability and Psychological Biases</title>
+        <link>https://macawls.github.io/blog/post/probability-and-psychological-biases/</link>
+        <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/post/probability-and-psychological-biases/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/probability-and-psychological-biases/chadspace.jpg" alt="Featured image of post Probability and Psychological Biases" /&gt;&lt;h2 id=&#34;what-is-probability-anyway&#34;&gt;What is probability anyway?&lt;/h2&gt;
+&lt;p&gt;Personally I&amp;rsquo;m not a math guy but I find probability interesting. More specifically, the psychology behind how we perceive probability.&lt;/p&gt;
+&lt;p&gt;Defining probability can be quite brain wracking to think about. We&amp;rsquo;re trying to quantify something that is inherently unquantifiable. Trying to understand an event that is fundamentally random. Very abstract if I&amp;rsquo;m being honest.&lt;/p&gt;
+&lt;h2 id=&#34;perceiving-probability&#34;&gt;Perceiving Probability&lt;/h2&gt;
+&lt;p&gt;We aren&amp;rsquo;t computers, so in term&amp;rsquo;s of &lt;strong&gt;feeling and perceiving&lt;/strong&gt; probability, we&amp;rsquo;re not very good at it.&lt;/p&gt;
+&lt;h3 id=&#34;gamblers-fallacy&#34;&gt;Gambler&amp;rsquo;s Fallacy&lt;/h3&gt;
+&lt;p&gt;For example, lets suppose you have a fair coin and you flip it about 5 times.
+Lets suppose now that you get heads 5 times in a row.&lt;/p&gt;
+&lt;p&gt;You might think to yourself, &amp;ldquo;Ok, surely the next flip will be tails, right?&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Thats called the &lt;a class=&#34;link&#34; href=&#34;https://www.investopedia.com/terms/g/gamblersfallacy.asp&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Gambler&amp;rsquo;s Fallacy&lt;/strong&gt;&lt;/a&gt;. It&amp;rsquo;s quite a powerful psychological phenomenon that can be used to manipulate people into making bad decisions.&lt;/p&gt;
+&lt;h3 id=&#34;availability-heuristic&#34;&gt;Availability Heuristic&lt;/h3&gt;
+&lt;p&gt;Lets say you&amp;rsquo;re at the arcade and you&amp;rsquo;re playing the game with the claw, trying to get a specific teddy bear.&lt;/p&gt;
+&lt;p&gt;Suppose you get the teddy bear and don&amp;rsquo;t try it again. Someone else informs you that the probability of getting the bear is 1 in 5000. You won&amp;rsquo;t internalize that information because you&amp;rsquo;ve gotten the bear you wanted on the first try. The next time you play the game, your tolerance for stopping will be much, much higher than the average person.&lt;/p&gt;
+&lt;p&gt;If someone else asks you what the probability of getting the bear is, you might remember someone mentioning &amp;ldquo;1 in 5000&amp;rdquo; but you won&amp;rsquo;t exactly &lt;strong&gt;feel and percieve&lt;/strong&gt; it as 1 in 5000.&lt;/p&gt;
+&lt;p&gt;This is called the &lt;a class=&#34;link&#34; href=&#34;https://thedecisionlab.com/biases/availability-heuristic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Availability Heuristic&lt;/strong&gt;&lt;/a&gt;. It&amp;rsquo;s a cognitive bias that causes us to overestimate the probability of events that are more easily recalled. It can lead to poor decision-making because memories that are easy to recall are often inadequate for determining the likelihood of future events.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;heuristic.jpg&#34; alt=&#34;&#34; width=&#34;400&#34;/&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;salience-and-salient-events&#34;&gt;Salience and Salient Events&lt;/h4&gt;
+&lt;p&gt;Basically, salience is the degree to which something stands out or like how noticeable something is.
+So, in the context of the previous example, the memory of getting the bear is more salient than the memory of not getting the bear, so you overestimate the probability of getting the bear.&lt;/p&gt;
+&lt;p&gt;As another example, someone may overestimate the risk of a plane crash because highly publicized plane crashes are more salient in their memory than the much more frequent and conversely, less publicized car accidents. Important to note that this is different on an individual basis.&lt;/p&gt;
+&lt;p&gt;This might cause people to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Overestimate the risk of plane crashes and underestimate the risk of car accidents.&lt;/li&gt;
+&lt;li&gt;Drive more recklessly, like driving while texting or driving while intoxicated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Both undesirable but hey, we are assosiation machines.&lt;/p&gt;
+&lt;h3 id=&#34;confirmation-bias&#34;&gt;Confirmation Bias&lt;/h3&gt;
+&lt;p&gt;This is another cognitive bias that causes us to &lt;strong&gt;seek&lt;/strong&gt; out information that confirms our beliefs and &lt;strong&gt;ignore&lt;/strong&gt; information that contradicts our beliefs.&lt;/p&gt;
+&lt;p&gt;Like for example on reddit (similarly with other forms of social media), you are much more likely to follow a subreddit that agrees with your beliefs and you are much less likely to follow a subreddit that disagrees with your beliefs.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Basically putting yourself in an echo chamber with no way in from the outside.
+&lt;/code&gt;&lt;/pre&gt;&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;uzumaki.jpg&#34; alt=&#34;&#34; width=&#34;500&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;But I digress, that&amp;rsquo;s a whole other topic&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Sorry bout the scary image ❤️&lt;/p&gt;
+&lt;p&gt;Back to probability.&lt;/p&gt;
+&lt;p&gt;For a confirmation bias example regarding probability, imagine someone strongly believes that their favorite sports team is going to win a game.&lt;/p&gt;
+&lt;p&gt;They&amp;rsquo;ve been following the team for years and they&amp;rsquo;ve seen them win many games. They&amp;rsquo;ve also seen them lose many games, but they&amp;rsquo;ve &lt;strong&gt;never&lt;/strong&gt; seen them lose to this specific opposing team.&lt;/p&gt;
+&lt;p&gt;They may seek out and focus on information that supports their belief, like stats that show their team has a good record, while ignoring stats that contradicts their belief, like that the opposing team has a winning streak or a strong defense or something.&lt;/p&gt;
+&lt;p&gt;They could then easily overestimate the probability of their team winning the game.&lt;/p&gt;
+&lt;h3 id=&#34;anchoring-bias&#34;&gt;Anchoring Bias&lt;/h3&gt;
+&lt;p&gt;This causes people to rely too heavily on a single piece of information when making decisions. It&amp;rsquo;s also known as the &lt;strong&gt;first impression effect&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In the context of probability, people could base their estimates on arbitrary or irrelevant reference points, rather than on accurate information.&lt;/p&gt;
+&lt;p&gt;For example, suppose someone asked you the probability of a certain event occurring. Your first instinct is to recall the probability of similar events or make an estimate based on context but that isn&amp;rsquo;t relevant for this example.&lt;/p&gt;
+&lt;p&gt;However, before you make your estimate, the person asking you the question, tells you that the answer is between 20% and 40%. This is an arbitrary range, but it serves as an anchor point for your estimate.&lt;/p&gt;
+&lt;p&gt;You might end up saying 30%, which is right in the middle of 20% and 40%, even if the actual answer is much lower or much higher.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;https://media.giphy.com/media/FtanAYyYWjFyU7bPBf/giphy.gif&#34; alt=&#34;&#34; width=&#34;300&#34;/&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;hindsight-bias&#34;&gt;Hindsight Bias&lt;/h3&gt;
+&lt;p&gt;Hindsight bias is simply when someone looks back at an event and believes they predicted the outcome, even if they failed to act on that &amp;ldquo;prediction&amp;rdquo;. It&amp;rsquo;s also known as the &lt;strong&gt;&amp;lsquo;I knew it all along phenomenon&amp;rsquo;&lt;/strong&gt;. It might not seem relevant in terms of probability because probability is about predicting the unforeseeable future, but lemme explain.&lt;/p&gt;
+&lt;p&gt;While probability is about predicting the future, hindsight bias can still be a problem because it can distort our perception of the accuracy of our predictions.&lt;/p&gt;
+&lt;p&gt;Suppose you hear that the stock market is soon to crash. However, you decide not to sell your stocks because you think the market is too unpredictable anyways and you don&amp;rsquo;t want to miss out on potential gains. Eventually, the market does actually crash and you lose money.&lt;/p&gt;
+&lt;p&gt;After the crash, you might look back and think that it was obvious that the market was going to crash, and that you should have sold your stocks when you had the chance. This is hindsight bias.&lt;/p&gt;
+&lt;p&gt;The problem with this is that it can lead people to overestimate their ability to predict or control the likelihood of future events based on their past experiences or knowledge.&lt;/p&gt;
+&lt;h2 id=&#34;ending-off&#34;&gt;Ending Off&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s a lot more to dive into but I hope you enjoyed this little dive into probability and how we might perceive things differently to how they actually are. I definitely enjoyed writing and exploring this topic, was quite refreshing 😊&lt;/p&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/dlBrxQf.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Peace ✌️&lt;/p&gt;
+&lt;/center&gt;</description>
+        </item>
+        <item>
         <title>My Recent Shenanigans [Actually Good Content]</title>
         <link>https://macawls.github.io/blog/post/my-recent-shenanigans-actually-good-content/</link>
         <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
@@ -358,7 +437,7 @@ You&amp;rsquo;ve gotta trust your gut.&lt;/p&gt;
         <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/</guid>
-        <description>&lt;img src="https://repository-images.githubusercontent.com/560150049/f54d1480-e7d3-40a3-bae6-c791c63d1f9a" alt="Featured image of post My First Unity Package &amp; Random Tunes" /&gt;&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-package-random-tunes/ocean.jpg" alt="Featured image of post My First Unity Package &amp; Random Tunes" /&gt;&lt;h2 id=&#34;package&#34;&gt;Package&lt;/h2&gt;
 &lt;p&gt;Link: &lt;a class=&#34;link&#34; href=&#34;https://github.com/Macawls/OceanFSM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ocean FSM&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Nothing crazy but its a okay starting point. I might decide to add more stuff later.&lt;/p&gt;
@@ -1548,12 +1627,12 @@ One major problem I have is scalability and really understanding OOP concepts an
 &gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>My First Unity Project</title>
-        <link>https://macawls.github.io/blog/post/my-first-unity-project/</link>
+        <title>My First Unity Project (Edit: Embarrasing but I&#39;m keeping it 🤣)</title>
+        <link>https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/</link>
         <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.github.io/blog/post/my-first-unity-project/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-project/thumb.jpg" alt="Featured image of post My First Unity Project" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/thumb.jpg" alt="Featured image of post My First Unity Project (Edit: Embarrasing but I&#39;m keeping it 🤣)" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;So, it wasn&amp;rsquo;t my &lt;strong&gt;first&lt;/strong&gt; Unity project but it was my first one for University. I had a ton of fun making it.
 We were restricted to Unity but if I could I would have probably used Godot.
 It&amp;rsquo;s one part of a three part project so I&amp;rsquo;ll continue to add updates. Its meant to be an Endless Runner type game.
@@ -1640,10 +1719,10 @@ My guess is it was an issue with garbage collection, memory and just so many ref
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;In line 9, getting the zPos from PathManager is pretty ugly to be honest but it sufficed for the prototype.&lt;/p&gt;
 &lt;p&gt;PathManager and Obstacle Spawner had the exact same InvokeRepating call in Start(), I wanted to &amp;ldquo;sync&amp;rdquo; them, thats why I passed in those values but eish. It is very ugly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs.jpg&#34;
 	width=&#34;500&#34;
 	height=&#34;385&#34;
-	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1702,10 +1781,10 @@ On the one hand, its really easy to grab anything you want like this because its
 &lt;/div&gt;&lt;p&gt;But it&amp;rsquo;s really going to get messy later. To restart the game, I had to destroy it in addition to loading the scene.&lt;/p&gt;
 &lt;h4 id=&#34;delegates&#34;&gt;Delegates&lt;/h4&gt;
 &lt;p&gt;OKAY THIS. This shit is the holy grail of game dev. It took a while to wrap my head around events, but once it clicked, it just unlocked so many more possibilities.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell.jpg&#34;
 	width=&#34;400&#34;
 	height=&#34;287&#34;
-	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
