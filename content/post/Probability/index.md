@@ -19,6 +19,10 @@ Personally I'm not a math guy but I find probability interesting. More specifica
 
 Defining probability can be quite brain wracking to think about. We're trying to quantify something that is inherently unquantifiable. Trying to understand an event that is fundamentally random. Very abstract if I'm being honest.
 
+<p align="center">
+  <img src="pepe.jpg" alt="" width="300"/>
+</p>
+
 
 ## Perceiving Probability
 
@@ -26,8 +30,7 @@ We aren't computers, so in term's of **feeling and perceiving** probability, we'
 
 ### Gambler's Fallacy
 
-For example, lets suppose you have a fair coin and you flip it about 5 times.
-Lets suppose now that you get heads 5 times in a row.
+Lets suppose you have a fair coin. You flip it 5 times. You get 5 heads in a row.
 
 You might think to yourself, "Ok, surely the next flip will be tails, right?".
 
@@ -37,9 +40,9 @@ Thats called the [**Gambler's Fallacy**](https://www.investopedia.com/terms/g/ga
 
 Lets say you're at the arcade and you're playing the game with the claw, trying to get a specific teddy bear.
 
-Suppose you get the teddy bear and don't try it again. Someone else informs you that the probability of getting the bear is 1 in 5000. You won't internalize that information because you've gotten the bear you wanted on the first try. The next time you play the game, your tolerance for stopping will be much, much higher than the average person.
+Suppose you get the teddy bear you wanted on the first try, and stop playing. Afterwards, someone else informs you that the probability of getting a bear is 1 in 5000. You won't internalize that information because you've gotten the bear you wanted on the first try. The next time you play the game, your tolerance for stopping will be **much, much** higher than the average person.
 
-If someone else asks you what the probability of getting the bear is, you might remember someone mentioning "1 in 5000" but you won't exactly **feel and percieve** it as 1 in 5000.
+If someone else asks you what the probability of getting the bear is, you might remember someone mentioning "1 in 5000" but you won't exactly **feel and perceive** it as 1 in 5000.
 
 This is called the [**Availability Heuristic**](https://thedecisionlab.com/biases/availability-heuristic). It's a cognitive bias that causes us to overestimate the probability of events that are more easily recalled. It can lead to poor decision-making because memories that are easy to recall are often inadequate for determining the likelihood of future events.
 
@@ -49,16 +52,17 @@ This is called the [**Availability Heuristic**](https://thedecisionlab.com/biase
 
 #### Salience and Salient Events
 
-Basically, salience is the degree to which something stands out or like how noticeable something is.
-So, in the context of the previous example, the memory of getting the bear is more salient than the memory of not getting the bear, so you overestimate the probability of getting the bear.
+Basically, salience is the degree to which something stands out or how noticeable something is.
+
+In the context of the previous example, the memory of getting the bear is more salient than the memory of not getting the bear, so you may overestimate the probability of getting the bear.
 
 As another example, someone may overestimate the risk of a plane crash because highly publicized plane crashes are more salient in their memory than the much more frequent and conversely, less publicized car accidents. Important to note that this is different on an individual basis.
 
 This might cause people to: 
 - Overestimate the risk of plane crashes and underestimate the risk of car accidents.
-- Drive more recklessly, like driving while texting or driving while intoxicated.
+- Underestimating the risk of car accidents could cause one to drive more recklessly, like driving while texting or driving while intoxicated.
 
-Both undesirable but hey, we are assosiation machines.
+Both undesirable but I guess we are association machines 😊
 
 ### Confirmation Bias
 This is another cognitive bias that causes us to **seek** out information that confirms our beliefs and **ignore** information that contradicts our beliefs.
@@ -93,7 +97,7 @@ This causes people to rely too heavily on a single piece of information when mak
 
 In the context of probability, people could base their estimates on arbitrary or irrelevant reference points, rather than on accurate information.
 
-For example, suppose someone asked you the probability of a certain event occurring. Your first instinct is to recall the probability of similar events or make an estimate based on context but that isn't relevant for this example.
+For example, suppose someone asked you the probability of a certain event occurring. Your first instinct is to *probably* recall the probability of similar events or make an estimate based on context but that isn't relevant for this example.
 
 However, before you make your estimate, the person asking you the question, tells you that the answer is between 20% and 40%. This is an arbitrary range, but it serves as an anchor point for your estimate.
 
