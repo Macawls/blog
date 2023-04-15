@@ -20,7 +20,7 @@ image = "pc.jpg"
 
 This is gonna sound poetic as fuck but my blog was supposed to be space where I could unearth the depths of my being. Typing on the keyboard was supposed to capture the sensation of reaching into the darkest parts of my psyche that never made it out. 
 
-For me, writing provides a similar healing energy to dancing, with the added benefit of being able to revisit my past thoughts. In short, this supposed to be was my sanctuary, my haven, my refuge, exactly how I described it back in December of 2021 on my [About Page](https://macawls.dev/blog/about/). 
+For me, writing provides a similar healing energy to dancing, with the added benefit of being able to revisit my past thoughts. In short, this supposed to be was my sanctuary, my haven, my refuge, exactly how I described it back in December of 2021 on my [About Page](https://macawls.dev/blog/about/).
 
 
 The entire point of the blog was to be a free space for myself where I could write about whatever I want, whenever I want, without any restrictions. I've realized the more people I share this blog with, the trickier it becomes to write about things. In the early days, back when it just was me, myself and I, and I didn't have this blog deployed and a domain setup yet, I felt completely free and my creative juices were absolutely fuming. I entered the flow state when writing with barely any effort. I would *reeeealllly*  like that back.
