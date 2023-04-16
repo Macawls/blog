@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='dev stuff 🦆'><title>Minimax Algorithm Adventures, FP and OOP</title>
+
+<link rel='canonical' href='https://macawls.github.io/blog/post/minimax-algorithm-adventures-fp-and-oop/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.f52514ef14db50cc6d4863c388512f6ca946575d2ce1a856a561e17832dae60e.css"><meta property='og:title' content='Minimax Algorithm Adventures, FP and OOP'>
+<meta property='og:description' content='dev stuff 🦆'>
+<meta property='og:url' content='https://macawls.github.io/blog/post/minimax-algorithm-adventures-fp-and-oop/'>
+<meta property='og:site_name' content='Macawls&#39; Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='learning' /><meta property='article:tag' content='development' /><meta property='article:published_time' content='2023-04-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-04-15T00:00:00&#43;00:00'/><meta property='og:image' content='https://macawls.github.io/blog/post/minimax-algorithm-adventures-fp-and-oop/thumb.png' />
+<meta name="twitter:title" content="Minimax Algorithm Adventures, FP and OOP">
+<meta name="twitter:description" content="dev stuff 🦆"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://macawls.github.io/blog/post/minimax-algorithm-adventures-fp-and-oop/thumb.png' />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Macawls/home/main/docs/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog">
+                
+                    <img src="https://avatars.githubusercontent.com/u/80009513?v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🌸</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog">Macawls&#39; Blog</a></h1>
+            <h2 class="site-description">A safe haven to document, express and share my thoughts.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Macawls'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA'
+                        target="_blank"
+                        title="Youtube"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="4" />
+  <path d="M10 9l5 3l-5 3z" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://soundcloud.com/user-226762181'
+                        target="_blank"
+                        title="Soundcloud"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-soundcloud" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M17 11h1c1.38 0 3 1.274 3 3c0 1.657 -1.5 3 -3 3l-6 0v-10c3 0 4.5 1.5 5 4z" />
+  <line x1="9" y1="8" x2="9" y2="17" />
+  <line x1="6" y1="17" x2="6" y2="10" />
+  <line x1="3" y1="16" x2="3" y2="14" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://open.spotify.com/user/31o7peloe4i6yfnxmmdwrydcgo34'
+                        target="_blank"
+                        title="Spotify"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-spotify" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+   <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527"></path>
+   <path d="M9 15c1.5 -1 4 -1 5 .5"></path>
+   <path d="M7 9c2 -1 6 -2 10 .5"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/blog' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/categories/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>Categories</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/post/minimax-algorithm-adventures-fp-and-oop/">
+                <img src="/blog/post/minimax-algorithm-adventures-fp-and-oop/thumb_hud4f191192083094a7544216e0700a5c7_533745_800x0_resize_box_3.png"
+                        srcset="/blog/post/minimax-algorithm-adventures-fp-and-oop/thumb_hud4f191192083094a7544216e0700a5c7_533745_800x0_resize_box_3.png 800w, /blog/post/minimax-algorithm-adventures-fp-and-oop/thumb_hud4f191192083094a7544216e0700a5c7_533745_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="246" 
+                        loading="lazy"
+                        alt="Featured image of post Minimax Algorithm Adventures, FP and OOP" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/educational/" >
+                Educational
+            </a>
+        
+            <a href="/blog/categories/programming/" >
+                Programming
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/post/minimax-algorithm-adventures-fp-and-oop/">Minimax Algorithm Adventures, FP and OOP</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            dev stuff 🦆
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Apr 15, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    11 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="functional-and-object-oriented-programming">Functional and Object-Oriented Programming</h2>
+<p>I took a massive break from touching the Unity Engine and I recently got back into using it.
+In general, even if I&rsquo;m not actively working on any project, I like to keep learning so I&rsquo;m always consuming a bunch of tech/programming content.</p>
+<p align="center">
+  <img src="ducko.png" alt="" width="300px"/>
+</p>
+I saw that many people had criticisms about OOP and I was unable to grasp them immediately. Stuff like
+<ul>
+<li>Very strong adverse opinions on inheritance</li>
+<li>Memory and performance overhead</li>
+<li>Premature abstraction approaches</li>
+<li>Mutability being public enemy #1</li>
+</ul>
+<p><br>
+<strong>That bugged me 😒💢</strong></p>
+<p align="center">
+  <img src="kirb.gif" alt="" width="250px"/>
+</p>
+<p>Why couldn&rsquo;t I fully understand them? My guess was:</p>
+<ul>
+<li>I didn&rsquo;t have enough experience with other programming paradigms</li>
+<li>I needed more experience solving problems in different ways</li>
+<li>I needed to explore using more languages</li>
+</ul>
+<p>On the last point about using other languages, I only have experience in JS, Python and C#, with most of my experience being in C#. None of these languages sort of <em>force</em> you or <em>lean</em> more towards a specific paradigm, at least not like idiomatic, functional languages like F# or Rust for example.</p>
+<p>C# is my bae 😍. Microsoft added more functional type of features of the years, we&rsquo;re currently at C# 11.</p>
+<ul>
+<li>C# 3.0 lambda expressions/anonymous funcs/delegates</li>
+<li>C# 3.5 extension methods</li>
+<li>C# 6.0 pattern matching</li>
+<li>C# 7.0 tuples, local funcs</li>
+</ul>
+<p>So naturally, I found myself going down the rabbit hole of understanding FP.</p>
+<p align="center">
+  <img src="https://i.imgur.com/mGzGS9G.jpg" alt="" width=""/>
+</p>
+<h3 id="whats-the-difference">Whats the difference?</h3>
+<p>As a personal take, the way I see it is, OOP is about messages and communication between objects and mutable state, FP is about pure functions(no side effects) where state is immutable. Of course, there&rsquo;s also the four-pillars of OOP and yada yada yada.</p>
+<p>Most university courses on programming will teach you OOP because it&rsquo;s an intuitive way of thinking about objects and behavior. It&rsquo;s been around for a long time, around since the 70s. I have no idea how many times I&rsquo;ve seen that awful animal example. Java and C++ have made people a lot of money, so it&rsquo;s no surprise it&rsquo;s the main paradigm being taught.</p>
+<p>Design patterns are pretty much the backbone of OOP.</p>
+<p>My favourites are</p>
+<ul>
+<li>Strategy - Absolutely goated 🐐👑</li>
+<li>Observer - loose coupling</li>
+<li>State - behavior</li>
+<li>Builder - intuitive as fuck</li>
+<li>Command - abstraction</li>
+</ul>
+<p>I mostly do gamedev, so I suppose thats why these are my favourites.</p>
+<p align="center">
+ <video width="400" controls>
+  <source src="comfort_character.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+</p>
+<p>Once, I started to learn about FP, I realized that it&rsquo;s a completely different way of thinking about programming. It&rsquo;s not just a different way of writing code, it&rsquo;s a different way approaching a problem. I&rsquo;m actually quite excited to learn and apply it&rsquo;s principles where I see fit.</p>
+<h3 id="tictactoe-wminimax-algo-and-what-ive-learned-with-fp">TicTacToe w/Minimax Algo and what I&rsquo;ve learned with FP</h3>
+<p>It was so refreshing to take a break from using Unity 🤗
+<br>
+I used a library called <a class="link" href="https://spectreconsole.net/"  target="_blank" rel="noopener"
+    >Spectre Console</a> to aid in the presentation aspect of the game.</p>
+<p><img src="/blog/post/minimax-algorithm-adventures-fp-and-oop/tttconsole.PNG"
+	width="1800"
+	height="773"
+	srcset="/blog/post/minimax-algorithm-adventures-fp-and-oop/tttconsole_hud8dcad02fb068559d79f80ebe6b3b4bd_45600_480x0_resize_box_3.PNG 480w, /blog/post/minimax-algorithm-adventures-fp-and-oop/tttconsole_hud8dcad02fb068559d79f80ebe6b3b4bd_45600_1024x0_resize_box_3.PNG 1024w"
+	loading="lazy"
+	
+		alt="Tic Tac Toe Console App (Click to expand)"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="232"
+		data-flex-basis="558px"
+	
+></p>
+<p>Unity primarily uses a component-based architecture, so different components attached onto game-objects would allow for functionality, thats the gist of it. It was so nice to retreat back into fundamentals. With console applications its so beautiful, data actually flows down like a waterfall 😭</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">config</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Configuration</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">board</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Board</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">players</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Players</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">First</span> <span class="p">=</span> <span class="k">new</span> <span class="p">(</span><span class="s">&#34;One&#34;</span><span class="p">,</span> <span class="n">TileType</span><span class="p">.</span><span class="n">X</span><span class="p">,</span> <span class="k">new</span> <span class="n">MinimaxStrategy</span><span class="p">(</span><span class="k">true</span><span class="p">)),</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">Second</span> <span class="p">=</span> <span class="k">new</span> <span class="p">(</span><span class="s">&#34;Two&#34;</span><span class="p">,</span> <span class="n">TileType</span><span class="p">.</span><span class="n">O</span><span class="p">,</span> <span class="k">new</span> <span class="n">PromptStrategy</span><span class="p">(</span><span class="n">config</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">game</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Game</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="n">players</span><span class="p">,</span> <span class="n">config</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">view</span> <span class="p">=</span> <span class="k">new</span> <span class="n">View</span><span class="p">(</span><span class="n">game</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">view</span><span class="p">.</span><span class="n">Enable</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="n">game</span><span class="p">.</span><span class="n">Run</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">AppDomain</span><span class="p">.</span><span class="n">CurrentDomain</span><span class="p">.</span><span class="n">ProcessExit</span> <span class="p">+=</span> <span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">)</span> <span class="p">=&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">view</span><span class="p">.</span><span class="n">Disable</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In this case, I wanted to explore FP and pretty much would use structs all over the place. I ended up with a pretty clean solution with a mix of OOP and FP.</p>
+<p>The main objects, the <code>game</code> and <code>map</code> need to be <em>mutated</em>. It only made sense to me. So for the general architecture, <code>game</code> emitted events that the <code>view</code> would listen to.</p>
+<h4 id="game-loop">Game Loop</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">Run</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Begin</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">Players</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">GameStatus</span><span class="p">.</span><span class="n">State</span> <span class="p">==</span> <span class="n">GameState</span><span class="p">.</span><span class="n">InProgress</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">player</span> <span class="k">in</span> <span class="n">Players</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">GameStatus</span> <span class="p">=</span> <span class="n">PlayTurn</span><span class="p">(</span><span class="n">player</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">GameStatus</span><span class="p">.</span><span class="n">State</span> <span class="p">!=</span> <span class="n">GameState</span><span class="p">.</span><span class="n">InProgress</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">End</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">GameStatus</span><span class="p">.</span><span class="n">State</span><span class="p">,</span> <span class="n">GameStatus</span><span class="p">.</span><span class="n">Winner</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                <span class="k">break</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">GameStatus</span><span class="p">.</span><span class="n">State</span> <span class="p">==</span> <span class="n">GameState</span><span class="p">.</span><span class="n">InProgress</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">RoundEnd</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">Players</span><span class="p">,</span> <span class="n">CurrentRound</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="handling-turns">Handling Turns</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="n">GameStatus</span> <span class="n">PlayTurn</span><span class="p">(</span><span class="n">Player</span> <span class="n">player</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">bool</span> <span class="n">success</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">do</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span> 
+</span></span><span class="line"><span class="cl">        <span class="n">TurnBegin</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">player</span><span class="p">,</span> <span class="n">CurrentTurn</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">var</span> <span class="n">desiredPosition</span> <span class="p">=</span> <span class="n">player</span><span class="p">.</span><span class="n">Strategy</span><span class="p">.</span><span class="n">GetMove</span><span class="p">(</span><span class="n">Board</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Board</span><span class="p">.</span><span class="n">Update</span><span class="p">(</span><span class="n">desiredPosition</span><span class="p">,</span> <span class="n">player</span><span class="p">.</span><span class="n">TileType</span><span class="p">,</span> <span class="k">out</span> <span class="n">success</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">success</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">_mTurnHistory</span><span class="p">.</span><span class="n">Push</span><span class="p">(</span><span class="k">new</span> <span class="n">Turn</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">Player</span> <span class="p">=</span> <span class="n">player</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">TurnNumber</span> <span class="p">=</span> <span class="n">CurrentTurn</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                <span class="n">PlayPosition</span> <span class="p">=</span> <span class="n">desiredPosition</span>
+</span></span><span class="line"><span class="cl">            <span class="p">});</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">            <span class="k">continue</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">InvalidInput</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">player</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">while</span> <span class="p">(!</span><span class="n">success</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="n">TurnComplete</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">player</span><span class="p">,</span> <span class="n">CurrentTurn</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">CurrentTurn</span> <span class="p">+=</span> <span class="m">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">.</span><span class="n">CheckWinner</span><span class="p">(</span><span class="n">player</span><span class="p">.</span><span class="n">TileType</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">GameStatus</span><span class="p">.</span><span class="n">Victor</span><span class="p">(</span><span class="n">player</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">Board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">.</span><span class="n">IsDraw</span><span class="p">()</span> <span class="p">?</span> <span class="n">GameStatus</span><span class="p">.</span><span class="n">Draw</span> <span class="p">:</span> <span class="n">GameStatus</span><span class="p">.</span><span class="n">InProgress</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="representing-the-game-status">Representing The Game Status</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">readonly</span> <span class="k">struct</span> <span class="nc">GameStatus</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span> 
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="n">GameState</span> <span class="n">State</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">init</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;</span> <span class="n">Winner</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">init</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="n">GameStatus</span> <span class="n">InProgress</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">State</span> <span class="p">=</span> <span class="n">GameState</span><span class="p">.</span><span class="n">InProgress</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Winner</span> <span class="p">=</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;.</span><span class="n">None</span>
+</span></span><span class="line"><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="n">GameStatus</span> <span class="n">Draw</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">State</span> <span class="p">=</span> <span class="n">GameState</span><span class="p">.</span><span class="n">Draw</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Winner</span> <span class="p">=</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;.</span><span class="n">None</span>
+</span></span><span class="line"><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="n">GameStatus</span> <span class="n">Victor</span><span class="p">(</span><span class="n">Player</span> <span class="n">player</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">State</span> <span class="p">=</span> <span class="n">GameState</span><span class="p">.</span><span class="n">Winner</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Winner</span> <span class="p">=</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;.</span><span class="n">Some</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>I completely avoided nulls and used <code>Option&lt;T&gt;</code> instead, which is a type that can either be <code>Some(T)</code> or <code>None</code>. It&rsquo;s a very elegant way of handling values that may or may not be there since putting it behind a facade forces you to handle them.</p>
+<h4 id="extensibility">Extensibility</h4>
+<p>It was pretty easy to add different ways of playing the game. Currently, there&rsquo;s only Random, Minimax, and Prompt.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">interface</span> <span class="nc">IPlayerStrategy</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">string</span> <span class="n">DisplayName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">string</span> <span class="n">Description</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span> <span class="n">GetMove</span><span class="p">(</span><span class="n">Board</span> <span class="n">board</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>With mainly using structs, I went absolutely ham with extension methods. I realized its so much easier to compose functions together as opposed to having most of functionality/behavior tied to the definition of whatever object is of interest (instance methods). I could just add a shitton of extensions. Like I was sort of free to keep adding more and more functionality without modifying the original definition in any way.</p>
+<p>For example,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="n">Players</span> <span class="n">SwitchPlayOrder</span><span class="p">(</span><span class="k">this</span> <span class="n">Players</span> <span class="n">players</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">player</span> <span class="k">in</span> <span class="n">players</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">player</span><span class="p">.</span><span class="n">Strategy</span> <span class="k">is</span> <span class="n">MinimaxStrategy</span> <span class="n">miniMax</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">player</span><span class="p">.</span><span class="n">UpdateStrategy</span><span class="p">(</span><span class="n">miniMax</span><span class="p">.</span><span class="n">SwitchMaximizer</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="n">players</span><span class="p">.</span><span class="n">First</span><span class="p">.</span><span class="n">UpdateTileType</span><span class="p">(</span><span class="n">players</span><span class="p">.</span><span class="n">First</span><span class="p">.</span><span class="n">TileType</span><span class="p">.</span><span class="n">GetOpposite</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">    <span class="n">players</span><span class="p">.</span><span class="n">Second</span><span class="p">.</span><span class="n">UpdateTileType</span><span class="p">(</span><span class="n">players</span><span class="p">.</span><span class="n">Second</span><span class="p">.</span><span class="n">TileType</span><span class="p">.</span><span class="n">GetOpposite</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">new</span> <span class="n">Players</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">First</span> <span class="p">=</span> <span class="n">players</span><span class="p">.</span><span class="n">Second</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Second</span> <span class="p">=</span> <span class="n">players</span><span class="p">.</span><span class="n">First</span>
+</span></span><span class="line"><span class="cl">    <span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">GetPlayerMarkup</span><span class="p">(</span><span class="k">this</span> <span class="n">Player</span> <span class="n">player</span><span class="p">,</span> <span class="kt">string</span> <span class="n">header</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">PlayerLogBuilder</span><span class="p">.</span><span class="n">Clear</span><span class="p">();</span> 
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">PlayerLogBuilder</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;{header}\n&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;Name: [bold]{player.Name}[/]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;Symbol: [bold]{player.TileType.GetSymbol()}[/]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;Strategy: [bold]{player.Strategy.DisplayName}[/]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;Description: [bold]{player.Strategy.Description}[/]&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You sort of end up with a very fluent way of writing and reading code. It&rsquo;s also definitely much more predictable.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">RandomStrategy</span> <span class="p">:</span> <span class="n">IPlayerStrategy</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span> <span class="n">GetMove</span><span class="p">(</span><span class="n">Board</span> <span class="n">board</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">.</span><span class="n">GetPositionsOf</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">).</span><span class="n">GetRandom</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="downsides-of-fp">Downsides of FP</h4>
+<p>So what I&rsquo;ve realized is, I&rsquo;m incapable of finishing an entire project just using FP. I think sometimes, OOP or Procedural is simply a better option. Different tools for different jobs. FP is amazing to work with but it can become really performance intensive. You&rsquo;re constantly creating new objects, copying them around and it puts heavy pressure on the GC. RIP stack space. It allocates a lot simply by design. In a performance critical environment or particular space in the codebase, do you really want that 5 chained function with functions as arguments that are just multiple levels deep? Hell naw 😌, FP is not a silver bullet.</p>
+<p align="center">
+ <video width="400" controls>
+  <source src="cat.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+</p>
+<h2 id="minimax-algorithm">Minimax Algorithm</h2>
+<p>Phew ok, thats it for the spiel on FP. Now for the meat of the post. I&rsquo;m working on three games simultaneously, all using the minimax algorithm. I honestly think I&rsquo;m losing my mind a bit 😅. Still fun though.</p>
+<ul>
+<li>1 - TicTacToe (Console)</li>
+<li>2 - Bomba - Sort of like bomber man (Unity)</li>
+<li>3 - Color Plight - Chess-like game (Unity)</li>
+</ul>
+<p><img src="/blog/post/minimax-algorithm-adventures-fp-and-oop/bomba.PNG"
+	width="972"
+	height="542"
+	srcset="/blog/post/minimax-algorithm-adventures-fp-and-oop/bomba_hucd96cf0bfa44fc9e51d398f092132313_92919_480x0_resize_box_3.PNG 480w, /blog/post/minimax-algorithm-adventures-fp-and-oop/bomba_hucd96cf0bfa44fc9e51d398f092132313_92919_1024x0_resize_box_3.PNG 1024w"
+	loading="lazy"
+	
+		alt="Bomba"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="179"
+		data-flex-basis="430px"
+	
+></p>
+<p><img src="/blog/post/minimax-algorithm-adventures-fp-and-oop/color.PNG"
+	width="1048"
+	height="597"
+	srcset="/blog/post/minimax-algorithm-adventures-fp-and-oop/color_hu6adf1eef4e51ff32127143bb8a52a3ca_42747_480x0_resize_box_3.PNG 480w, /blog/post/minimax-algorithm-adventures-fp-and-oop/color_hu6adf1eef4e51ff32127143bb8a52a3ca_42747_1024x0_resize_box_3.PNG 1024w"
+	loading="lazy"
+	
+		alt="Color Plight"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="175"
+		data-flex-basis="421px"
+	
+></p>
+<h3 id="minimax-algorithm---what-is-it">Minimax Algorithm - What is it?</h3>
+<p>Basically, its a way of implementing AI for <a class="link" href="https://en.wikipedia.org/wiki/Zero-sum_game"  target="_blank" rel="noopener"
+    >zero-sum</a> games. We take the current state of the game and try to predict the best possible move on the assumption that the opponent will play the best possible move. It&rsquo;s pretty intense runtime-wise since it essentially tries to simulate every possible move by expanding a game tree.</p>
+<p>The <code>Maximizer</code> is the player who is trying to maximize the score, and the <code>Minimizer</code> is the player who is trying to minimize the score. So, the Maximizer is trying to win, and the Minimizer is trying to prevent the Maximizer from winning.</p>
+<p>Each node in the game tree represents a state of the game and each state has a corresponding value.
+The value indicates how desirable the state is for the player who is making the move, it&rsquo;s also called the <code>Utility</code> or <code>Evaluation</code> or <code>Heuristic</code>. A win would have the highest value, a loss would have the lowest value, and a draw would have a value of 0, hence the name zero-sum game.</p>
+<p align="center">
+  <img src="pruning.png" alt="" width="600px"/>
+</p>
+<p><a class="link" href="https://www.youtube.com/@SebastianLague"  target="_blank" rel="noopener"
+    >Sebastian Lague</a> has a great video on the topic.</p>
+<div class="video-wrapper">
+    <iframe loading="lazy" 
+            src="https://www.youtube.com/embed/l-hh51ncgDI" 
+            allowfullscreen 
+            title="YouTube Video"
+    >
+    </iframe>
+</div>
+
+<h4 id="minimax-in-tictactoe">Minimax in TicTacToe</h4>
+<p>On an empty 3x3 Tic-Tac-Toe board, the maximum depth of the game tree would be 9, since there are 9 cells that can be filled with X or O.</p>
+<pre tabindex="0"><code>(Branching factor)^(Maximum depth) = Number of function calls 
+</code></pre><p>In Tic-Tac-Toe, the branching factor (i.e., the average number of moves available per turn) can be estimated to be around 4-5 on average. So, assuming an average branching factor of 4.5, the total number of function calls without <a class="link" href="https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning"  target="_blank" rel="noopener"
+    >alpha-beta pruning</a> (optimization technique) would be:</p>
+<pre tabindex="0"><code>4.5^9 = Roughly 164,025 iterations on an empty board
+</code></pre><p>Before I implemented alpha-beta pruning, it took about 1.5 to 2 ish seconds for my PC to make the first move on an empty board.
+After implementing alpha-beta pruning, it took about 0.3 ish? I didn&rsquo;t record any timings but the difference was night and day.</p>
+<p>This is it. I&rsquo;ve added comments to explain some parts.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">int</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">Board</span> <span class="n">board</span><span class="p">,</span> <span class="kt">int</span> <span class="n">depth</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">isMaximizing</span><span class="p">,</span> <span class="kt">int</span> <span class="n">alpha</span><span class="p">,</span> <span class="kt">int</span> <span class="n">beta</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">score</span> <span class="p">=</span> <span class="n">UtilityFunction</span><span class="p">(</span><span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">,</span> <span class="n">isMaximizing</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c1">// Terminal (Game Over) states</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">score</span> <span class="p">==</span> <span class="n">UtilityBound</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">score</span> <span class="p">-</span> <span class="n">depth</span><span class="p">;</span> <span class="c1">// Prefer shorter games, don&#39;t extend the game</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">score</span> <span class="p">==</span> <span class="p">-</span><span class="n">UtilityBound</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">score</span> <span class="p">+</span> <span class="n">depth</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">score</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">isMaximizing</span><span class="p">)</span> <span class="c1">// Maximize </span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">bestScore</span> <span class="p">=</span> <span class="kt">int</span><span class="p">.</span><span class="n">MinValue</span> <span class="p">+</span> <span class="m">1</span><span class="p">;</span> <span class="c1">// positive infinity</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">pos</span> <span class="k">in</span> <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">.</span><span class="n">GetPositionsOf</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Make Move</span>
+</span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">X</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">            <span class="c1">// Opponent&#39;s turn</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">compare</span> <span class="p">=</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="n">depth</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="k">false</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="c1">// Undo Move</span>
+</span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">            <span class="c1">// Prune (basically snip off part of the tree)</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">compare</span> <span class="p">&gt;=</span> <span class="n">beta</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">compare</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">compare</span> <span class="p">&gt;</span> <span class="n">alpha</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">alpha</span> <span class="p">=</span> <span class="n">compare</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">            <span class="n">bestScore</span> <span class="p">=</span> <span class="n">Math</span><span class="p">.</span><span class="n">Max</span><span class="p">(</span><span class="n">compare</span><span class="p">,</span> <span class="n">bestScore</span><span class="p">);</span> <span class="c1">// highest</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">bestScore</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span> <span class="c1">// Minimizing, Inverse</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">bestScore</span> <span class="p">=</span> <span class="kt">int</span><span class="p">.</span><span class="n">MaxValue</span> <span class="p">-</span><span class="m">1</span><span class="p">;</span> 
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">pos</span> <span class="k">in</span> <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">.</span><span class="n">GetPositionsOf</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">O</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">compare</span> <span class="p">=</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="n">depth</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="k">true</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">compare</span> <span class="p">&lt;=</span> <span class="n">alpha</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="k">return</span> <span class="n">compare</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">compare</span> <span class="p">&lt;</span> <span class="n">beta</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">beta</span> <span class="p">=</span> <span class="n">compare</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">            <span class="n">bestScore</span> <span class="p">=</span> <span class="n">Math</span><span class="p">.</span><span class="n">Min</span><span class="p">(</span><span class="n">compare</span><span class="p">,</span> <span class="n">bestScore</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">bestScore</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="what-ive-learnt">What I&rsquo;ve learnt</h3>
+<p>I&rsquo;ve found that the heuristic or utility function has the biggest impact on how well the AI plays. The most naive way to implement it is to only return a value if the game is over(+1 win/ -1/loss). If the game is not over, return 0.</p>
+<p>My AI is pretty good at playing X with this utility but thats only because in Tic-Tac-Toe, X always goes first, which means it has a huge advantage. Using rough metrics found online, X wins 58% of the time, O wins 29% of the time and the rest are draws. Essentially, O&rsquo;s only chance of winning is if X makes a mistake, which the algorithm won&rsquo;t do, so O&rsquo;s best chance is to draw. This has been my biggest headache. I&rsquo;d say I&rsquo;ve spent about 70% of my time on this project trying to fine tune the heuristic function alone.</p>
+<p>I&rsquo;ve tried replacing the hueristic multiples times but I just cannot get it to the point where O can reliably draw or win. I&rsquo;ve even tried injecting different types of heuristic functions based on the maximzing/minimizing player.</p>
+<p>Anyways, once the AI is perfectly tuned I&rsquo;ll be happy to release the source code 😘</p>
+<h2 id="ending-off">Ending Off</h2>
+<p>I really hope you enjoyed the read, all this AI stuff has been exciting for me 😁</p>
+<p align="center">
+ <video width="300" controls>
+  <source src="squirrel.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/learning/">learning</a>
+        
+            <a href="/blog/tags/development/">development</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">Related contents</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/blog/post/probability-and-psychological-biases/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/post/probability-and-psychological-biases/chadspace.42a72f7728ddd5c3b9b3a47b95f5fc7f_hue3a7c45d939aec7b765332ac292829d5_168629_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Probability and Psychological Biases"
+                        
+                        data-hash="md5-Qqcvdyjd1cO5s6R7lfX8fw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Probability and Psychological Biases</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/blog/post/its-the-small-things.../">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://i.imgur.com/JaY7RZL.jpg" loading="lazy" data-key="" data-hash="https://i.imgur.com/JaY7RZL.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">It&#39;s the small things...</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="Macawls/blog"
+        issue-term="title"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2023 Macawls&#39; Blog
+    </section>
+    
+    <section class="powerby">
+        
+            ʕ•ᴥ•ʔ <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#functional-and-object-oriented-programming">Functional and Object-Oriented Programming</a>
+      <ol>
+        <li><a href="#whats-the-difference">Whats the difference?</a></li>
+        <li><a href="#tictactoe-wminimax-algo-and-what-ive-learned-with-fp">TicTacToe w/Minimax Algo and what I&rsquo;ve learned with FP</a>
+          <ol>
+            <li><a href="#game-loop">Game Loop</a></li>
+            <li><a href="#handling-turns">Handling Turns</a></li>
+            <li><a href="#representing-the-game-status">Representing The Game Status</a></li>
+            <li><a href="#extensibility">Extensibility</a></li>
+            <li><a href="#downsides-of-fp">Downsides of FP</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#minimax-algorithm">Minimax Algorithm</a>
+      <ol>
+        <li><a href="#minimax-algorithm---what-is-it">Minimax Algorithm - What is it?</a>
+          <ol>
+            <li><a href="#minimax-in-tictactoe">Minimax in TicTacToe</a></li>
+          </ol>
+        </li>
+        <li><a href="#what-ive-learnt">What I&rsquo;ve learnt</a></li>
+      </ol>
+    </li>
+    <li><a href="#ending-off">Ending Off</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
