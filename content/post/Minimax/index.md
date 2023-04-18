@@ -123,7 +123,7 @@ AppDomain.CurrentDomain.ProcessExit += (_, _) =>
 };
 ```
 
-In this case, I wanted to explore FP and pretty much would use structs all over the place. I ended up with a pretty clean solution with a mix of OOP and FP.
+In this case, I wanted to explore FP and would use structs where I saw fit. I ended up with a pretty clean solution with a mix of OOP and FP.
 
 The main objects, the ```game``` and ```map``` need to be *mutated*. It only made sense to me. So for the general architecture, ```game``` emitted events that the ```view``` would listen to.
 
@@ -216,9 +216,78 @@ public readonly struct GameStatus
     };
 }
 ```
-I completely avoided nulls and used ```Option<T>``` instead, which is a type that can either be ```Some(T)``` or ```None```. It's a very elegant way of handling values that may or may not be there since putting it behind a facade forces you to handle them.
 
+##### Tangent on Option/Result/Maybe Type
 
+I completely avoided nulls and used ```Option<T>``` instead, which is a [type](https://en.wikipedia.org/wiki/Option_type) that can either be ```Some(T)``` or ```None```. It's the standard in
+Rust, Haskell and F#.
+
+It's a very elegant way of handling values that may or may not be there since putting it behind a facade forces you to handle them.
+
+It's also pretty damn important in a concept called [Railway Oriented Programming (ROP)](https://chtenb.dev/?page=rop-cs-1). It's a way of handling errors in a functional way. It's a very interesting concept, but I'm not going to go into it here because I'm not very familiar with it.
+
+I've plopped in an amazing example by [Vladimir Khorikov](https://www.linkedin.com/in/vladimir-khorikov-bb482653/) in his [blog post](https://enterprisecraftsmanship.com/posts/functional-c-handling-failures-input-errors/). These methods have the exact same signature.
+
+```Imperative approach```
+```csharp
+[HttpPost]
+public HttpResponseMessage CreateCustomer(string name, string billingInfo)
+{
+    Result<CustomerName> customerNameResult = CustomerName.Create(name);
+    if (customerNameResult.Failure)
+    {
+        _logger.Log(customerNameResult.Error);
+        return Error(customerNameResult.Error);
+    }
+ 
+    Result<BillingInfo> billingIntoResult = BillingInfo.Create(billingInfo);
+    if (billingIntoResult.Failure)
+    {
+        _logger.Log(billingIntoResult.Error);
+        return Error(billingIntoResult.Error);
+    }
+ 
+    Result chargeResult = _paymentGateway.ChargeCommission(billingIntoResult.Value);
+    if (chargeResult.Failure)
+    {
+        _logger.Log(chargeResult.Error);
+        return Error(chargeResult.Error);
+    }
+ 
+    Customer customer = new Customer(customerNameResult.Value);
+    Result saveResult = _repository.Save(customer);
+    if (saveResult.Failure)
+    {
+        _paymentGateway.RollbackLastTransaction();
+        _logger.Log(saveResult.Error);
+        return Error(saveResult.Error);
+    }
+ 
+    _emailSender.SendGreetings(customerNameResult.Value);
+ 
+    return new HttpResponseMessage(HttpStatusCode.OK);
+}
+```
+```Functional approach```
+```csharp
+[HttpPost]
+public HttpResponseMessage CreateCustomer(string name, string billingInfo)
+{
+    Result<BillingInfo> billingInfoResult = BillingInfo.Create(billingInfo);
+    Result<CustomerName> customerNameResult = CustomerName.Create(name);
+ 
+    return Result.Combine(billingInfoResult, customerNameResult)
+        .OnSuccess(() => _paymentGateway.ChargeCommission(billingInfoResult.Value))
+        .OnSuccess(() => new Customer(customerNameResult.Value))
+        .OnSuccess(
+            customer => _repository.Save(customer)
+                .OnFailure(() => _paymentGateway.RollbackLastTransaction())
+        )
+        .OnSuccess(() => _emailSender.SendGreetings(customerNameResult.Value))
+        .OnBoth(result => Log(result))
+        .OnBoth(result => CreateResponseMessage(result));
+}
+```
 
 #### Extensibility
 It was pretty easy to add different ways of playing the game. Currently, there's only Random, Minimax, and Prompt.
@@ -232,10 +301,17 @@ public interface IPlayerStrategy
 }
 ```
 
-With mainly using structs, I went absolutely ham with extension methods. I realized its so much easier to compose functions together as opposed to having most of functionality/behavior tied to the definition of whatever object is of interest (instance methods). I could just add a shitton of extensions. Like I was sort of free to keep adding more and more functionality without modifying the original definition in any way.
+I went absolutely ham with extension methods. I realized its so much easier to compose functions together as opposed to having most of functionality/behavior tied to the definition of whatever object is of interest (instance methods). I could just add a shitton of extensions. Like I was sort of free to keep adding more and more functionality without modifying the original definition in any way.
 
 For example,
 
+```csharp
+public static bool IsDraw(this Tile[,] map)
+{
+    return map.GetPositionsOf(TileType.Empty).Count == 0;
+}
+```
+Or
 ```csharp
 public static Players SwitchPlayOrder(this Players players)
 {
@@ -259,11 +335,10 @@ public static Players SwitchPlayOrder(this Players players)
 ```
 Or 
 ```csharp
-public static string GetPlayerMarkup(this Player player, string header)
+public static string GetPlayerViewMarkup(this Player player, string header)
 {
-    PlayerLogBuilder.Clear(); 
-
-    return PlayerLogBuilder
+    return PlayerLogBuilder  // might as well cache it
+        .Clear()   
         .AppendLine($"{header}\n");
         .AppendLine($"Name: [bold]{player.Name}[/]")
         .AppendLine($"Symbol: [bold]{player.TileType.GetSymbol()}[/]")
@@ -289,6 +364,8 @@ public class RandomStrategy : IPlayerStrategy
 
 So what I've realized is, I'm incapable of finishing an entire project just using FP. I think sometimes, OOP or Procedural is simply a better option. Different tools for different jobs. FP is amazing to work with but it can become really performance intensive. You're constantly creating new objects, copying them around and it puts heavy pressure on the GC. RIP stack space. It allocates a lot simply by design. In a performance critical environment or particular space in the codebase, do you really want that 5 chained function with functions as arguments that are just multiple levels deep? Hell naw 😌, FP is not a silver bullet.
 
+However I really like not having to write functions with void signatures everywhere, because without context, its difficult to know what it's actually doing.
+
 <p align="center">
  <video width="400" controls>
   <source src="cat.mp4" type="video/mp4">
@@ -311,7 +388,7 @@ Phew ok, thats it for the spiel on FP. Now for the meat of the post. I'm working
 ![Color Plight](color.PNG)
 
 ### Minimax Algorithm - What is it?
-Basically, its a way of implementing AI for [zero-sum](https://en.wikipedia.org/wiki/Zero-sum_game) games. We take the current state of the game and try to predict the best possible move on the assumption that the opponent will play the best possible move. It's pretty intense runtime-wise since it essentially tries to simulate every possible move by expanding a game tree.
+Basically, its a way of implementing AI for [zero-sum](https://en.wikipedia.org/wiki/Zero-sum_game) games. We take the current state of the game and try to predict the best possible move on the assumption that the opponent will play the best possible move. It's pretty intense runtime-wise since it essentially tries to simulate every possible move by expanding a game tree. It's also recursive.
 
 The ```Maximizer``` is the player who is trying to maximize the score, and the ```Minimizer``` is the player who is trying to minimize the score. So, the Maximizer is trying to win, and the Minimizer is trying to prevent the Maximizer from winning.
 
