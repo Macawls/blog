@@ -331,7 +331,7 @@
 
 
                 <time class="article-time--reading">
-                    11 minute read
+                    12 minute read
                 </time>
             </div>
         
@@ -465,7 +465,7 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>In this case, I wanted to explore FP and pretty much would use structs all over the place. I ended up with a pretty clean solution with a mix of OOP and FP.</p>
+</div><p>In this case, I wanted to explore FP and would use structs where I saw fit. I ended up with a pretty clean solution with a mix of OOP and FP.</p>
 <p>The main objects, the <code>game</code> and <code>map</code> need to be <em>mutated</em>. It only made sense to me. So for the general architecture, <code>game</code> emitted events that the <code>view</code> would listen to.</p>
 <h4 id="game-loop">Game Loop</h4>
 <div class="highlight"><div class="chroma">
@@ -646,8 +646,139 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>I completely avoided nulls and used <code>Option&lt;T&gt;</code> instead, which is a type that can either be <code>Some(T)</code> or <code>None</code>. It&rsquo;s a very elegant way of handling values that may or may not be there since putting it behind a facade forces you to handle them.</p>
-<h4 id="extensibility">Extensibility</h4>
+</div><h5 id="tangent-on-optionresultmaybe-type">Tangent on Option/Result/Maybe Type</h5>
+<p>I completely avoided nulls and used <code>Option&lt;T&gt;</code> instead, which is a <a class="link" href="https://en.wikipedia.org/wiki/Option_type"  target="_blank" rel="noopener"
+    >type</a> that can either be <code>Some(T)</code> or <code>None</code>. It&rsquo;s the standard in
+Rust, Haskell and F#.</p>
+<p>It&rsquo;s a very elegant way of handling values that may or may not be there since putting it behind a facade forces you to handle them.</p>
+<p>It&rsquo;s also pretty damn important in a concept called <a class="link" href="https://chtenb.dev/?page=rop-cs-1"  target="_blank" rel="noopener"
+    >Railway Oriented Programming (ROP)</a>. It&rsquo;s a way of handling errors in a functional way. It&rsquo;s a very interesting concept, but I&rsquo;m not going to go into it here because I&rsquo;m not very familiar with it.</p>
+<p>I&rsquo;ve plopped in an amazing example by <a class="link" href="https://www.linkedin.com/in/vladimir-khorikov-bb482653/"  target="_blank" rel="noopener"
+    >Vladimir Khorikov</a> in his <a class="link" href="https://enterprisecraftsmanship.com/posts/functional-c-handling-failures-input-errors/"  target="_blank" rel="noopener"
+    >blog post</a>. These methods have the exact same signature.</p>
+<p><code>Imperative approach</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="na">[HttpPost]</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="n">HttpResponseMessage</span> <span class="n">CreateCustomer</span><span class="p">(</span><span class="kt">string</span> <span class="n">name</span><span class="p">,</span> <span class="kt">string</span> <span class="n">billingInfo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Result</span><span class="p">&lt;</span><span class="n">CustomerName</span><span class="p">&gt;</span> <span class="n">customerNameResult</span> <span class="p">=</span> <span class="n">CustomerName</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Failure</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_logger</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">Error</span><span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="n">Result</span><span class="p">&lt;</span><span class="n">BillingInfo</span><span class="p">&gt;</span> <span class="n">billingIntoResult</span> <span class="p">=</span> <span class="n">BillingInfo</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">billingInfo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">billingIntoResult</span><span class="p">.</span><span class="n">Failure</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_logger</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">billingIntoResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">Error</span><span class="p">(</span><span class="n">billingIntoResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="n">Result</span> <span class="n">chargeResult</span> <span class="p">=</span> <span class="n">_paymentGateway</span><span class="p">.</span><span class="n">ChargeCommission</span><span class="p">(</span><span class="n">billingIntoResult</span><span class="p">.</span><span class="n">Value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">chargeResult</span><span class="p">.</span><span class="n">Failure</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_logger</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">chargeResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">Error</span><span class="p">(</span><span class="n">chargeResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="n">Customer</span> <span class="n">customer</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Customer</span><span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Result</span> <span class="n">saveResult</span> <span class="p">=</span> <span class="n">_repository</span><span class="p">.</span><span class="n">Save</span><span class="p">(</span><span class="n">customer</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">saveResult</span><span class="p">.</span><span class="n">Failure</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_paymentGateway</span><span class="p">.</span><span class="n">RollbackLastTransaction</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">_logger</span><span class="p">.</span><span class="n">Log</span><span class="p">(</span><span class="n">saveResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">Error</span><span class="p">(</span><span class="n">saveResult</span><span class="p">.</span><span class="n">Error</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="n">_emailSender</span><span class="p">.</span><span class="n">SendGreetings</span><span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Value</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">new</span> <span class="n">HttpResponseMessage</span><span class="p">(</span><span class="n">HttpStatusCode</span><span class="p">.</span><span class="n">OK</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>Functional approach</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="na">[HttpPost]</span>
+</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="n">HttpResponseMessage</span> <span class="n">CreateCustomer</span><span class="p">(</span><span class="kt">string</span> <span class="n">name</span><span class="p">,</span> <span class="kt">string</span> <span class="n">billingInfo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Result</span><span class="p">&lt;</span><span class="n">BillingInfo</span><span class="p">&gt;</span> <span class="n">billingInfoResult</span> <span class="p">=</span> <span class="n">BillingInfo</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">billingInfo</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="n">Result</span><span class="p">&lt;</span><span class="n">CustomerName</span><span class="p">&gt;</span> <span class="n">customerNameResult</span> <span class="p">=</span> <span class="n">CustomerName</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">Result</span><span class="p">.</span><span class="n">Combine</span><span class="p">(</span><span class="n">billingInfoResult</span><span class="p">,</span> <span class="n">customerNameResult</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">OnSuccess</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="n">_paymentGateway</span><span class="p">.</span><span class="n">ChargeCommission</span><span class="p">(</span><span class="n">billingInfoResult</span><span class="p">.</span><span class="n">Value</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">OnSuccess</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="k">new</span> <span class="n">Customer</span><span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Value</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">OnSuccess</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="n">customer</span> <span class="p">=&gt;</span> <span class="n">_repository</span><span class="p">.</span><span class="n">Save</span><span class="p">(</span><span class="n">customer</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="p">.</span><span class="n">OnFailure</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="n">_paymentGateway</span><span class="p">.</span><span class="n">RollbackLastTransaction</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl">        <span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">OnSuccess</span><span class="p">(()</span> <span class="p">=&gt;</span> <span class="n">_emailSender</span><span class="p">.</span><span class="n">SendGreetings</span><span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Value</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">OnBoth</span><span class="p">(</span><span class="n">result</span> <span class="p">=&gt;</span> <span class="n">Log</span><span class="p">(</span><span class="n">result</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">OnBoth</span><span class="p">(</span><span class="n">result</span> <span class="p">=&gt;</span> <span class="n">CreateResponseMessage</span><span class="p">(</span><span class="n">result</span><span class="p">));</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="extensibility">Extensibility</h4>
 <p>It was pretty easy to add different ways of playing the game. Currently, there&rsquo;s only Random, Minimax, and Prompt.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -667,8 +798,23 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>With mainly using structs, I went absolutely ham with extension methods. I realized its so much easier to compose functions together as opposed to having most of functionality/behavior tied to the definition of whatever object is of interest (instance methods). I could just add a shitton of extensions. Like I was sort of free to keep adding more and more functionality without modifying the original definition in any way.</p>
+</div><p>I went absolutely ham with extension methods. I realized its so much easier to compose functions together as opposed to having most of functionality/behavior tied to the definition of whatever object is of interest (instance methods). I could just add a shitton of extensions. Like I was sort of free to keep adding more and more functionality without modifying the original definition in any way.</p>
 <p>For example,</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsDraw</span><span class="p">(</span><span class="k">this</span> <span class="n">Tile</span><span class="p">[,]</span> <span class="n">map</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">map</span><span class="p">.</span><span class="n">GetPositionsOf</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">).</span><span class="n">Count</span> <span class="p">==</span> <span class="m">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -727,14 +873,12 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span><span class="lnt"> 9
 </span><span class="lnt">10
 </span><span class="lnt">11
-</span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">GetPlayerMarkup</span><span class="p">(</span><span class="k">this</span> <span class="n">Player</span> <span class="n">player</span><span class="p">,</span> <span class="kt">string</span> <span class="n">header</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">GetPlayerViewMarkup</span><span class="p">(</span><span class="k">this</span> <span class="n">Player</span> <span class="n">player</span><span class="p">,</span> <span class="kt">string</span> <span class="n">header</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">PlayerLogBuilder</span><span class="p">.</span><span class="n">Clear</span><span class="p">();</span> 
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">PlayerLogBuilder</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">PlayerLogBuilder</span>  <span class="c1">// might as well cache it</span>
+</span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">Clear</span><span class="p">()</span>   
 </span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;{header}\n&#34;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;Name: [bold]{player.Name}[/]&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">AppendLine</span><span class="p">(</span><span class="s">$&#34;Symbol: [bold]{player.TileType.GetSymbol()}[/]&#34;</span><span class="p">)</span>
@@ -767,6 +911,7 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </div>
 </div><h4 id="downsides-of-fp">Downsides of FP</h4>
 <p>So what I&rsquo;ve realized is, I&rsquo;m incapable of finishing an entire project just using FP. I think sometimes, OOP or Procedural is simply a better option. Different tools for different jobs. FP is amazing to work with but it can become really performance intensive. You&rsquo;re constantly creating new objects, copying them around and it puts heavy pressure on the GC. RIP stack space. It allocates a lot simply by design. In a performance critical environment or particular space in the codebase, do you really want that 5 chained function with functions as arguments that are just multiple levels deep? Hell naw 😌, FP is not a silver bullet.</p>
+<p>However I really like not having to write functions with void signatures everywhere, because without context, its difficult to know what it&rsquo;s actually doing.</p>
 <p align="center">
  <video width="400" controls>
   <source src="cat.mp4" type="video/mp4">
@@ -810,7 +955,7 @@ Your browser does not support the video tag.
 ></p>
 <h3 id="minimax-algorithm---what-is-it">Minimax Algorithm - What is it?</h3>
 <p>Basically, its a way of implementing AI for <a class="link" href="https://en.wikipedia.org/wiki/Zero-sum_game"  target="_blank" rel="noopener"
-    >zero-sum</a> games. We take the current state of the game and try to predict the best possible move on the assumption that the opponent will play the best possible move. It&rsquo;s pretty intense runtime-wise since it essentially tries to simulate every possible move by expanding a game tree.</p>
+    >zero-sum</a> games. We take the current state of the game and try to predict the best possible move on the assumption that the opponent will play the best possible move. It&rsquo;s pretty intense runtime-wise since it essentially tries to simulate every possible move by expanding a game tree. It&rsquo;s also recursive.</p>
 <p>The <code>Maximizer</code> is the player who is trying to maximize the score, and the <code>Minimizer</code> is the player who is trying to minimize the score. So, the Maximizer is trying to win, and the Minimizer is trying to prevent the Maximizer from winning.</p>
 <p>Each node in the game tree represents a state of the game and each state has a corresponding value.
 The value indicates how desirable the state is for the player who is making the move, it&rsquo;s also called the <code>Utility</code> or <code>Evaluation</code> or <code>Heuristic</code>. A win would have the highest value, a loss would have the lowest value, and a draw would have a value of 0, hence the name zero-sum game.</p>
