@@ -1,8 +1,8 @@
 +++
 author = "Josh"
-title = "Music and 21 Savage"
+title = "21 Savage"
 date = "2023-05-02"
-description = "4L"
+description = "4L 🔪🩸"
 tags = [
     "learning",
     "mindset"
@@ -74,9 +74,9 @@ I used to think trap rap was 'corny' a long time ago because it wasn't as comple
 
 Just gonna preface for anyone that might feel offended, especially religiously, this is my opinion. Feel free to disagree. I will try and sound like I'm not a bad person 😅
 
-I realize now that I just couldn't relate at all when I was younger and more naive. Life is everything. 'Bad' and 'Good' if you wanna call it that. We all have this dark, villainous side deep down. Not necessarily 'emo' or sad. We try and hide it to play the game of life. Its important we embrace that energy(within reason obviously) because like other energies, its powerful and moving. We're built for survival, along with kindness and humanity, these are contrasting energies. Certain circumstances bring out different sides of you. Pain and struggle is one of the best teachers.
+I realize now that I just couldn't relate at all when I was younger and more naive. Life is everything. 'Bad' and 'Good' if you wanna call it that. We all have this dark, villainous side deep down. Not necessarily 'emo' or sad. We try and hide it to play the game of life. Its important we allow ourselves to bring that energy to light (within reason obviously) because like other energies, its powerful and moving. We're built for survival, along with kindness and humanity, these are contrasting energies. Certain circumstances bring out different sides of you. Pain and struggle is one of the best teachers.
 
-Kind of thinking of getting a padlock on my neck for this reason and more but maybe thats a bit too intense for now 😅
+Kind of thinking of getting a padlock tattoo on my neck for this reason and more but maybe thats a bit too intense for now 😅
 
 There's two ways I believe you can reminisce about a 'bad experience'
 
@@ -86,11 +86,28 @@ This thing happened to me in the past, therefore
 * It's a part of me, it makes me stronger
 
 
-The absolute energy savage gives me man. He makes me feel like a monster. The second the beat drops, my body's already moving. He makes me feel like, all the bad things I've done, all of the mistakes and all of the hard times I've been through doesn't matter in the slightest. You need hardship. Things that take you to the edge and make you a beast. It's all part of the path to growth.
+The absolute energy savage gives me man. He makes me feel like a monster. The second the beat drops, my body's already moving. He makes me feel like, all the bad things I've done, all of the mistakes and all of the hard times I've been through, doesn't matter in the slightest. It's empowering. Makes me feel like I can take on anything or anyone. It's also cathartic to a degree because pent-up frustrations or aggression that I may be feeling gets released as I move.
+
+<p align="center">
+  <img src="https://media.giphy.com/media/1xNXvkiF0gekKrd4dY/giphy.gif" alt="" width="400px"/>
+</p>
+
+
+Hardship is a good thing (not the ones that cause long-lasting harm). It's a source of resilience, strength and self-awareness. Things that take you to the edge and make you a beast. It's all part of the path to growth.
 
 Like everything can be yours to take if you have the grit and resolve 🔪🩸
 
-His music is insanely inspirational. It feels too real. He's been through so much, more than you would believe. Despite the dark sounds and horrific nature of some of the lyrics, he's crafted a persona built by the terrible times of his past that millions of people can get behind, including myself.
+<p align="center">
+  <img src="https://media.giphy.com/media/l0Ex5eO6fqDsaraQU/giphy.gif" alt="" width="400px"/>
+</p>
+
+His music is insanely inspirational because of his upbringing. It feels too real. He's been through so much, more than you would believe. Despite the dark sounds and horrific nature of the lyrics, he's crafted a persona built by the terrible times of his past that millions of people can get behind, including myself.
+
+<p align="center">
+  <img src="https://media.giphy.com/media/D0xYLSssPAnZr1iZlI/giphy.gif" alt="" width="400px"/>
+</p> 
+
+{{< youtube 6wtwpUwxQik >}}
 
 ## Ending Off
 I hope you enjoyed the short read.
