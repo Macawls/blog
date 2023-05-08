@@ -6,23 +6,7 @@
         <description>Recent content in Categories on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 02 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Fluff</title>
-        <link>https://macawls.github.io/blog/categories/fluff/</link>
-        <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/categories/fluff/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/categories/fluff/cat.jpg" alt="Featured image of post Fluff" /&gt;</description>
-        </item>
-        <item>
-        <title>Music</title>
-        <link>https://macawls.github.io/blog/categories/music/</link>
-        <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/categories/music/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/categories/music/cut.jpg" alt="Featured image of post Music" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Educational</title>
         <link>https://macawls.github.io/blog/categories/educational/</link>
         <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
@@ -37,6 +21,22 @@
         
         <guid>https://macawls.github.io/blog/categories/programming/</guid>
         <description>&lt;img src="https://macawls.github.io/blog/categories/programming/drink.jpg" alt="Featured image of post Programming" /&gt;</description>
+        </item>
+        <item>
+        <title>Fluff</title>
+        <link>https://macawls.github.io/blog/categories/fluff/</link>
+        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/categories/fluff/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/fluff/cat.jpg" alt="Featured image of post Fluff" /&gt;</description>
+        </item>
+        <item>
+        <title>Music</title>
+        <link>https://macawls.github.io/blog/categories/music/</link>
+        <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/categories/music/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/categories/music/cut.jpg" alt="Featured image of post Music" /&gt;</description>
         </item>
         <item>
         <title>Guide</title>
