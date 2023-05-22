@@ -193,12 +193,13 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
 &lt;/div&gt;</description>
         </item>
         <item>
-        <title>Racing Game Devlog, Episode 2</title>
-        <link>https://macawls.github.io/blog/post/racing-game-devlog-episode-2/</link>
+        <title>(Updated with Part 3) Racing Game Devlog, Episode 2</title>
+        <link>https://macawls.github.io/blog/post/updated-with-part-3-racing-game-devlog-episode-2/</link>
         <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://macawls.github.io/blog/post/racing-game-devlog-episode-2/</guid>
-        <description>&lt;img src="https://i.imgur.com/rfZF3ra.png" alt="Featured image of post Racing Game Devlog, Episode 2" /&gt;&lt;h2 id=&#34;patch-notes&#34;&gt;Patch Notes&lt;/h2&gt;
+        <guid>https://macawls.github.io/blog/post/updated-with-part-3-racing-game-devlog-episode-2/</guid>
+        <description>&lt;img src="https://i.imgur.com/rfZF3ra.png" alt="Featured image of post (Updated with Part 3) Racing Game Devlog, Episode 2" /&gt;&lt;h2 id=&#34;part-2&#34;&gt;Part 2&lt;/h2&gt;
+&lt;h3 id=&#34;patch-notes&#34;&gt;Patch Notes&lt;/h3&gt;
 &lt;p&gt;Changed:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Car Model (Low poly didn&amp;rsquo;t fit the style)&lt;/li&gt;
@@ -211,7 +212,7 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
 &lt;li&gt;Terrain ⛰&lt;/li&gt;
 &lt;li&gt;Kickass UI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;learnt&#34;&gt;Learnt&lt;/h2&gt;
+&lt;h3 id=&#34;learnt&#34;&gt;Learnt&lt;/h3&gt;
 &lt;p&gt;First time really diving into Design Patterns.&lt;/p&gt;
 &lt;p&gt;I would say the high-level overview of what problems patterns are supposed to solve and what they do is easy to understand. The hardest part is understanding how to implement it, but after that&amp;rsquo;s done it fully clicks in my head. I&amp;rsquo;ve also been keeping SOLID principles in the back of my mind. It&amp;rsquo;s been helping alot.&lt;/p&gt;
 &lt;center&gt;
@@ -229,15 +230,15 @@ src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
 &lt;li&gt;State Pattern&lt;/li&gt;
 &lt;li&gt;Factory Pattern&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;to-improve&#34;&gt;To Improve&lt;/h2&gt;
+&lt;h3 id=&#34;to-improve&#34;&gt;To Improve&lt;/h3&gt;
 &lt;p&gt;Definately code cleanliness and robustness.
 It happens every single project. Start off, insanely clean, then it gets messier and messier and messier towards the end.&lt;/p&gt;
 &lt;p&gt;Overall I feel like it&amp;rsquo;s alright for now but eish.
 One day I wanna write an entire codebase (not just a single snippet) that is just like mwah, y&amp;rsquo;know. You look at it and just think wow, this is beautiful.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/updated-with-part-3-racing-game-devlog-episode-2/meme.png&#34;
 	width=&#34;320&#34;
 	height=&#34;403&#34;
-	srcset=&#34;https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_1024x0_resize_box_3.png 1024w&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/updated-with-part-3-racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/updated-with-part-3-racing-game-devlog-episode-2/meme_hu634c7ff58240c1b2ca710dc51a965cbf_185605_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -246,10 +247,23 @@ One day I wanna write an entire codebase (not just a single snippet) that is jus
 		data-flex-basis=&#34;190px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;gameplay-showcase&#34;&gt;Gameplay Showcase&lt;/h2&gt;
+&lt;h3 id=&#34;gameplay-showcase&#34;&gt;Gameplay Showcase&lt;/h3&gt;
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/wX39SCi39oI&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;part-3&#34;&gt;Part 3&lt;/h2&gt;
+&lt;p&gt;This was long overdue, I was browsing some of my private youtube videos and found this recording on the 5th of May 2023.&lt;/p&gt;
+&lt;p&gt;This was the final presentation I did for my project, unfortunately I didn&amp;rsquo;t end up releasing the game because I felt it wasn&amp;rsquo;t up to standard gameplay wise.
+Was more of a learning experience.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/_i_9zr0C98Y&#34; 
             allowfullscreen 
             title=&#34;YouTube Video&#34;
     &gt;
