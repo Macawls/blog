@@ -1,6 +1,6 @@
 +++
 author = "Josh"
-title = "Racing Game Devlog, Episode 2"
+title = "(Updated with Part 3) Racing Game Devlog, Episode 2"
 date = "2022-10-13"
 description = "yesssirrrr 😎👍"
 toc = true
@@ -14,8 +14,9 @@ categories = [
 image = "https://i.imgur.com/rfZF3ra.png"
 +++
 <!--more-->
+## Part 2
 
-## Patch Notes
+### Patch Notes
 Changed:
 * Car Model (Low poly didn't fit the style)
 * Improved the dialogue system (poggers 😌)
@@ -26,7 +27,7 @@ Additions:
 * Terrain ⛰
 * Kickass UI
 
-## Learnt
+### Learnt
 First time really diving into Design Patterns.
 
 I would say the high-level overview of what problems patterns are supposed to solve and what they do is easy to understand. The hardest part is understanding how to implement it, but after that's done it fully clicks in my head. I've also been keeping SOLID principles in the back of my mind. It's been helping alot.
@@ -40,7 +41,7 @@ I would say the high-level overview of what problems patterns are supposed to so
 * State Pattern
 * Factory Pattern
 
-## To Improve
+### To Improve
 Definately code cleanliness and robustness.
 It happens every single project. Start off, insanely clean, then it gets messier and messier and messier towards the end. 
 
@@ -50,6 +51,15 @@ One day I wanna write an entire codebase (not just a single snippet) that is jus
 ![](meme.png)
 
 
-## Gameplay Showcase
+### Gameplay Showcase
 
 {{< youtube wX39SCi39oI >}}
+
+## Part 3
+
+This was long overdue, I was browsing some of my private youtube videos and found this recording on the 5th of May 2023.
+
+This was the final presentation I did for my project, unfortunately I didn't end up releasing the game because I felt it wasn't up to standard gameplay wise. 
+Was more of a learning experience. 
+
+{{< youtube _i_9zr0C98Y >}}
