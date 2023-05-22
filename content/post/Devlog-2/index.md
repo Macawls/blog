@@ -62,4 +62,6 @@ This was long overdue, I was browsing some of my private youtube videos and foun
 This was the final presentation I did for my project, unfortunately I didn't end up releasing the game because I felt it wasn't up to standard gameplay wise. 
 Was more of a learning experience. 
 
+Looking at the code at this point in time I can see so many opportunities for extension methods 😁.
+
 {{< youtube _i_9zr0C98Y >}}
