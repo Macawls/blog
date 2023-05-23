@@ -6,18 +6,10 @@
         <description>Recent content in Tags on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>development</title>
-        <link>https://macawls.github.io/blog/tags/development/</link>
-        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/tags/development/</guid>
-        <description></description>
-        </item>
-        <item>
+        <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>learning</title>
         <link>https://macawls.github.io/blog/tags/learning/</link>
-        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.github.io/blog/tags/learning/</guid>
         <description></description>
@@ -25,9 +17,17 @@
         <item>
         <title>mindset</title>
         <link>https://macawls.github.io/blog/tags/mindset/</link>
-        <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.github.io/blog/tags/mindset/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>development</title>
+        <link>https://macawls.github.io/blog/tags/development/</link>
+        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/tags/development/</guid>
         <description></description>
         </item>
         <item>
