@@ -7,7 +7,8 @@ tags = [
     "development"
 ]
 categories = [
-    "Fluff"
+    "Fluff",
+    "Programming"
 ]
 image = "thumb.jpg"
 +++
