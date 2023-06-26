@@ -35,7 +35,7 @@ A co-coordinated escort happened outside where there would be checkpoints of gua
 
 ## Dev Updates
 I'm really excited for next semester because we'll have two programming modules instead of one. Apparently we're going to be doing some OpenGL with C++ and Kotlin with Android
-Studio which is really cool. I'm super burn out of any and all things Unity related.
+Studio which is really cool. I'm super burnt out of any and all things Unity related.
 
 <hr>
 
