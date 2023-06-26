@@ -7,8 +7,7 @@ tags = [
     "development"
 ]
 categories = [
-    "guide",
-    "loonix"
+    "guide"
 ]
 image = "screenshot.png"
 +++

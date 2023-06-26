@@ -8,7 +8,6 @@ tags = [
     "development"
 ]
 categories = [
-    "Short",
     "Guide"
 ]
 image = "yeah.jpg"

@@ -8,7 +8,9 @@ image = "bed.jpg"
 tags = [
     "development"
     ]
-categories = ["short", "guide"]
+categories = [
+    "guide"
+]
 
 
 +++

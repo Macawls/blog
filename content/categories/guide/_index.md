@@ -1,6 +1,6 @@
 ---
 title: "Guide"
-description: "Guides or educational posts"
+description: "How, omg how? 🤔"
 slug: "guide"
 image: "reading.jpg"
 style:

@@ -7,8 +7,7 @@ tags = [
     "rant",
 ]
 categories = [
-    "fluff",
-    "short",
+    "fluff"
 ]
 image = "baked.jpg"
 +++

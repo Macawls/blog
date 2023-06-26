@@ -1,6 +1,6 @@
 ---
 title: "Programming"
-description: "programming lmao"
+description: "Ctrl + V 🖥️"
 slug: "programming"
 image: "drink.jpg"
 ---

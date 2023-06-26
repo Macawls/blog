@@ -7,7 +7,7 @@ tags = [
     "development"
 ]
 categories = [
-    "loonix"
+    "fluff"
 ]
 image = "banner.jpg"
 +++

@@ -4,8 +4,7 @@ title = "Can relationships be non-transactional?"
 date = "2022-12-07"
 description = "💼"
 tags = [
-    "personal",
-    "tags"
+    "personal"
 ]
 categories = [
     "Fluff"

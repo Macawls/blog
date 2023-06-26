@@ -4,8 +4,7 @@ title = "Dang, now what?"
 date = "2022-12-10"
 description = "🛏💤"
 tags = [
-    "personal",
-    "tags"
+    "personal"
 ]
 categories = [
     "Fluff"

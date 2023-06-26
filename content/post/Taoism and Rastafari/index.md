@@ -9,8 +9,7 @@ tags = [
     "personal"
 ]
 categories = [
-    "fluff",
-    "short"
+    "fluff"
 ]
 image = "420.jpg"
 +++

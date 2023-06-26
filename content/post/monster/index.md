@@ -7,8 +7,7 @@ tags = [
     "personal",
 ]
 categories = [
-    "fluff",
-    "short",
+    "fluff"
 ]
 image = "cans.jpg"
 +++

@@ -1,6 +1,6 @@
 ---
 title: "Music"
-description: "Sound waves or whatever"
+description: "Sound waves 🎶"
 slug: "music"
 image: "cut.jpg"
 style:
