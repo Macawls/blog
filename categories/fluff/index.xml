@@ -5,8 +5,161 @@
         <link>https://macawls.github.io/blog/categories/fluff/</link>
         <description>Recent content in Fluff on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/fluff/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/categories/fluff/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Updates n&#39; stuff that you should most definitely care about because it is 100% relevant 😎👍</title>
+        <link>https://macawls.github.io/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/</link>
+        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/thumb.jpg" alt="Featured image of post Updates n&#39; stuff that you should most definitely care about because it is 100% relevant 😎👍" /&gt;&lt;h2 id=&#34;one-of-the-best-nights-of-my-life&#34;&gt;One of the best nights of my life&lt;/h2&gt;
+&lt;p&gt;Words aren&amp;rsquo;t enough to describe it. I wore a slick all black outfit. Felt like I was in the matrix (I have never seen the matrix).&lt;/p&gt;
+&lt;p&gt;Sick techno, crazy vibrations, beautiful and dark underground atmosphere, amazing visuals. I had so much energy and never wanted to stop. There were so many times I completely forgot I was dancing. Pure bliss.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&#34;https://media.giphy.com/media/gX8F8kMRTx44M/giphy.gif&#34; width=&#34;350&#34;/&gt;
+&lt;/center&gt;
+&lt;p&gt;My dancing partner elevated the entire experience to new heights. We appropriately called it &amp;lsquo;&lt;strong&gt;Jolling to the Max&lt;/strong&gt;&amp;rsquo; and moved in perfect harmony for hours. The music was just sorta &amp;ldquo;boom boom boom-&amp;rdquo; with insane kicks. But not the average &amp;ldquo;boom boom boom~&amp;rdquo;. The proper &amp;ldquo;dumb dumb dumb~&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Like the &amp;ldquo;badoom, doom doom sha doom badoom~&amp;rdquo; that consumes your entire being.
+High energy stomping from 10pm till 4am underground. Absolutely mental.&lt;/p&gt;
+&lt;p&gt;A co-coordinated escort happened outside where there would be checkpoints of guards. They were all communicating to make sure everyone got in their uber&amp;rsquo;s safely. It was really cool to see, something out of a movie.&lt;/p&gt;
+&lt;iframe width=&#34;100%&#34; 
+height=&#34;166&#34; 
+scrolling=&#34;no&#34; 
+frameborder=&#34;no&#34; 
+allow=&#34;autoplay&#34; 
+src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1437071290&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
+&gt;&lt;/iframe&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;dev-updates&#34;&gt;Dev Updates&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m really excited for next semester because we&amp;rsquo;ll have two programming modules instead of one. Apparently we&amp;rsquo;re going to be doing some OpenGL with C++ and Kotlin with Android
+Studio which is really cool. I&amp;rsquo;m super burn out of any and all things Unity related.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;macawlsdev&#34;&gt;Macawls.dev&lt;/h3&gt;
+&lt;p&gt;I wanted to display some recent blog posts on my &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;main site&lt;/a&gt;. The problem was hugo statically generates my blog. I didn&amp;rsquo;t have a clean way to retrieve post data other than web scraping. I introduced a skeleton loading component to make it feel seamless.&lt;/p&gt;
+&lt;center&gt;
+Simulating a slow connection for your viewing pleasure 👽 &lt;hr&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;img src=&#34;loading.gif&#34; width=&#34;100%&#34;/&gt;
+&lt;/center&gt;
+&lt;p&gt;It takes roughly between 50ms-200ms on a good connection, around 600ms with a 3g connection which is definitely good enough. I&amp;rsquo;m glad I didn&amp;rsquo;t have to explore other solutions.  Doing a parallel &lt;code&gt;promise.all()&lt;/code&gt; type of thing was actually slower than doing it sequentially. I&amp;rsquo;m guessing it&amp;rsquo;s because of the overhead of creating promises.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;27
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;28
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;29
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;async&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;fetchPostData&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;baseUrl&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;https://macawls.dev&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;try&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;response&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kr&#34;&gt;await&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;axios&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;baseUrl&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/blog/&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;cheerio&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;load&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$articleList&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.article-list&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;blogPosts&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[];&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;$articleList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;article.has-image&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;each&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;index&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;element&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;index&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;limit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$currentArticle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;element&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;titleElement&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$currentArticle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.article-title a&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;kr&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;post&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;titleElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;subtitle&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$currentArticle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.article-subtitle&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;().&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;trim&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;imageSrc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;baseUrl&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$currentArticle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.article-image img&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;attr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;src&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;baseUrl&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;titleElement&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;attr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;href&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    &lt;span class=&#34;nx&#34;&gt;date&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;$currentArticle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;.article-time--published&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;nx&#34;&gt;blogPosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;post&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;// stuff
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;catch&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Error fetching posts:&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;error&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Css took like 10 times longer to do, but I also suck at it.&lt;/p&gt;
+&lt;h3 id=&#34;bomba-prototype&#34;&gt;Bomba Prototype&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m really excited to deploy this game soon. I talked about it in the &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/blog/post/minimax-algorithm-adventures-fp-and-oop/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;minimax post&lt;/a&gt; earlier in the year. I&amp;rsquo;ve some gameplay footage below. Basically you &lt;strong&gt;shouldn&amp;rsquo;t&lt;/strong&gt; be the last player to cause three tiles in a row, either horizontally, vertically or diagonally.&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+ &lt;video width=&#34;100%&#34; controls&gt;
+  &lt;source src=&#34;gameplay.mp4&#34; type=&#34;video/mp4&#34;&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;old-rices&#34;&gt;Old rices&lt;/h3&gt;
+&lt;p&gt;Found some super old rices back in my yee olden days 😪. Really brings back memories.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/old-rice-1.png&#34;
+	width=&#34;3840&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/old-rice-1_hua24e58fafa16ef2e4ca3ddafcb29e0eb_1045630_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/old-rice-1_hua24e58fafa16ef2e4ca3ddafcb29e0eb_1045630_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;355&#34;
+		data-flex-basis=&#34;853px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/old-rice-2.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/old-rice-2_hu280ea84360e3774a77b5605f7992b06a_539658_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/old-rice-2_hu280ea84360e3774a77b5605f7992b06a_539658_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;freecodecamp-api-certificate&#34;&gt;FreeCodeCamp API Certificate&lt;/h3&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.freecodecamp.org/certification/Macawls/back-end-development-and-apis&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Certification Link&lt;/a&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;It was pretty cool, although I didn&amp;rsquo;t feel like I learnt much on the technical side because we were using &lt;a class=&#34;link&#34; href=&#34;https://expressjs.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Express JS&lt;/a&gt;. I should really learn typescript, but I don&amp;rsquo;t care enough right now to be honest. I should&amp;rsquo;ve explored web dev a long time ago, it&amp;rsquo;s really fun. I wish they incorporated it our curriculum at school.&lt;/p&gt;
+&lt;p&gt;Json is goated 👑&lt;/p&gt;
+&lt;p&gt;If anything it massively improved my understanding of &lt;a class=&#34;link&#34; href=&#34;https://www.redhat.com/en/topics/api/what-is-a-rest-api&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RESTful API&amp;rsquo;s&lt;/a&gt;. I used Insonmia to test my API&amp;rsquo;s and really enjoyed it actually. The whole thing got me excited to deploy an API using ASP.NET, preferably using the minimal API route. I&amp;rsquo;ve got a project idea on the backburner to replace my &lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/apu-gallery/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apu Image Gallery&lt;/a&gt; with a full blown API and then a seperate polished frontend. I really wanna learn Svelte because I&amp;rsquo;ve been binging a bunch of &lt;a class=&#34;link&#34; href=&#34;https://twitter.com/Rich_Harris&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Rich Harris&amp;rsquo;&lt;/a&gt; interviews 😅.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>What is Limerence? 🧠</title>
         <link>https://macawls.github.io/blog/post/what-is-limerence/</link>
         <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
@@ -982,6 +1135,124 @@ It was pretty old though with 160K km on the clock. My only concern was repairin
 &lt;div class=&#34;video-wrapper&#34;&gt;
     &lt;iframe loading=&#34;lazy&#34; 
             src=&#34;https://www.youtube.com/embed/-hDt0pnHgtg&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>WSL is crazy good!!!!! OMG!!!</title>
+        <link>https://macawls.github.io/blog/post/wsl-is-crazy-good-omg/</link>
+        <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/post/wsl-is-crazy-good-omg/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/wsl-is-crazy-good-omg/banner.jpg" alt="Featured image of post WSL is crazy good!!!!! OMG!!!" /&gt;&lt;p&gt;I tried it the first time today. Honestly, it&amp;rsquo;s extremely impressive and I haven&amp;rsquo;t even tried WSL2 yet.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/smug.png&#34;
+	width=&#34;250&#34;
+	height=&#34;202&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/smug_hu52c6f7d55fbebff897362127094bacbe_17981_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;123&#34;
+		data-flex-basis=&#34;297px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/capture.PNG&#34;
+	width=&#34;1642&#34;
+	height=&#34;934&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_480x0_resize_box_3.PNG 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/capture_hu1cb00e782e8266b52c2a8acb6c976265_553239_1024x0_resize_box_3.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;421px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;WSL is the Windows Subsystem for Linux. Basically its just lets you have a GNU/Linux environment in tandem with Windows without any headaches like a virtual machine.&lt;/p&gt;
+&lt;p&gt;Currently I dual-boot and its been okay-ish. It&amp;rsquo;s not that I &lt;strong&gt;want&lt;/strong&gt; to dual-boot, in fact if my course had the given me the choice, I would simply just stay on linux.&lt;/p&gt;
+&lt;h2 id=&#34;going-back-to-windows&#34;&gt;Going back to Windows?&lt;/h2&gt;
+&lt;p&gt;The development environment is pretty nice. Only issue is I have with Windows is that it&amp;rsquo;s too complex and convoluted.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not nearly as snappy and efficient as on linux and there&amp;rsquo;s so much overhead and restrictions I just &lt;strong&gt;do not&lt;/strong&gt; want in my system at all. I have a 144hz monitor, GTX 1060, 16GB of ram and an i7 5960X (all of these are running stock, stopped overlocking a while ago).&lt;/p&gt;
+&lt;p&gt;Even with debloat scripts and all fancy animations disabled on Windows, it&amp;rsquo;s still relatively slow.
+For my laptop, its definitely still going to be Linux only on there because of hardware.&lt;/p&gt;
+&lt;p&gt;However, I &lt;strong&gt;was&lt;/strong&gt; surprised at some of the new tools that had been released recently. I&amp;rsquo;ve only scratched the surface of these so take whatever I say with a grain of salt.&lt;/p&gt;
+&lt;p&gt;These include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/PowerToys&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Microsoft PowerToys (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/microsoft/winget-cli&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Winget (Windows Package Manager) (2020)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://docs.microsoft.com/en-us/windows/terminal/install&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Windows Terminal (2019)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Okay firstly, why in the flying f*** did it take such a long time for Windows to have a standard package manager?
+Chocolately has always been the OG but I guess Microsoft finally woke up.
+The whole ecosystem is such a nightmare.&lt;/p&gt;
+&lt;p&gt;I could use Winget straight from the get go. The experience reminded me of the fish shell. I actually really enjoy using it and thought it was pretty intuitive.&lt;/p&gt;
+&lt;p&gt;Powershell is insanely good. Ironically, I have it on my arch install and enjoy messing with it. It&amp;rsquo;s much more modern than bash and zsh. It&amp;rsquo;s got alot of stuff I don&amp;rsquo;t really need right now though.&lt;/p&gt;
+&lt;p&gt;The new Windows Terminal is pretty damn good. No complaints really. Works really well with WSL. Multiple tabs with different environments is siick.&lt;/p&gt;
+&lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/anime.jpg&#34;
+	width=&#34;400&#34;
+	height=&#34;438&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/anime_hu8759aae5d80e719f80ba32846b46633a_110279_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;91&#34;
+		data-flex-basis=&#34;219px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I give it a solid 8/10 if privacy isn&amp;rsquo;t your concern. It eliminates any and all OS restrictions when it comes to development. Drivers for everything. Very easy to use on the surface. Its just the best of both worlds.
+Never gonna daily Windows though.&lt;/p&gt;
+&lt;h3 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h3&gt;
+&lt;p&gt;This has been my go to IDE for the longest time. Really good integration with Git and Github, love its integration with the shell, works and is configured the same on any machine. Extension ecosystem is amazing.&lt;/p&gt;
+&lt;p&gt;Yeah I know Electron blah, blah, blah. Don&amp;rsquo;t care 😴. Everything is web-based nowadays anyway.&lt;/p&gt;
+&lt;p&gt;WSL within VScode works like a charm.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/wsl.png&#34;
+	width=&#34;1389&#34;
+	height=&#34;908&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_480x0_resize_box_3.png 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/wsl_hu2e1df44a46fb4a83d554ba82e6f81b07_302118_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;152&#34;
+		data-flex-basis=&#34;367px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;virtual-machines&#34;&gt;Virtual Machines&lt;/h3&gt;
+&lt;p&gt;This was just absolutely mindblowing. You can have mulitple environments installed with very little overhead.
+No need for docker or virtual machines or anything like that. WSL is fucking crazy.&lt;/p&gt;
+&lt;h3 id=&#34;managing-windows-and-customization&#34;&gt;Managing Windows and Customization.&lt;/h3&gt;
+&lt;p&gt;Yeah I mean, nothing to say here. To say the window manager in PowerToys is rough around the edges is an understatement. It&amp;rsquo;s getting there and right now its pretty impressive, so I am very hopeful.&lt;/p&gt;
+&lt;p&gt;The problem doesn&amp;rsquo;t lie with the Powertoys devs. They&amp;rsquo;re doing amazing work.&lt;/p&gt;
+&lt;p&gt;Windows has always been an absolute dumpster-fire and a complete mess after the glorious Windows 7.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/why.jpg&#34;
+	width=&#34;1366&#34;
+	height=&#34;1344&#34;
+	srcset=&#34;https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/wsl-is-crazy-good-omg/why_hu5344fedabbc5de6421f58b4b312cb6dd_373586_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;whyyyyyyyyyyyyyyyyyyyyyy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;101&#34;
+		data-flex-basis=&#34;243px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-future&#34;&gt;The Future&lt;/h2&gt;
+&lt;p&gt;The best thing about these tools are that its open source and there&amp;rsquo;s actually &lt;strong&gt;money&lt;/strong&gt; behind it, contrary to the plethora of options you have on Unix systems where devs work on open source projects almost solely because of passion.&lt;/p&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/FrJUm5yCwf0&#34; 
             allowfullscreen 
             title=&#34;YouTube Video&#34;
     &gt;

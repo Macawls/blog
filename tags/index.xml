@@ -5,8 +5,16 @@
         <link>https://macawls.github.io/blog/tags/</link>
         <description>Recent content in Tags on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language>
+        <lastBuildDate>Mon, 26 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>development</title>
+        <link>https://macawls.github.io/blog/tags/development/</link>
+        <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/tags/development/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>learning</title>
         <link>https://macawls.github.io/blog/tags/learning/</link>
         <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
@@ -23,14 +31,6 @@
         <description></description>
         </item>
         <item>
-        <title>development</title>
-        <link>https://macawls.github.io/blog/tags/development/</link>
-        <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/tags/development/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>personal</title>
         <link>https://macawls.github.io/blog/tags/personal/</link>
         <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
@@ -44,14 +44,6 @@
         <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
         
         <guid>https://macawls.github.io/blog/tags/unity/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>tags</title>
-        <link>https://macawls.github.io/blog/tags/tags/</link>
-        <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/tags/tags/</guid>
         <description></description>
         </item>
         <item>
