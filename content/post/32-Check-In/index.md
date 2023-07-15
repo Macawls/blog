@@ -25,6 +25,10 @@ Sick techno, crazy vibrations, beautiful and dark underground atmosphere, amazin
 
 My dancing partner elevated the entire experience to new heights. We appropriately called it '**Jolling to the Max**' and moved in perfect harmony for hours. The music was just sorta "boom boom boom-" with insane kicks. But not the average "boom boom boom~". The proper "dumb dumb dumb~".
 
+<center>
+<img src="cute.jpg" width="50%"/>
+</center>
+
 Like the "badoom, doom doom sha doom badoom~" that consumes your entire being.
 High energy stomping from 10pm till 4am underground. Absolutely mental.
 
@@ -44,6 +48,8 @@ Studio which is really cool. I'm super burnt out of any and all things Unity rel
 
 I wanted to display some recent blog posts on my [main site](https://macawls.dev/). The problem was hugo statically generates my blog. I didn't have a clean way to retrieve post data other than web scraping. I introduced a skeleton loading component to make it feel seamless.
 
+Eventually I'd like to have some kind of cms solution with a friendly api 😭
+
 <center>
 Simulating a slow connection for your viewing pleasure 👽 <hr>
 </center>
@@ -52,7 +58,9 @@ Simulating a slow connection for your viewing pleasure 👽 <hr>
 <img src="loading.gif" width="100%"/>
 </center>
 
-It takes roughly between 50ms-200ms on a good connection, around 600ms with a 3g connection which is definitely good enough. I'm glad I didn't have to explore other solutions.  Doing a parallel ```promise.all()``` type of thing was actually slower than doing it sequentially. I'm guessing it's because of the overhead of creating promises.
+The loading time is usually between 200ms-700ms which is good enough 😎👍
+
+I'm glad I didn't have to explore other solutions.  Doing a parallel ```promise.all()``` type of thing was actually slower than doing it sequentially. I'm guessing it's because of the overhead of creating promises.
 
 ```js
 async fetchPostData() {
