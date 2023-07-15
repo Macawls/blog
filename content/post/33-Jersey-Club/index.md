@@ -2,7 +2,7 @@
 author = "Josh"
 title = "Jersey Club! 🕺"
 date = "2023-07-15"
-description = "Hips to the move & body to the groove...ㅤㅤI'll walk myself out 🚪"
+description = "Hips to the move & body to the groove...I'll walk myself out 🚪"
 tags = [
     "learning"
 ]
