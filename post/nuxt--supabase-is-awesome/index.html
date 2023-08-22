@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Select * from deez 🥜'><title>Nuxt &#43; Supabase is Awesome 😍</title>
+
+<link rel='canonical' href='https://macawls.github.io/blog/post/nuxt--supabase-is-awesome/'>
+
+<link rel="stylesheet" href="/blog/scss/style.min.f52514ef14db50cc6d4863c388512f6ca946575d2ce1a856a561e17832dae60e.css"><meta property='og:title' content='Nuxt &#43; Supabase is Awesome 😍'>
+<meta property='og:description' content='Select * from deez 🥜'>
+<meta property='og:url' content='https://macawls.github.io/blog/post/nuxt--supabase-is-awesome/'>
+<meta property='og:site_name' content='Macawls&#39; Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='development' /><meta property='article:published_time' content='2023-08-21T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-08-21T00:00:00&#43;00:00'/><meta property='og:image' content='https://macawls.github.io/blog/post/nuxt--supabase-is-awesome/thumb.jpg' />
+<meta name="twitter:title" content="Nuxt &#43; Supabase is Awesome 😍">
+<meta name="twitter:description" content="Select * from deez 🥜"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://macawls.github.io/blog/post/nuxt--supabase-is-awesome/thumb.jpg' />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/Macawls/home/main/docs/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/blog">
+                
+                    <img src="https://avatars.githubusercontent.com/u/80009513?v=4" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🌸</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/blog">Macawls&#39; Blog</a></h1>
+            <h2 class="site-description">A safe haven to document, express and share my thoughts.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/Macawls'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://www.youtube.com/channel/UCTixbYrrM_uYRdww7ON0cSA'
+                        target="_blank"
+                        title="Youtube"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="4" />
+  <path d="M10 9l5 3l-5 3z" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://soundcloud.com/user-226762181'
+                        target="_blank"
+                        title="Soundcloud"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-soundcloud" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M17 11h1c1.38 0 3 1.274 3 3c0 1.657 -1.5 3 -3 3l-6 0v-10c3 0 4.5 1.5 5 4z" />
+  <line x1="9" y1="8" x2="9" y2="17" />
+  <line x1="6" y1="17" x2="6" y2="10" />
+  <line x1="3" y1="16" x2="3" y2="14" />
+</svg>
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://open.spotify.com/user/31o7peloe4i6yfnxmmdwrydcgo34'
+                        target="_blank"
+                        title="Spotify"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-spotify" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+   <path d="M8 11.973c2.5 -1.473 5.5 -.973 7.5 .527"></path>
+   <path d="M9 15c1.5 -1 4 -1 5 .5"></path>
+   <path d="M7 9c2 -1 6 -2 10 .5"></path>
+</svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/blog' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/categories/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>Categories</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/blog/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/blog/post/nuxt--supabase-is-awesome/">
+                <img src="/blog/post/nuxt--supabase-is-awesome/thumb_hude25fbbb583a1369a0fc8023c8d81671_85932_800x0_resize_q75_box.jpg"
+                        srcset="/blog/post/nuxt--supabase-is-awesome/thumb_hude25fbbb583a1369a0fc8023c8d81671_85932_800x0_resize_q75_box.jpg 800w, /blog/post/nuxt--supabase-is-awesome/thumb_hude25fbbb583a1369a0fc8023c8d81671_85932_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="246" 
+                        loading="lazy"
+                        alt="Featured image of post Nuxt &#43; Supabase is Awesome 😍" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/blog/categories/programming/" >
+                Programming
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/blog/post/nuxt--supabase-is-awesome/">Nuxt &#43; Supabase is Awesome 😍</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            Select * from deez 🥜
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 21, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="context">Context</h1>
+<p>I found an awesome skating group on called Queer Skate CPT. My girlfriend and I joined one of their sessions at the Mill Street Bridge Skate Park and we loved it. Everyone is super friendly and the sessions are welcome to anyone and everyone from all backgrounds and/or skill ranges.</p>
+<p>Their socials:</p>
+<ul>
+<li><a class="link" href="https://www.tiktok.com/@queerskatecpt"  target="_blank" rel="noopener"
+    >TikTok</a></li>
+<li><a class="link" href="https://www.instagram.com/queerskatecpt/?igshid=MzRlODBiNWFlZA%3D%3D"  target="_blank" rel="noopener"
+    >Instagram</a></li>
+</ul>
+<div align="center">
+ <video width="260px" controls>
+  <source src="ramp.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+<p> This is me going down a ramp ( Still learning 😳) </p>
+</div>
+<p>I found them on TikTok initially, but it was sort of a struggle to know <strong>when</strong> and <strong>where</strong> exactly their next event was.
+I did some digging and found their Instagram, this was where the event details were.</p>
+<p>After finding their page on TikTok, I took the following steps to know where and when their next event was:</p>
+<ol>
+<li>Find the Instagram link from their TikTok Page</li>
+<li>Scroll through their Instagram and find the latest post regarding the details</li>
+<li>Search the location on Google Maps if I was not already familiar with it</li>
+</ol>
+<p>After some brainstorming, I thought why not just make a website to centralize the event details and make this process easier?
+What if, on a single page, you could have the time and location right there with a link to open it in Google Maps?</p>
+<h2 id="what-i-needed-to-make-this-work">What I needed to make this work</h2>
+<ol>
+<li>The CRUD interface needed to be mobile friendly for maximum flexibility and ease of use</li>
+<li>A login system to make sure only authorized users can edit the data</li>
+<li>The cheapest possible database solution with a realtime data option</li>
+</ol>
+<h2 id="problems-i-ran-into-initially">Problems I ran into initially</h2>
+<p>I simply used vue only, which was my biggest mistake. I had this thought in my mind that <a class="link" href="https://nuxt.com/"  target="_blank" rel="noopener"
+    >Nuxt</a> would be too complicated to learn.</p>
+<p>Some parts of the app needed to be server side (landing page) and some parts needed to be client side (admin pages).</p>
+<div align="center">
+ <img src="confused.png" width="40%">
+</div>
+<p>For the database, I initially used firebase realtime database. Not the best option for a hobby project.
+Their was just so much documentation, it was very confusing and I had to create ugly wrappers to make the process easier. NoSql was fine, but it just didn&rsquo;t feel like there was much rigidity and safety with that sort of setup. I needed to make this thing in a short amount of time. I took a massive break and thought that there&rsquo;s gotta be a better way to do this.</p>
+<h2 id="my-experience-with-nuxt">My Experience with Nuxt</h2>
+<p>What stops me in general from learning new things is, if I have no use for it, why should I learn it?</p>
+<div align="center">
+ <img src="meme.jpg" width="40%">
+</div>
+<p>I learnt the basics of  html and css simply because I wanted to make my own portfolio website.
+Then I learnt javascript and vue because I needed to make it organize my project and implement more complex behaviour.
+Then, I discovered writing css and implementing custom components is absolutely painful and <a class="link" href="https://tailwindcss.com/"  target="_blank" rel="noopener"
+    >Tailwind CSS</a> combined with component libraries ( <a class="link" href="https://daisyui.com/"  target="_blank" rel="noopener"
+    >DaisyUI in my case</a> ) became my saving grace.</p>
+<p>Using vue alone will only get you client side functionally, I needed the whole shebang for a proper CRUD application.
+Nuxt made the most sense here, and I absolutely love it.</p>
+<p>The developer experience is top notch, they have <a class="link" href="https://nuxt.com/modules"  target="_blank" rel="noopener"
+    >modules</a> for absolutely everything you might need (devtools, components, dark mode, markdown rendering etc)</p>
+<p>Auto imports are fantastic, the folder structure setup is fantastic, the docs are fantastic, I absolutely love it. It really is a super-charged dev experience. Everything is simple and powerful. It didn&rsquo;t take too long to get familiar with it.</p>
+<h2 id="supabase">Supabase</h2>
+<p>I LOVE supabase. No loading your credit card upfront, no complicated documentation. You can get your project up and running insanely fast.</p>
+<ul>
+<li>Authentication and alternate providers (google, github etc) ? DONE</li>
+<li>Realtime data? DONE</li>
+<li>Storage? DONE</li>
+</ul>
+<p>The <a class="link" href="https://supabase.nuxtjs.org/"  target="_blank" rel="noopener"
+    >nuxt-supabase  module</a> provides first-class integration that makes things just so easy.</p>
+<p>For a sneak peek, this is how easy it is to do the following:</p>
+<p>Check if a user is logged in (can also do it in middleware)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">setup</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;ts&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="nx">useSupabaseUser</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nx">watch</span><span class="p">(</span><span class="nx">user</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">user</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">navigateTo</span><span class="p">(</span><span class="s1">&#39;/admin&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="nx">navigateTo</span><span class="p">(</span><span class="s1">&#39;admin/login&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span> <span class="p">{</span> <span class="nx">immediate</span>: <span class="kt">true</span> <span class="p">})</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Realtime Connection</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">client</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">channel</span><span class="p">(</span><span class="s2">&#34;custom-all-channel&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;postgres_changes&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span> <span class="nx">event</span><span class="o">:</span> <span class="s2">&#34;*&#34;</span><span class="p">,</span> <span class="nx">schema</span><span class="o">:</span> <span class="s2">&#34;public&#34;</span><span class="p">,</span> <span class="nx">table</span><span class="o">:</span> <span class="s2">&#34;SkateEvents&#34;</span> <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">(</span><span class="nx">payload</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kr">const</span> <span class="p">{</span> <span class="nx">eventType</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">payload</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">eventType</span> <span class="o">===</span> <span class="s2">&#34;INSERT&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nx">events</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">payload</span><span class="p">.</span><span class="k">new</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">eventType</span> <span class="o">===</span> <span class="s2">&#34;DELETE&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="kr">const</span> <span class="nx">index</span> <span class="o">=</span> <span class="nx">events</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">findIndex</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">            <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="nx">event</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">payload</span><span class="p">.</span><span class="nx">old</span><span class="p">.</span><span class="nx">id</span>
+</span></span><span class="line"><span class="cl">          <span class="p">);</span>
+</span></span><span class="line"><span class="cl">          <span class="nx">events</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">splice</span><span class="p">(</span><span class="nx">index</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="nx">subscribe</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="working-demo">Working Demo</h2>
+<p>This is everything up and running so far. Once I feel it&rsquo;s polished and I make sure there are no security vulnerabilities I&rsquo;ll release the source code and deploy it.</p>
+<p>So far I&rsquo;ve used:</p>
+<ul>
+<li><a class="link" href="https://daisyui.com/"  target="_blank" rel="noopener"
+    >DaisyUI</a></li>
+<li><a class="link" href="https://tailwindcss.com/"  target="_blank" rel="noopener"
+    >Tailwind</a></li>
+<li><a class="link" href="https://supabase.com/"  target="_blank" rel="noopener"
+    >Supabase</a></li>
+<li><a class="link" href="https://vue-map.netlify.app/"  target="_blank" rel="noopener"
+    >Vue 3 Google Maps</a></li>
+</ul>
+<br>
+<div align="center" style="display:flex; flex-direction:column; gap: 20px" >
+ <video width="95%" controls>
+  <source src="login.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<p> Login </p>
+ <video width="95%" controls>
+  <source src="realtime.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video> 
+<p> Full Working Demo </p>
+</div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/blog/tags/development/">development</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-contents--wrapper">
+    <h2 class="section-title">Related contents</h2>
+    <div class="related-contents">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/thumb.f7783a82fcef2bdd1e9595fbce93f0a6_huf6a1de37dde033d67fd1dd475d4600c5_132046_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Updates n&#39; stuff that you should most definitely care about because it is 100% relevant 😎👍"
+                        
+                        data-hash="md5-93g6gvzvK90elZX7zpPwpg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Updates n&#39; stuff that you should most definitely care about because it is 100% relevant 😎👍</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/blog/post/minimax-algorithm-adventures-fp-and-oop/">
+        
+        
+            <div class="article-image">
+                <img src="/blog/post/minimax-algorithm-adventures-fp-and-oop/thumb.c77940b7447ebd9bb7b310b3741968a5_hud4f191192083094a7544216e0700a5c7_533745_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Minimax Algorithm Adventures, FP and OOP"
+                        
+                        data-hash="md5-x3lAt0R&#43;vZu3sxCzdBlopQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Minimax Algorithm Adventures, FP and OOP</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="has-image">
+    <a href="/blog/post/its-the-small-things.../">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://i.imgur.com/JaY7RZL.jpg" loading="lazy" data-key="" data-hash="https://i.imgur.com/JaY7RZL.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">It&#39;s the small things...</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="Macawls/blog"
+        issue-term="title"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2023 Macawls&#39; Blog
+    </section>
+    
+    <section class="powerby">
+        
+            ʕ•ᴥ•ʔ <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#what-i-needed-to-make-this-work">What I needed to make this work</a></li>
+    <li><a href="#problems-i-ran-into-initially">Problems I ran into initially</a></li>
+    <li><a href="#my-experience-with-nuxt">My Experience with Nuxt</a></li>
+    <li><a href="#supabase">Supabase</a></li>
+    <li><a href="#working-demo">Working Demo</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/blog/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
