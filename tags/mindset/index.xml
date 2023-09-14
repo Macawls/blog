@@ -6,7 +6,86 @@
         <description>Recent content in mindset on Macawls&#39; Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/mindset/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://macawls.github.io/blog/tags/mindset/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Programming is my Therapy 💔</title>
+        <link>https://macawls.github.io/blog/post/programming-is-my-therapy/</link>
+        <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://macawls.github.io/blog/post/programming-is-my-therapy/</guid>
+        <description>&lt;img src="https://macawls.github.io/blog/post/programming-is-my-therapy/thumb.jpg" alt="Featured image of post Programming is my Therapy 💔" /&gt;&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+&lt;p&gt;This final semester has been pretty tough. I feel incredibly pressured to make sure my portfolio and projects are up to standard so that I can get a job as soon as possible. I have a crazy opengl project that&amp;rsquo;s in the works so stay tuned 😘&lt;/p&gt;
+&lt;p&gt;The reason why I wrote this post was, I do this really odd thing where, when I don&amp;rsquo;t want to work on a subject I should be working on, I work on something else entirely. Yesterday night, instead of writing a paper, I was writing code till 5am. It&amp;rsquo;s a weird way for my brain to justify not working on things I don&amp;rsquo;t care about.&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+ &lt;img src=&#34;https://macawls.dev/apu-gallery/apu/crying.png&#34; width=&#34;35%&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;One thing I really struggle to do is find motivation for subjects that do not interest me in any way. If you are not familiar with what I study, its a degree in &lt;a class=&#34;link&#34; href=&#34;https://www.vegaschool.com/full-time/bachelor-of-computer-and-information-science-in-game-design-and-development-degree?utm_source=google&amp;amp;utm_medium=search&amp;amp;utm_campaign=vega-school&amp;amp;utm_term=game-design-and-development&amp;amp;gclid=CjwKCAjw3oqoBhAjEiwA_UaLth91lpLiMYLr0oIjptZHq5X7vugujJd00JtddNxAN3BSU507CtWzlRoC-WcQAvD_BwE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt; Game Design and Development&lt;/a&gt;. This does not only include programming, in-fact, programming is only emphasized in the final year.&lt;/p&gt;
+&lt;p&gt;Throughout our studies we have theoretical subjects like&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game Design&lt;/li&gt;
+&lt;li&gt;Narrative Design&lt;/li&gt;
+&lt;li&gt;Game Art&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The list goes on&amp;hellip;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m tired of talking about game concepts and ideas. I&amp;rsquo;m tired of doing research documents.&lt;/p&gt;
+&lt;p&gt;Often there&amp;rsquo;ll be a conversation like 😴&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Person:         &amp;#34;What about making it a 3D platformer with abilities?
+                 We can finish it in a few weeks!&amp;#34;
+
+My brain:       &amp;#34;For f*** sakes. How is that even realistically possible?
+                 Have you even tried to do something like that?&amp;#34;
+
+My response:    &amp;#34;I don&amp;#39;t think thats possible, could we dial down the 
+                 scope of the game a bit?&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;More often that not, our theory does not align with what we are &lt;strong&gt;actually&lt;/strong&gt; capable of doing in terms of development because programming is not the main focus in our degree until third-year, which is why I put so much of my &lt;strong&gt;own&lt;/strong&gt; time into side projects and making sure I am as competent and versatile as I can possibly be.&lt;/p&gt;
+&lt;p&gt;In doing so I&amp;rsquo;ve largely alienated myself from the rest of my class, at least that I believe.&lt;/p&gt;
+&lt;p&gt;I also understand that I&amp;rsquo;ve a long way to go in terms of my proficiency but I still feel strongly about what I&amp;rsquo;ve said.&lt;/p&gt;
+&lt;h2 id=&#34;why-is-writing-code-theraputic&#34;&gt;Why is writing code theraputic?&lt;/h2&gt;
+&lt;h3 id=&#34;my-initial-experience&#34;&gt;My Initial Experience&lt;/h3&gt;
+&lt;div align=&#34;center&#34;&gt;
+ &lt;img src=&#34;https://media.giphy.com/media/DJOv9iPyEIxAA/giphy.gif&#34; width=&#34;50%&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;I didn&amp;rsquo;t enjoy programming up until the second semester of first year, that&amp;rsquo;s when things really kicked in 🚀&lt;/p&gt;
+&lt;p&gt;Programming knocked me down harder than I ever imagined 🥊. I ended up with 50% for the semester even after busting my ass to get 90% for the final project because my initial marks were so bad.&lt;/p&gt;
+&lt;p&gt;That single project taught me so so much that I am incredibly grateful for.&lt;/p&gt;
+&lt;p&gt;The most important thing I learnt is, you cannot make assumptions until you figure out the problem domain.
+Once you have experience within that domain, you are fairly comfortable, but comfort doesn&amp;rsquo;t bring about growth.&lt;/p&gt;
+&lt;p&gt;Essentially, &lt;strong&gt;learning how to fail over and over again&lt;/strong&gt; ✅&lt;/p&gt;
+&lt;h3 id=&#34;thereafter&#34;&gt;Thereafter&lt;/h3&gt;
+&lt;div align=&#34;center&#34;&gt;
+ &lt;img src=&#34;https://media.giphy.com/media/LHZyixOnHwDDy/giphy.gif&#34; width=&#34;50%&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;It became an addiction to be honest. I always feel like making something or learning something new at the expense of the subjects I&amp;rsquo;m not interested in at university. The second we get a break, it won&amp;rsquo;t even be a week before I&amp;rsquo;m making something.&lt;/p&gt;
+&lt;p&gt;There are so many things on my resume that have absolutely nothing to do with any university content.&lt;/p&gt;
+&lt;p&gt;I think its because there&amp;rsquo;s no time limit and I can just do whatever I want. It&amp;rsquo;s incredibly fulfilling because I feel like im growing.
+I also get to scratch my curiosity itch.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What if I try this out?&lt;/li&gt;
+&lt;li&gt;What will be the downside of this solution?&lt;/li&gt;
+&lt;li&gt;This guy said this is good, lemme check it out.&lt;/li&gt;
+&lt;li&gt;How did this person solve this?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I need these things shooting around in my brain so I feel engaged. I also noticed that I look at problems differently the more tools I have under my belt so I like exploring.&lt;/p&gt;
+&lt;h3 id=&#34;immersion&#34;&gt;Immersion&lt;/h3&gt;
+&lt;div align=&#34;center&#34;&gt;
+ &lt;img src=&#34;https://media.giphy.com/media/l41lJ8ywG1ncm9FXW/giphy.gif&#34; width=&#34;50%&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;I am immersed out of my mind when I write code. It really feels like such a safe space for me.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t have to think about anything other than how abstract concepts or entities are connected together.
+Usually I have high energy edm playing like hardstyle, techno or dnb to mute out everything else.&lt;/p&gt;
+&lt;p&gt;I always no idea how much time passed by. It feels incredibly comfortable.&lt;/p&gt;
+&lt;h3 id=&#34;downsides&#34;&gt;Downsides&lt;/h3&gt;
+&lt;p&gt;If I don&amp;rsquo;t figure something about, it bothers me for the entire day and I think about it all the time. Often I won&amp;rsquo;t be present because my mind will be elsewhere. Sometimes I even forget to drink or eat while I&amp;rsquo;m looking at text. Not great.
+I&amp;rsquo;ve noticed my hands have token a toll too. I keep having to crack them. I&amp;rsquo;ll definitely start investing in more comfy peripherals once I have a job.&lt;/p&gt;
+&lt;div align=&#34;center&#34;&gt;
+ &lt;img src=&#34;https://macawls.dev/apu-gallery/apu/oreos.png&#34; width=&#34;40%&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;The pressure is pretty heavy too. I should definitely go easier on myself but it feels like theres so much on the line right now.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I enjoyed this post, been a while since I got things off my chest through writing. I hope you enjoyed it ❤️&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>What is Limerence? 🧠</title>
         <link>https://macawls.github.io/blog/post/what-is-limerence/</link>
         <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>

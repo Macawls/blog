@@ -3,28 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://macawls.github.io/blog/categories/</loc>
-    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://macawls.github.io/blog/tags/development/</loc>
-    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <loc>https://macawls.github.io/blog/categories/fluff/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.github.io/blog/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.github.io/blog/tags/mindset/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.github.io/blog/tags/personal/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.github.io/blog/post/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.github.io/blog/post/programming-is-my-therapy/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.github.io/blog/tags/</loc>
+    <lastmod>2023-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://macawls.github.io/blog/tags/development/</loc>
     <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.github.io/blog/post/nuxt--supabase-is-awesome/</loc>
     <lastmod>2023-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://macawls.github.io/blog/post/</loc>
-    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://macawls.github.io/blog/categories/programming/</loc>
     <lastmod>2023-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.github.io/blog/tags/</loc>
-    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.github.io/blog/categories/fluff/</loc>
-    <lastmod>2023-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.github.io/blog/post/updates-n-stuff-that-you-should-most-definitely-care-about-because-it-is-100-relevant/</loc>
     <lastmod>2023-06-26T00:00:00+00:00</lastmod>
@@ -35,17 +44,11 @@
     <loc>https://macawls.github.io/blog/tags/learning/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://macawls.github.io/blog/tags/mindset/</loc>
-    <lastmod>2023-05-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://macawls.github.io/blog/post/what-is-limerence/</loc>
     <lastmod>2023-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.github.io/blog/post/minimax-algorithm-adventures-fp-and-oop/</loc>
     <lastmod>2023-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://macawls.github.io/blog/tags/personal/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://macawls.github.io/blog/post/the-future-of-this-blog/</loc>
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
