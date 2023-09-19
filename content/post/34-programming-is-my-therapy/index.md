@@ -56,9 +56,9 @@ In doing so I've largely alienated myself from the rest of my class, at least th
 I also understand that I've a long way to go in terms of my proficiency but I still feel strongly about what I've said.
 
 
-## Why is writing code theraputic?
+## My Journey
 
-### My Initial Experience
+### Initial Experience
 
 <div align="center">
  <img src="https://media.giphy.com/media/DJOv9iPyEIxAA/giphy.gif" width="50%">
@@ -88,7 +88,7 @@ It became an addiction to be honest. I always feel like making something or lear
 There are so many things on my resume that have absolutely nothing to do with any university content.
 
 I think its because there's no time limit and I can just do whatever I want. It's incredibly fulfilling because I feel like im growing.
-I also get to scratch my curiosity itch. 
+I also get to scratch my curiosity itch.
 
 * What if I try this out?
 * What will be the downside of this solution?
@@ -103,7 +103,7 @@ I need these things shooting around in my brain so I feel engaged. I also notice
  <img src="https://media.giphy.com/media/l41lJ8ywG1ncm9FXW/giphy.gif" width="50%">
 </div>
 
-I am immersed out of my mind when I write code. It really feels like such a safe space for me. 
+I am immersed out of my mind when I write code. It really feels like such a safe space for me.
 
 I don't have to think about anything other than how abstract concepts or entities are connected together.
 Usually I have high energy edm playing like hardstyle, techno or dnb to mute out everything else.
@@ -113,7 +113,7 @@ I always no idea how much time passed by. It feels incredibly comfortable.
 ### Downsides
 
 
-If I don't figure something about, it bothers me for the entire day and I think about it all the time. Often I won't be present because my mind will be elsewhere. Sometimes I even forget to drink or eat while I'm looking at text. Not great.
+If I don't figure something about, it bothers me and I think about it all the time. Often I won't be present doing mundane things throughout the day because my mind will be elsewhere. Sometimes I even forget to drink or eat while I'm looking at text. Not great 😞.
 I've noticed my hands have token a toll too. I keep having to crack them. I'll definitely start investing in more comfy peripherals once I have a job.
 
 <div align="center">
