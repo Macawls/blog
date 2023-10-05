@@ -449,7 +449,7 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kt">var</span> <span class="n">players</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Players</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="n">First</span> <span class="p">=</span> <span class="k">new</span> <span class="p">(</span><span class="s">&#34;One&#34;</span><span class="p">,</span> <span class="n">TileType</span><span class="p">.</span><span class="n">X</span><span class="p">,</span> <span class="k">new</span> <span class="n">MinimaxStrategy</span><span class="p">(</span><span class="k">true</span><span class="p">)),</span> 
+</span></span><span class="line"><span class="cl">    <span class="n">First</span> <span class="p">=</span> <span class="k">new</span> <span class="p">(</span><span class="s">&#34;One&#34;</span><span class="p">,</span> <span class="n">TileType</span><span class="p">.</span><span class="n">X</span><span class="p">,</span> <span class="k">new</span> <span class="n">MinimaxStrategy</span><span class="p">(</span><span class="kc">true</span><span class="p">)),</span> 
 </span></span><span class="line"><span class="cl">    <span class="n">Second</span> <span class="p">=</span> <span class="k">new</span> <span class="p">(</span><span class="s">&#34;Two&#34;</span><span class="p">,</span> <span class="n">TileType</span><span class="p">.</span><span class="n">O</span><span class="p">,</span> <span class="k">new</span> <span class="n">PromptStrategy</span><span class="p">(</span><span class="n">config</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span>
 </span></span><span class="line"><span class="cl">
@@ -495,7 +495,7 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">Run</span><span class="p">()</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">Run</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Begin</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">(</span><span class="n">Players</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">
@@ -560,7 +560,7 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span><span class="lnt">35
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="n">GameStatus</span> <span class="n">PlayTurn</span><span class="p">(</span><span class="n">Player</span> <span class="n">player</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">private</span> <span class="n">GameStatus</span> <span class="n">PlayTurn</span><span class="p">(</span><span class="n">Player</span> <span class="n">player</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">bool</span> <span class="n">success</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">do</span>
@@ -623,22 +623,22 @@ I used a library called <a class="link" href="https://spectreconsole.net/"  targ
 </span><span class="lnt">21
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">readonly</span> <span class="k">struct</span> <span class="nc">GameStatus</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">readonly</span> <span class="k">struct</span> <span class="nc">GameStatus</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span> 
-</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="n">GameState</span> <span class="n">State</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">init</span><span class="p">;</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;</span> <span class="n">Winner</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="k">private</span> <span class="k">init</span><span class="p">;</span> <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="n">GameStatus</span> <span class="n">InProgress</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">GameState</span> <span class="n">State</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="kd">private</span> <span class="k">init</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;</span> <span class="n">Winner</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="kd">private</span> <span class="k">init</span><span class="p">;</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">GameStatus</span> <span class="n">InProgress</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">State</span> <span class="p">=</span> <span class="n">GameState</span><span class="p">.</span><span class="n">InProgress</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Winner</span> <span class="p">=</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;.</span><span class="n">None</span>
 </span></span><span class="line"><span class="cl">    <span class="p">};</span>
-</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="n">GameStatus</span> <span class="n">Draw</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">GameStatus</span> <span class="n">Draw</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">State</span> <span class="p">=</span> <span class="n">GameState</span><span class="p">.</span><span class="n">Draw</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Winner</span> <span class="p">=</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;.</span><span class="n">None</span>
 </span></span><span class="line"><span class="cl">    <span class="p">};</span>
 </span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="n">GameStatus</span> <span class="n">Victor</span><span class="p">(</span><span class="n">Player</span> <span class="n">player</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="n">GameStatus</span> <span class="n">Victor</span><span class="p">(</span><span class="n">Player</span> <span class="n">player</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="k">new</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">State</span> <span class="p">=</span> <span class="n">GameState</span><span class="p">.</span><span class="n">Winner</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Winner</span> <span class="p">=</span> <span class="n">Option</span><span class="p">&lt;</span><span class="n">Player</span><span class="p">&gt;.</span><span class="n">Some</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
@@ -699,7 +699,7 @@ Rust, Haskell and F#.</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="na">[HttpPost]</span>
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="n">HttpResponseMessage</span> <span class="n">CreateCustomer</span><span class="p">(</span><span class="kt">string</span> <span class="n">name</span><span class="p">,</span> <span class="kt">string</span> <span class="n">billingInfo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="n">HttpResponseMessage</span> <span class="n">CreateCustomer</span><span class="p">(</span><span class="kt">string</span> <span class="n">name</span><span class="p">,</span> <span class="kt">string</span> <span class="n">billingInfo</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Result</span><span class="p">&lt;</span><span class="n">CustomerName</span><span class="p">&gt;</span> <span class="n">customerNameResult</span> <span class="p">=</span> <span class="n">CustomerName</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">name</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">customerNameResult</span><span class="p">.</span><span class="n">Failure</span><span class="p">)</span>
@@ -760,7 +760,7 @@ Rust, Haskell and F#.</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="na">[HttpPost]</span>
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="n">HttpResponseMessage</span> <span class="n">CreateCustomer</span><span class="p">(</span><span class="kt">string</span> <span class="n">name</span><span class="p">,</span> <span class="kt">string</span> <span class="n">billingInfo</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="n">HttpResponseMessage</span> <span class="n">CreateCustomer</span><span class="p">(</span><span class="kt">string</span> <span class="n">name</span><span class="p">,</span> <span class="kt">string</span> <span class="n">billingInfo</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Result</span><span class="p">&lt;</span><span class="n">BillingInfo</span><span class="p">&gt;</span> <span class="n">billingInfoResult</span> <span class="p">=</span> <span class="n">BillingInfo</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">billingInfo</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Result</span><span class="p">&lt;</span><span class="n">CustomerName</span><span class="p">&gt;</span> <span class="n">customerNameResult</span> <span class="p">=</span> <span class="n">CustomerName</span><span class="p">.</span><span class="n">Create</span><span class="p">(</span><span class="n">name</span><span class="p">);</span>
@@ -790,7 +790,7 @@ Rust, Haskell and F#.</p>
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">interface</span> <span class="nc">IPlayerStrategy</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">interface</span> <span class="nc">IPlayerStrategy</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">string</span> <span class="n">DisplayName</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">string</span> <span class="n">Description</span> <span class="p">{</span> <span class="k">get</span><span class="p">;</span> <span class="p">}</span>
@@ -808,7 +808,7 @@ Rust, Haskell and F#.</p>
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">bool</span> <span class="n">IsDraw</span><span class="p">(</span><span class="k">this</span> <span class="n">Tile</span><span class="p">[,]</span> <span class="n">map</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">bool</span> <span class="n">IsDraw</span><span class="p">(</span><span class="k">this</span> <span class="n">Tile</span><span class="p">[,]</span> <span class="n">map</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">map</span><span class="p">.</span><span class="n">GetPositionsOf</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">).</span><span class="n">Count</span> <span class="p">==</span> <span class="m">0</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
@@ -838,7 +838,7 @@ Rust, Haskell and F#.</p>
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="n">Players</span> <span class="n">SwitchPlayOrder</span><span class="p">(</span><span class="k">this</span> <span class="n">Players</span> <span class="n">players</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="n">Players</span> <span class="n">SwitchPlayOrder</span><span class="p">(</span><span class="k">this</span> <span class="n">Players</span> <span class="n">players</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">player</span> <span class="k">in</span> <span class="n">players</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
@@ -875,7 +875,7 @@ Rust, Haskell and F#.</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">static</span> <span class="kt">string</span> <span class="n">GetPlayerViewMarkup</span><span class="p">(</span><span class="k">this</span> <span class="n">Player</span> <span class="n">player</span><span class="p">,</span> <span class="kt">string</span> <span class="n">header</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">static</span> <span class="kt">string</span> <span class="n">GetPlayerViewMarkup</span><span class="p">(</span><span class="k">this</span> <span class="n">Player</span> <span class="n">player</span><span class="p">,</span> <span class="kt">string</span> <span class="n">header</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">PlayerLogBuilder</span>  <span class="c1">// might as well cache it</span>
 </span></span><span class="line"><span class="cl">        <span class="p">.</span><span class="n">Clear</span><span class="p">()</span>   
@@ -900,9 +900,9 @@ Rust, Haskell and F#.</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">class</span> <span class="nc">RandomStrategy</span> <span class="p">:</span> <span class="n">IPlayerStrategy</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">class</span> <span class="nc">RandomStrategy</span> <span class="p">:</span> <span class="n">IPlayerStrategy</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">public</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span> <span class="n">GetMove</span><span class="p">(</span><span class="n">Board</span> <span class="n">board</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="p">(</span><span class="kt">int</span> <span class="n">x</span><span class="p">,</span> <span class="kt">int</span> <span class="n">y</span><span class="p">)</span> <span class="n">GetMove</span><span class="p">(</span><span class="n">Board</span> <span class="n">board</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">.</span><span class="n">GetPositionsOf</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">).</span><span class="n">GetRandom</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
@@ -1059,7 +1059,7 @@ After implementing alpha-beta pruning, it took about 0.3 ish? I didn&rsquo;t rec
 </span><span class="lnt">73
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">int</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">Board</span> <span class="n">board</span><span class="p">,</span> <span class="kt">int</span> <span class="n">depth</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">isMaximizing</span><span class="p">,</span> <span class="kt">int</span> <span class="n">alpha</span><span class="p">,</span> <span class="kt">int</span> <span class="n">beta</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kt">int</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">Board</span> <span class="n">board</span><span class="p">,</span> <span class="kt">int</span> <span class="n">depth</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">isMaximizing</span><span class="p">,</span> <span class="kt">int</span> <span class="n">alpha</span><span class="p">,</span> <span class="kt">int</span> <span class="n">beta</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">score</span> <span class="p">=</span> <span class="n">UtilityFunction</span><span class="p">(</span><span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">,</span> <span class="n">isMaximizing</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    
@@ -1086,7 +1086,7 @@ After implementing alpha-beta pruning, it took about 0.3 ish? I didn&rsquo;t rec
 </span></span><span class="line"><span class="cl">            <span class="c1">// Make Move</span>
 </span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">X</span><span class="p">);</span> 
 </span></span><span class="line"><span class="cl">            <span class="c1">// Opponent&#39;s turn</span>
-</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">compare</span> <span class="p">=</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="n">depth</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="k">false</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">compare</span> <span class="p">=</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="n">depth</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="kc">false</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">            <span class="c1">// Undo Move</span>
 </span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">);</span> 
 </span></span><span class="line"><span class="cl">        
@@ -1113,7 +1113,7 @@ After implementing alpha-beta pruning, it took about 0.3 ish? I didn&rsquo;t rec
 </span></span><span class="line"><span class="cl">        <span class="k">foreach</span> <span class="p">(</span><span class="kt">var</span> <span class="n">pos</span> <span class="k">in</span> <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">.</span><span class="n">GetPositionsOf</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">O</span><span class="p">);</span> 
-</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">compare</span> <span class="p">=</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="n">depth</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="k">true</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">);</span> 
+</span></span><span class="line"><span class="cl">            <span class="kt">int</span> <span class="n">compare</span> <span class="p">=</span> <span class="n">Minimax</span><span class="p">(</span><span class="n">board</span><span class="p">,</span> <span class="n">depth</span> <span class="p">-</span> <span class="m">1</span><span class="p">,</span> <span class="kc">true</span><span class="p">,</span> <span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span><span class="p">);</span> 
 </span></span><span class="line"><span class="cl">            <span class="n">board</span><span class="p">.</span><span class="n">Tiles</span><span class="p">[</span><span class="n">pos</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">pos</span><span class="p">.</span><span class="n">y</span><span class="p">].</span><span class="n">UpdateType</span><span class="p">(</span><span class="n">TileType</span><span class="p">.</span><span class="n">Empty</span><span class="p">);</span> 
 </span></span><span class="line"><span class="cl">        
 </span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">compare</span> <span class="p">&lt;=</span> <span class="n">alpha</span><span class="p">)</span>

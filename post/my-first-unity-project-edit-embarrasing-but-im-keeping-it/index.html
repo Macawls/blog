@@ -404,12 +404,12 @@ My guess is it was an issue with garbage collection, memory and just so many ref
 </span><span class="lnt">20
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">private</span> <span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">InvokeRepeating</span><span class="p">(</span><span class="n">nameof</span><span class="p">(</span><span class="n">SpawnObjectsInRandomLane</span><span class="p">),</span> <span class="n">GameManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">PathManager</span><span class="p">.</span><span class="n">startTime</span><span class="p">,</span> <span class="n">GameManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">PathManager</span><span class="p">.</span><span class="n">timeToDestroy</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">    
-</span></span><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">SpawnRandomObject</span><span class="p">(</span><span class="kt">float</span> <span class="n">xPosition</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">spawnPickUp</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">private</span> <span class="k">void</span> <span class="n">SpawnRandomObject</span><span class="p">(</span><span class="kt">float</span> <span class="n">xPosition</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">spawnPickUp</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// zPos changes after every invoke repeating call(in Path Manager)</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">zPos</span> <span class="p">=</span> <span class="n">GameManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">PathManager</span><span class="p">.</span><span class="n">ZTilePos</span><span class="p">;</span>
@@ -462,9 +462,9 @@ My guess is it was an issue with garbage collection, memory and just so many ref
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Awake</span><span class="p">()</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">private</span> <span class="k">void</span> <span class="n">Awake</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Instance</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">Instance</span> <span class="p">!=</span> <span class="k">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Instance</span> <span class="p">!=</span> <span class="kc">null</span> <span class="p">&amp;&amp;</span> <span class="n">Instance</span> <span class="p">!=</span> <span class="k">this</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Destroy</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Instance</span> <span class="p">=</span> <span class="k">this</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">DontDestroyOnLoad</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
@@ -519,19 +519,19 @@ On the one hand, its really easy to grab anything you want like this because its
 </span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">private</span> <span class="k">void</span> <span class="n">Awake</span><span class="p">()</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">private</span> <span class="k">void</span> <span class="n">Awake</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Instance</span> <span class="p">!=</span> <span class="k">null</span> <span class="p">&amp;&amp;</span> <span class="n">Instance</span> <span class="p">!=</span> <span class="k">this</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">Instance</span> <span class="p">!=</span> <span class="kc">null</span> <span class="p">&amp;&amp;</span> <span class="n">Instance</span> <span class="p">!=</span> <span class="k">this</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">        <span class="n">Destroy</span><span class="p">(</span><span class="k">this</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="n">Instance</span> <span class="p">=</span> <span class="k">this</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="n">DontDestroyOnLoad</span><span class="p">(</span><span class="n">gameObject</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">PlayerDeath</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnPlayerDeath</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">GameStart</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameStart</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">GamePause</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGamePause</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">ResumeGame</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameResume</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">GameRestart</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameRestart</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">PlayerDeath</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnPlayerDeath</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">GameStart</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameStart</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">GamePause</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGamePause</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">ResumeGame</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameResume</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">GameRestart</span><span class="p">()</span> <span class="p">=&gt;</span> <span class="n">OnGameRestart</span><span class="p">?.</span><span class="n">Invoke</span><span class="p">();</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>So how it works is, I have an EventsManager singleton. When I invoke an event by saying,</p>
@@ -670,18 +670,23 @@ Although, there&rsquo;s a big difference between being in tutorial hell and actu
             
                 
 <article class="has-image">
-    <a href="/blog/post/introducing-apu-bot/">
+    <a href="/blog/post/opengl-adventures-post-under-construction/">
         
         
             <div class="article-image">
-                
-                    <img src="https://i.imgur.com/8SuuiNP.png" loading="lazy" data-key="" data-hash="https://i.imgur.com/8SuuiNP.png"/>
+                <img src="/blog/post/opengl-adventures-post-under-construction/thumb.55233ac7ee1142c3218885b9a2f321fc_hubf111a7949ee0dd1b164852b89234f17_225031_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post OpenGL Adventures! (Post under construction 🔨🔧)"
+                        
+                        data-hash="md5-VSM6x&#43;4RQsMhiIW5ovMh/A==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Introducing, Apu Bot!</h2>
+            <h2 class="article-title">OpenGL Adventures! (Post under construction 🔨🔧)</h2>
         </div>
     </a>
 </article>

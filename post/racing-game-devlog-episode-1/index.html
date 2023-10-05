@@ -384,22 +384,22 @@ It&rsquo;s quite long so I recommend navigating to different sections using the 
 </span><span class="lnt">23
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="k">void</span> <span class="n">ForEach</span><span class="p">(</span><span class="n">Action</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="n">action</span><span class="p">)</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="k">void</span> <span class="n">ForEach</span><span class="p">(</span><span class="n">Action</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span> <span class="n">action</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">current</span> <span class="p">=</span> <span class="n">Head</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">current</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">current</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="n">action</span><span class="p">(</span><span class="n">current</span><span class="p">.</span><span class="n">Data</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">current</span> <span class="p">=</span> <span class="n">current</span><span class="p">.</span><span class="n">Next</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">public</span> <span class="n">CustomLinkedList</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span><span class="n">SelectMany</span><span class="p">(</span><span class="n">Func</span><span class="p">&lt;</span><span class="n">T</span><span class="p">,</span> <span class="kt">bool</span><span class="p">&gt;</span> <span class="n">func</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="n">CustomLinkedList</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;</span><span class="n">SelectMany</span><span class="p">(</span><span class="n">Func</span><span class="p">&lt;</span><span class="n">T</span><span class="p">,</span> <span class="kt">bool</span><span class="p">&gt;</span> <span class="n">func</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">newList</span> <span class="p">=</span> <span class="k">new</span> <span class="n">CustomLinkedList</span><span class="p">&lt;</span><span class="n">T</span><span class="p">&gt;();</span>
 </span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">current</span> <span class="p">=</span> <span class="n">Head</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">current</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">while</span> <span class="p">(</span><span class="n">current</span> <span class="p">!=</span> <span class="kc">null</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">func</span><span class="p">(</span><span class="n">current</span><span class="p">.</span><span class="n">Data</span><span class="p">))</span> <span class="n">newList</span><span class="p">.</span><span class="n">AddEnd</span><span class="p">(</span><span class="n">current</span><span class="p">.</span><span class="n">Data</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">        <span class="n">current</span> <span class="p">=</span> <span class="n">current</span><span class="p">.</span><span class="n">Next</span><span class="p">;</span>
@@ -464,7 +464,7 @@ For resolving collisions I&rsquo;m using <a class="link" href="https://www.geeks
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">public</span> <span class="kt">object</span> <span class="k">this</span><span class="p">[</span><span class="n">TKey</span> <span class="n">key</span><span class="p">]</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kt">object</span> <span class="k">this</span><span class="p">[</span><span class="n">TKey</span> <span class="n">key</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="k">get</span><span class="p">{}</span> <span class="c1">// logic in here</span>
 </span></span><span class="line"><span class="cl">            <span class="k">set</span><span class="p">{}</span> <span class="c1">// logic in here</span>
@@ -531,7 +531,7 @@ None of them care about persistent data, they sort of act like static helpers.</
 <pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">void</span> <span class="n">Start</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="n">ServiceLocator</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="n">AudioService</span><span class="p">&gt;()</span>
-</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="n">PlayMusic</span><span class="p">(</span><span class="n">newClip</span><span class="p">:</span> <span class="s">&#34;Never gonna give you up&#34;</span><span class="p">,</span> <span class="n">shouldLoop</span><span class="p">:</span> <span class="k">true</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">.</span><span class="n">PlayMusic</span><span class="p">(</span><span class="n">newClip</span><span class="p">:</span> <span class="s">&#34;Never gonna give you up&#34;</span><span class="p">,</span> <span class="n">shouldLoop</span><span class="p">:</span> <span class="kc">true</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl">    <span class="c1">// or cache the ref if the class uses it alot</span>
 </span></span><span class="line"><span class="cl">    <span class="kt">var</span> <span class="n">audio</span> <span class="p">=</span> <span class="n">ServiceLocator</span><span class="p">.</span><span class="n">Get</span><span class="p">&lt;</span><span class="n">AudioService</span><span class="p">&gt;();</span>
@@ -581,11 +581,11 @@ None of them care about persistent data, they sort of act like static helpers.</
 </span><span class="lnt">35
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl">    <span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">Bootstrapper</span>
+<pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="k">class</span> <span class="nc">Bootstrapper</span>
 </span></span><span class="line"><span class="cl">    <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="k">private</span> <span class="k">static</span> <span class="k">readonly</span> <span class="n">GameSystems</span> <span class="n">GameSystems</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">private</span> <span class="kd">static</span> <span class="k">readonly</span> <span class="n">GameSystems</span> <span class="n">GameSystems</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="k">static</span> <span class="n">Bootstrapper</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">static</span> <span class="n">Bootstrapper</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="n">ServiceLocator</span><span class="p">.</span><span class="n">Initialize</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">            <span class="n">GameSystems</span> <span class="p">=</span> <span class="n">Resources</span><span class="p">.</span><span class="n">LoadAll</span><span class="p">&lt;</span><span class="n">GameSystems</span><span class="p">&gt;(</span><span class="s">&#34;&#34;</span><span class="p">).</span><span class="n">First</span><span class="p">();</span>
@@ -593,12 +593,12 @@ None of them care about persistent data, they sort of act like static helpers.</
 </span></span><span class="line"><span class="cl"><span class="na">        
 </span></span></span><span class="line"><span class="cl"><span class="na">        
 </span></span></span><span class="line"><span class="cl"><span class="na">        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]</span>
-</span></span><span class="line"><span class="cl">        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">Bootstrap</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">private</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">Bootstrap</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="n">SpawnPersistentSystems</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">        <span class="p">}</span>
 </span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="k">private</span> <span class="k">static</span> <span class="k">void</span> <span class="n">SpawnPersistentSystems</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">private</span> <span class="kd">static</span> <span class="k">void</span> <span class="n">SpawnPersistentSystems</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl">        <span class="p">{</span>
 </span></span><span class="line"><span class="cl">            <span class="kt">var</span> <span class="n">list</span> <span class="p">=</span> <span class="n">GameSystems</span><span class="p">.</span><span class="n">prefabs</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">            
@@ -744,18 +744,23 @@ None of them care about persistent data, they sort of act like static helpers.</
             
                 
 <article class="has-image">
-    <a href="/blog/post/introducing-apu-bot/">
+    <a href="/blog/post/opengl-adventures-post-under-construction/">
         
         
             <div class="article-image">
-                
-                    <img src="https://i.imgur.com/8SuuiNP.png" loading="lazy" data-key="" data-hash="https://i.imgur.com/8SuuiNP.png"/>
+                <img src="/blog/post/opengl-adventures-post-under-construction/thumb.55233ac7ee1142c3218885b9a2f321fc_hubf111a7949ee0dd1b164852b89234f17_225031_250x150_fill_q75_box_smart1.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post OpenGL Adventures! (Post under construction 🔨🔧)"
+                        
+                        data-hash="md5-VSM6x&#43;4RQsMhiIW5ovMh/A==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">Introducing, Apu Bot!</h2>
+            <h2 class="article-title">OpenGL Adventures! (Post under construction 🔨🔧)</h2>
         </div>
     </a>
 </article>
