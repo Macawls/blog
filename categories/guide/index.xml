@@ -342,8 +342,7 @@ The best part? No limitations and no one pulling any strings. It was &lt;strong&
 &lt;p&gt;I started automating tasks through scripts and it was just mindblowing to me.
 Of course you can write scripts in other operating systems but I personally I feel like Linux makes it much easier. Bash is one of the simplest shells, python is pre-installed on most distros.
 Vim was something I didn&amp;rsquo;t even know existed.
-The whole journey made me take a step back and really think about many, many aspects of software I hadn&amp;rsquo;t thought about before.
-Source code, webapps, compatibility, modularity, backend, efficiency, UX, underlying frameworks and languages, all that good stuff.&lt;/p&gt;
+The whole journey made me take a step back and really think about many, many aspects of software I hadn&amp;rsquo;t thought about before.&lt;/p&gt;
 &lt;p&gt;You don&amp;rsquo;t like the way a program does a certain thing? Sure bro, here&amp;rsquo;s the source code, do whatever you want.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad.png&#34;
 	width=&#34;331&#34;
@@ -369,10 +368,9 @@ Source code, webapps, compatibility, modularity, backend, efficiency, UX, underl
 Read more about it &lt;a class=&#34;link&#34; href=&#34;https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m not going to go in-depth about how important this is for developing software,  but basically it makes talking to other programs really easy and keeps things as minimal and simple as possible.
-In Windows, software is packaged with all its dependencies in one huge ass program and a shitty installer.
-It&amp;rsquo;s &lt;strong&gt;monolithic&lt;/strong&gt; and bloated as hell.&lt;/p&gt;
-&lt;p&gt;To install something, you usually go into a browser and download some suspicious setup.exe. Odds are, you will have no idea what its actually doing under the hood and have no way of knowing unless its open source. To fend it off you have Window&amp;rsquo;s built in antivirus which isn&amp;rsquo;t even necessary in the first place if Windows was just fucking secure.&lt;/p&gt;
-&lt;p&gt;I personally cannot stand it. For context I easily have around 9000 hours plus using Windows.&lt;/p&gt;
+In Windows, software is packaged with all its dependencies in one big program and an installer.
+It&amp;rsquo;s &lt;strong&gt;monolithic&lt;/strong&gt; and bloated.&lt;/p&gt;
+&lt;p&gt;To install something, you usually go into a browser and download some suspicious setup.exe. Odds are, you will have no idea what its actually doing under the hood and have no way of knowing unless its open source. To fend it off you have Window&amp;rsquo;s built in antivirus.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re unfamiliar with the idea of free software (not just cost), I highly recommend watching this &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/Ag1AKIl_2GM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ted Talk&lt;/a&gt; by a very, very &lt;strong&gt;based&lt;/strong&gt; individual.&lt;/p&gt;
 &lt;h2 id=&#34;learning-resources&#34;&gt;Learning resources&lt;/h2&gt;

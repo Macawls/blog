@@ -2743,43 +2743,6 @@ With CI in place, we can playtest our game during development which will make bu
 &lt;/div&gt;</description>
         </item>
         <item>
-        <title>Bangers 🎵 | Part 3</title>
-        <link>https://macawls.github.io/blog/post/bangers-part-3/</link>
-        <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/post/bangers-part-3/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-3/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 3" /&gt;&lt;p&gt;I love the eerie feeling. Carries so much weight.&lt;/p&gt;
-&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1291922752&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Refreshing feel happy kinda hardstyle&lt;/p&gt;
-&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1301895715&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Been a while since I&amp;rsquo;ve heard Joey again. Missed his old style.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/1999_%28mixtape%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;1999&lt;/a&gt; is still my favourite album of all time.
-Can&amp;rsquo;t wait till his new album 2000 drops in a couple days.&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/XoZtqXNLcW8&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
         <title>Alienation</title>
         <link>https://macawls.github.io/blog/post/alienation/</link>
         <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
@@ -3027,222 +2990,6 @@ One major problem I have is scalability and really understanding OOP concepts an
 &gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>My First Unity Project (Edit: Embarrasing but I&#39;m keeping it 🤣)</title>
-        <link>https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/</link>
-        <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/thumb.jpg" alt="Featured image of post My First Unity Project (Edit: Embarrasing but I&#39;m keeping it 🤣)" /&gt;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;So, it wasn&amp;rsquo;t my &lt;strong&gt;first&lt;/strong&gt; Unity project but it was my first one for University. I had a ton of fun making it.
-We were restricted to Unity but if I could I would have probably used Godot.
-It&amp;rsquo;s one part of a three part project so I&amp;rsquo;ll continue to add updates. Its meant to be an Endless Runner type game.
-I&amp;rsquo;ll be able to make the repository public once the project is complete.&lt;/p&gt;
-&lt;p&gt;You can try the WebGL build here. I would suggest using a chromium browser to run it.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://macawls.dev/Endless-Runner-Unity/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://macawls.dev/Endless-Runner-Unity/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;development&#34;&gt;Development&lt;/h2&gt;
-&lt;p&gt;I remember a while back I had issues with vscode and Unity on linux. The experience just wasn&amp;rsquo;t polished. Dotnet is okay-ish on linux. I usually use Microsoft&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://dot.net/v1/dotnet-install.sh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;bash&lt;/a&gt; script to install it.&lt;/p&gt;
-&lt;p&gt;It didn&amp;rsquo;t really feel like Unity and vscode were communicating properly. Sometimes when I switched back to the editor and my project wouldn&amp;rsquo;t recompile. Getting intellisense for Unity in vscode is also a hassle. Had to go back to Windows unfortunately. I couldn&amp;rsquo;t afford to run into any issues, rather not take the chance for University.&lt;/p&gt;
-&lt;p&gt;I tried Rider for the first time and &lt;strong&gt;HOLY&lt;/strong&gt;. It was great. Really loved it. No issues, no hassle. I managed to get it for free through Github&amp;rsquo;s Student Pack so I didn&amp;rsquo;t have to pay a dime. Definitely the best IDE for Unity, hands down.&lt;/p&gt;
-&lt;h2 id=&#34;learning&#34;&gt;Learning&lt;/h2&gt;
-&lt;p&gt;So I learnt a bunch of stuff in C# and understanding how Unity works.
-So, most scripts you have will inherit from MonoBehaviour, which adds functionality to controlling how things behave in the scene. So most commonly you&amp;rsquo;ll have event functions like&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Awake&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// once on initialisation, references to components here &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;// kind of the same thing as awake but not really, only ever called once&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Update&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// every frame&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Game Objects sort of have a life-cycle and functions are called in this &lt;a class=&#34;link&#34; href=&#34;https://docs.unity3d.com/Manual/ExecutionOrder.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;order&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;
-&lt;p&gt;You gotta be smart about doing things willy nilly, else you&amp;rsquo;ll run into performance issues pretty quickly.&lt;/p&gt;
-&lt;p&gt;So, I had an object spawner script on every &amp;rsquo;tile&amp;rsquo; that was being made in the scene. It made sense to me to have every tile deal with spawning objects on itself so that the objects would be children of that tile. If the objects were children, it meant that when the tile was deleted, the children would die with it, so I wouldn&amp;rsquo;t have to deal with deleting objects.&lt;/p&gt;
-&lt;p&gt;Problem was, there were around 15 tiles at every given time in the game to make it &amp;ldquo;endless&amp;rdquo;. Now, having 15 tiles each have references to the objects that need to be spawned and have &lt;strong&gt;that object&lt;/strong&gt; be deleted and instantiated every x seconds absolutely tanked performance. Keep in mind this script contained the logic for randomly spawning objects as well.&lt;/p&gt;
-&lt;p&gt;I dropped from 300 fps to around 70/90 fps.&lt;/p&gt;
-&lt;p&gt;I can&amp;rsquo;t explain why this was happening from a technical standpoint because frankly I don&amp;rsquo;t and I was learning.
-My guess is it was an issue with garbage collection, memory and just so many references all over the place.&lt;/p&gt;
-&lt;p&gt;I fixed it by having a &lt;strong&gt;single&lt;/strong&gt; object spawner script and my fps went back to around 270 fps. This time, the objects weren&amp;rsquo;t the children of the tile.&lt;/p&gt;
-&lt;h4 id=&#34;object-spawner-script&#34;&gt;Object Spawner script&lt;/h4&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Start&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;InvokeRepeating&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;nameof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;SpawnObjectsInRandomLane&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GameManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PathManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;startTime&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GameManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PathManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;timeToDestroy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;SpawnRandomObject&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;float&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;xPosition&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;bool&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;spawnPickUp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// zPos changes after every invoke repeating call(in Path Manager)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;zPos&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GameManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PathManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ZTilePos&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;kt&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;obstacle&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ReturnRandomObstacle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// For now, the spawn height is zero because when obstacles are made in blender the origin is set to the bottom of the object&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;//var spawnHeight = obstacle.GetComponent&amp;lt;MeshFilter&amp;gt;().sharedMesh.bounds.extents.y;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Instantiate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;obstacle&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Vector3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xPosition&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;zPos&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Quaternion&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;identity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// PickUps are spawned above the obstacle&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;spawnPickUp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;Instantiate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ReturnRandomPickUp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(),&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Vector3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;xPosition&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pickUpSpawnHeight&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;zPos&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Quaternion&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;identity&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;In line 9, getting the zPos from PathManager is pretty ugly to be honest but it sufficed for the prototype.&lt;/p&gt;
-&lt;p&gt;PathManager and Obstacle Spawner had the exact same InvokeRepating call in Start(), I wanted to &amp;ldquo;sync&amp;rdquo; them, thats why I passed in those values but eish. It is very ugly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs.jpg&#34;
-	width=&#34;500&#34;
-	height=&#34;385&#34;
-	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/bugs_hu423ec0211e958a862a833bf7f0e151d5_47001_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;129&#34;
-		data-flex-basis=&#34;311px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h3 id=&#34;new-stuff-i-learnt-in-c&#34;&gt;New Stuff I learnt in C#&lt;/h3&gt;
-&lt;p&gt;Okay so mainly two things, &lt;strong&gt;Singletons&lt;/strong&gt; and &lt;strong&gt;Delegates&lt;/strong&gt;.&lt;/p&gt;
-&lt;h4 id=&#34;singletons&#34;&gt;Singletons&lt;/h4&gt;
-&lt;p&gt;Singletons are cool. How they work is you can only have once instance of that class at any time and because of DontDestroyOnLoad(), it persists between scenes.&lt;/p&gt;
-&lt;p&gt;This is my GameManager script.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Awake&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;Destroy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;DontDestroyOnLoad&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gameObject&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Controls&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GetComponentInChildren&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Controls&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;PlayerCooldowns&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GetComponentInChildren&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PlayerCooldowns&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;PathManager&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GetComponentInChildren&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PathManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;PlayerInfo&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GetComponentInChildren&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;PlayerInfo&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;ObstacleSpawner&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GetComponentInChildren&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ObstacleSpawner&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Now, I went kind crazy with it here because of all the components attached. Which is definitely gonna give me a headache later.
-On the one hand, its really easy to grab anything you want like this because its global.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;n&#34;&gt;GameManager&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;blah&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;blah&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;blah&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;But it&amp;rsquo;s really going to get messy later. To restart the game, I had to destroy it in addition to loading the scene.&lt;/p&gt;
-&lt;h4 id=&#34;delegates&#34;&gt;Delegates&lt;/h4&gt;
-&lt;p&gt;OKAY THIS. This shit is the holy grail of game dev. It took a while to wrap my head around events, but once it clicked, it just unlocked so many more possibilities.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell.jpg&#34;
-	width=&#34;400&#34;
-	height=&#34;287&#34;
-	srcset=&#34;https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_480x0_resize_q75_box.jpg 480w, https://macawls.github.io/blog/blog/post/my-first-unity-project-edit-embarrasing-but-im-keeping-it/doorbell_hu0b80463a9c24a6221409af9226be1ef2_30374_1024x0_resize_q75_box.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;139&#34;
-		data-flex-basis=&#34;334px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Awake&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;n&#34;&gt;Destroy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;Instance&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;DontDestroyOnLoad&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;gameObject&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;PlayerDeath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;OnPlayerDeath&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;?.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Invoke&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GameStart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;OnGameStart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;?.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Invoke&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GamePause&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;OnGamePause&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;?.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Invoke&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ResumeGame&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;OnGameResume&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;?.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Invoke&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;GameRestart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;OnGameRestart&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;?.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Invoke&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;So how it works is, I have an EventsManager singleton. When I invoke an event by saying,&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-chsarp&#34; data-lang=&#34;chsarp&#34;&gt;    Events.Manager.Instance.PlayerDeath()
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Methods in other classes that are assigned to that event, will run. Which just decouples everything. Its soo gooood. Really glad I have a basic understanding of it now.&lt;/p&gt;
-&lt;h3 id=&#34;thoughts-on-unity&#34;&gt;Thoughts on Unity&lt;/h3&gt;
-&lt;p&gt;Unity makes getting a game done fairly easy because there&amp;rsquo;s a plethora of resources online.
-Although, there&amp;rsquo;s a big difference between being in tutorial hell and actually understanding how to design and make a game, especially a &lt;strong&gt;good&lt;/strong&gt; one.&lt;/p&gt;
-&lt;p&gt;Game dev is pretty damn difficult. I was feeling insanely burnt out but it was fun regardless.&lt;/p&gt;
-&lt;p&gt;All the objects for the game were made in Blender, except the character which I got from here&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/jKErxSUx54Q&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
         <title>Taoism and Rastafarianism</title>
         <link>https://macawls.github.io/blog/post/taoism-and-rastafarianism/</link>
         <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
@@ -3300,52 +3047,6 @@ When you stop for a second, take everything in and find peace and content by sim
 &lt;p&gt;I used to be vegetarian for around 4 months. Not because of the influences of any religion, mainly animal cruelty and because I honestly feel like humanity is a plague to the earth. Consuming meat is not a necessity by any pragmatical means.  Unfortunately I lost a significant amount of weight and it was quite difficult to have a diet different from my family&amp;rsquo;s without personal income. I plan on continuing once I am self-independent.&lt;/p&gt;
 &lt;h2 id=&#34;ending-off&#34;&gt;Ending off&lt;/h2&gt;
 &lt;p&gt;I don&amp;rsquo;t necessarily &lt;em&gt;follow&lt;/em&gt; Taoism or Rastafarianism. There are aspects are disagree upon in both, more so in Rastafari Culture because of its misogynistic views.&lt;/p&gt;</description>
-        </item>
-        <item>
-        <title>Bangers 🎵 | Part 2</title>
-        <link>https://macawls.github.io/blog/post/bangers-part-2/</link>
-        <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/post/bangers-part-2/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-2/monkee.jpg" alt="Featured image of post Bangers 🎵 | Part 2" /&gt;&lt;p&gt;Random genres this time around.&lt;/p&gt;
-&lt;p&gt;Just an absolute banger this one.&lt;/p&gt;
-&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1164496222&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Beam just switches up flows like crazy.&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/PmvPweUMPCE&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Love the mellow vibes on this track. That synth too omg. Really catchy. A ton of big names behind production.&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/syNGDDMYQzg&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Love singing along to this.&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/6XLLl1AyjD8&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;</description>
         </item>
         <item>
         <title>Programming is...</title>
@@ -3851,54 +3552,6 @@ Peace &amp;lt;3.&lt;/p&gt;
 &gt;&lt;/p&gt;</description>
         </item>
         <item>
-        <title>Bangers 🎵 | Part 1</title>
-        <link>https://macawls.github.io/blog/post/bangers-part-1/</link>
-        <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
-        
-        <guid>https://macawls.github.io/blog/post/bangers-part-1/</guid>
-        <description>&lt;img src="https://macawls.github.io/blog/post/bangers-part-1/bg.jpg" alt="Featured image of post Bangers 🎵 | Part 1" /&gt;&lt;p&gt;These tracks are mostly hardstyle and techno including subgenres.&lt;/p&gt;
-&lt;p&gt;&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1075343497&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/929893924&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1139052841&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1181250304&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&#34;100%&#34; 
-height=&#34;166&#34; 
-scrolling=&#34;no&#34; 
-frameborder=&#34;no&#34; 
-allow=&#34;autoplay&#34; 
-src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1005254830&amp;color=%231c1511&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&#34;
-&gt;&lt;/iframe&gt;
-&lt;/p&gt;</description>
-        </item>
-        <item>
         <title>My Journey and how you can get started with using Linux</title>
         <link>https://macawls.github.io/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/</link>
         <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
@@ -3986,8 +3639,7 @@ The best part? No limitations and no one pulling any strings. It was &lt;strong&
 &lt;p&gt;I started automating tasks through scripts and it was just mindblowing to me.
 Of course you can write scripts in other operating systems but I personally I feel like Linux makes it much easier. Bash is one of the simplest shells, python is pre-installed on most distros.
 Vim was something I didn&amp;rsquo;t even know existed.
-The whole journey made me take a step back and really think about many, many aspects of software I hadn&amp;rsquo;t thought about before.
-Source code, webapps, compatibility, modularity, backend, efficiency, UX, underlying frameworks and languages, all that good stuff.&lt;/p&gt;
+The whole journey made me take a step back and really think about many, many aspects of software I hadn&amp;rsquo;t thought about before.&lt;/p&gt;
 &lt;p&gt;You don&amp;rsquo;t like the way a program does a certain thing? Sure bro, here&amp;rsquo;s the source code, do whatever you want.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://macawls.github.io/blog/blog/post/my-journey-and-how-you-can-get-started-with-using-linux/sad.png&#34;
 	width=&#34;331&#34;
@@ -4013,10 +3665,9 @@ Source code, webapps, compatibility, modularity, backend, efficiency, UX, underl
 Read more about it &lt;a class=&#34;link&#34; href=&#34;https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m not going to go in-depth about how important this is for developing software,  but basically it makes talking to other programs really easy and keeps things as minimal and simple as possible.
-In Windows, software is packaged with all its dependencies in one huge ass program and a shitty installer.
-It&amp;rsquo;s &lt;strong&gt;monolithic&lt;/strong&gt; and bloated as hell.&lt;/p&gt;
-&lt;p&gt;To install something, you usually go into a browser and download some suspicious setup.exe. Odds are, you will have no idea what its actually doing under the hood and have no way of knowing unless its open source. To fend it off you have Window&amp;rsquo;s built in antivirus which isn&amp;rsquo;t even necessary in the first place if Windows was just fucking secure.&lt;/p&gt;
-&lt;p&gt;I personally cannot stand it. For context I easily have around 9000 hours plus using Windows.&lt;/p&gt;
+In Windows, software is packaged with all its dependencies in one big program and an installer.
+It&amp;rsquo;s &lt;strong&gt;monolithic&lt;/strong&gt; and bloated.&lt;/p&gt;
+&lt;p&gt;To install something, you usually go into a browser and download some suspicious setup.exe. Odds are, you will have no idea what its actually doing under the hood and have no way of knowing unless its open source. To fend it off you have Window&amp;rsquo;s built in antivirus.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re unfamiliar with the idea of free software (not just cost), I highly recommend watching this &lt;a class=&#34;link&#34; href=&#34;https://youtu.be/Ag1AKIl_2GM&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Ted Talk&lt;/a&gt; by a very, very &lt;strong&gt;based&lt;/strong&gt; individual.&lt;/p&gt;
 &lt;h2 id=&#34;learning-resources&#34;&gt;Learning resources&lt;/h2&gt;
