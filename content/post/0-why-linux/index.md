@@ -54,7 +54,6 @@ I started automating tasks through scripts and it was just mindblowing to me.
 Of course you can write scripts in other operating systems but I personally I feel like Linux makes it much easier. Bash is one of the simplest shells, python is pre-installed on most distros. 
 Vim was something I didn't even know existed. 
 The whole journey made me take a step back and really think about many, many aspects of software I hadn't thought about before.
-Source code, webapps, compatibility, modularity, backend, efficiency, UX, underlying frameworks and languages, all that good stuff.
 
 You don't like the way a program does a certain thing? Sure bro, here's the source code, do whatever you want.
 
@@ -73,12 +72,10 @@ Basically, the Unix philosophy is to do **one** thing and do it **well.** Make i
 Read more about it [**here**](https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch01s06.html).
 
 I'm not going to go in-depth about how important this is for developing software,  but basically it makes talking to other programs really easy and keeps things as minimal and simple as possible. 
-In Windows, software is packaged with all its dependencies in one huge ass program and a shitty installer.
-It's **monolithic** and bloated as hell.
+In Windows, software is packaged with all its dependencies in one big program and an installer.
+It's **monolithic** and bloated.
 
-To install something, you usually go into a browser and download some suspicious setup.exe. Odds are, you will have no idea what its actually doing under the hood and have no way of knowing unless its open source. To fend it off you have Window's built in antivirus which isn't even necessary in the first place if Windows was just fucking secure.
-
-I personally cannot stand it. For context I easily have around 9000 hours plus using Windows. 
+To install something, you usually go into a browser and download some suspicious setup.exe. Odds are, you will have no idea what its actually doing under the hood and have no way of knowing unless its open source. To fend it off you have Window's built in antivirus.
 
 
 If you're unfamiliar with the idea of free software (not just cost), I highly recommend watching this [Ted Talk](https://youtu.be/Ag1AKIl_2GM) by a very, very **based** individual. 
